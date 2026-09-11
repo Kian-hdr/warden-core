@@ -1,8 +1,8 @@
 # Annihilation Industries · Warden Core
 
-Engineering from our Warden Core project: tools for understanding compute pipelines and a parametric landing-leg prototype.
+Simulation, computer vision and hardware development from our Warden Core project.
 
-I led Annihilation Industries at the European Defense Tech Hackathon in Hamburg, bringing together simulation, software, hardware development and the project presentation. This repository collects two parts of that work that can be explored independently.
+I led Annihilation Industries at the European Defense Tech Hackathon in Hamburg, bringing together simulation, software, hardware development and the project presentation. This repository brings together our development story, selected media, runnable observability tools and editable landing-leg CAD.
 
 <img src="media/prototype-open.jpg" alt="Warden Core prototype with arms open" width="480">
 
@@ -12,6 +12,7 @@ I led Annihilation Industries at the European Defense Tech Hackathon in Hamburg,
 
 | Project | What you can inspect |
 | --- | --- |
+| [Full project documentation](docs/README.md) | Engineering progress, Brev and Isaac Sim, training workflows, computer vision and dataset records. |
 | [Pipeline observability](software/) | Python tools for capturing timing and resource data, assembling logs and assessing a compute pipeline, with automated tests. |
 | [LL-11 landing leg](hardware/) | Parametric CAD source, STEP and STL exports, and the design assumptions behind the connected multibay prototype. |
 | [Development approach](docs/development.md) | How we separate implementation, digital checks and physical results. |
