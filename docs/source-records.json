@@ -18,7 +18,7 @@
     "source_date": "2026-08-30",
     "date_basis": "frontmatter",
     "sha256": "a90493c447044abda1c0ba0da65f52b0ee91afcc5876f37dff8560c4544e9007",
-    "form": "adapted explanation, not original specification",
+    "form": "exact reward equations and coefficients reproduced within an adapted explanation; original specification not reproduced verbatim",
     "destinations": [
       "docs/reward-policy-overview.md",
       "docs/training.md",

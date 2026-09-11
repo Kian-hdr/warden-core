@@ -17,7 +17,7 @@ The private document-by-document matrix records each original location, archived
 
 ## Following the evidence
 
-Start with an engineering chapter, follow its source record and read the stated artifact scope. The public software, CAD exchange files and labelled media can be inspected directly. The repository does not reproduce detailed pursuit/interception or operational vehicle-control training instructions. A public reward-methodology explanation is an adaptation, not the full private mathematical specification.
+Start with an engineering chapter, follow its source record and read the stated artifact scope. The public software, CAD exchange files and labelled media can be inspected directly. The repository now reproduces the recorded acro-racing reward equation, shaping ledger, terminal proof and coefficient ranges. It does not reproduce pursuit/interception logic, course-generation implementation, aircraft-control interfaces, or vehicle-operation instructions; the reward page remains an adaptation rather than the complete private design document.
 
 The [reproducibility chapter](reproducibility.md) explains source/public hashes and remote readback. The [experiment-artifact chapter](experiment-artifacts.md) explains the relationship between source, configuration, checkpoints, exports and review records.
 

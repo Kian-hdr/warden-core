@@ -6,7 +6,7 @@ Annihilation Industries brought together simulation, computer vision, software t
 | --- | --- |
 | [Project and engineering progress](progress.md) | The workstreams, concrete outputs and project leadership. |
 | [NVIDIA Brev and Isaac Sim](simulation.md) | The cloud development setup, simulator stack and media workflow. |
-| [Reward-policy documentation](reward-policy-overview.md) | The role of policies, feedback, checkpoints and separate evaluation records. |
+| [Acro-racing reward policy](reward-policy-overview.md) | The complete recorded reward equation, bounded shaping ledger, terminal proof and coefficient ranges. |
 | [Vault source coverage](vault-source-coverage.md) | Which project records are summarized or distributed here. |
 | [Training and evaluation](training.md) | Checkpointed experiments, repeatability and the distinction between learning and visualization. |
 | [Computer vision](perception.md) | Vincent’s offline baseline and the dataset workflow. |

@@ -28,7 +28,7 @@ Parallel environments were part of the development workflow. Infrastructure exer
 
 The [gallery](../media/README.md) distinguishes early PPO checkpoint playback, behavioral-baseline course views, scripted parallel-scene visualization and camera calibration. Each clip is labelled for its actual role. The two-second PPO recording shows the agent near the start, not completed gate racing; the longer course views are non-learned baselines.
 
-The [reward-policy overview](reward-policy-overview.md) explains the terminology and structure of the retained design records. [Source coverage](vault-source-coverage.md) identifies the public summaries and original documents retained privately.
+The [acro-racing reward-policy specification](reward-policy-overview.md) reproduces the recorded reward equations, term coefficients, bounded ledger and terminal-dominance proof. [Source coverage](vault-source-coverage.md) identifies that adapted scope and the complete original documents retained privately.
 
 ## How the historical records fit together
 

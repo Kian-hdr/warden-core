@@ -104,7 +104,7 @@ Public coverage: [docs/development.md](development.md), [docs/reproducibility.md
 
 **2026-08-30 Warden Acro-Racing Reward and Policy Plan** · 2026-08-30 (frontmatter)
 
-Form: adapted explanation, not original specification.
+Form: exact reward equations and coefficients reproduced within an adapted explanation; original specification not reproduced verbatim.
 
 Public coverage: [docs/reward-policy-overview.md](reward-policy-overview.md), [docs/training.md](training.md), [docs/vault-source-coverage.md](vault-source-coverage.md).
 
