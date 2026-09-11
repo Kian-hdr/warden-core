@@ -2,6 +2,8 @@
 
 A look at the hardware assembly, folding frame and simulation development.
 
+Rights differ by file. Project-created simulation media is available noncommercially under CC BY-NC-SA 4.0, subject to upstream notices. The physical photographs and hover footage are excluded pending confirmation of the photographer or videographer's rights. See the exact [media rights map](LICENSE.md).
+
 ## Assembly and wiring
 
 ![Open frame and wiring during assembly](assembly-wiring.jpg)

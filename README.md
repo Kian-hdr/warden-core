@@ -140,6 +140,17 @@ The included example is synthetic. Assembly intentionally returns exit code **2*
 | [`media/`](media/README.md) | Build photos, correctly labelled development videos and media hashes. |
 | [`third_party/`](third_party/README.md) | Upstream media credits and licence notices. |
 
+## Licensing
+
+This repository uses a scoped noncommercial licence model:
+
+- project-owned code in `software/` and `tools/` uses the [PolyForm Noncommercial License 1.0.0](LICENSES/PolyForm-Noncommercial-1.0.0.md);
+- project-owned documentation, diagrams and specifically identified media use [CC BY-NC-SA 4.0](LICENSES/CC-BY-NC-SA-4.0.md);
+- project-owned hardware and CAD use the [Warden Core Hardware Research and Education License 1.0](LICENSES/Warden-Core-Hardware-Research-and-Education-1.0.md); and
+- third-party, teammate-owned and rights-unconfirmed material is excluded and remains subject to its own rights and notices.
+
+Noncommercial education, personal experimentation and academic research are permitted within the applicable terms. Commercial use requires a [separate written paid agreement](COMMERCIAL-LICENSING.md). Read the complete [licence map](LICENSE.md) and the folder-specific notice before reusing a file.
+
 
 
 ## Use the workflow in your own project
@@ -152,7 +163,7 @@ Start with its [copy-ready setup prompt](https://github.com/Kian-hdr/isaac-sim-b
 
 My [EDTH Instagram highlight](https://www.instagram.com/stories/highlights/17880192807625231/) shows more of the build process. Instagram may require sign-in.
 
-Kian Tajbakhsh · [GitHub](https://github.com/Kian-hdr) · [Repository scope and reuse notice](docs/scope.md)
+Kian Tajbakhsh · [GitHub](https://github.com/Kian-hdr) · [Repository scope](docs/scope.md) · [Licence map](LICENSE.md)
 
 ## Source basis
 

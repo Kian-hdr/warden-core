@@ -1,5 +1,7 @@
 # Media credits and notices
 
+Everything in this directory, and every upstream-derived component identified here, is excluded from the project licences in the top-level [licence map](../LICENSE.md). Each item remains under its existing licence or rights statement. A project licence covers only the separable project-owned contribution to a composite work.
+
 The simulation media was rendered in NVIDIA Isaac Sim. The Iris surrogate was obtained through Pegasus Simulator v4.5.1, pinned at `db7bf43a5b26b0dd56ec18d0afb682383862fbd3`.
 
 The upstream Iris asset credits Lorenz Meier and Thomas Gubler, with the original model created by Thomas Gubler and sourced from PX4 SITL Gazebo. Its asset-specific licence is BSD 3-Clause, copyright 2012–2023 PX4 Development Team. Pegasus Simulator is also distributed under BSD 3-Clause, copyright 2023 Marcelo Fialho Jacinto.

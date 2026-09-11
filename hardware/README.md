@@ -35,3 +35,7 @@ Generating the CAD from this standalone source still needs a clean-environment c
 Digital solid and export checks do not establish print quality, installed fit, insert retention, buckling resistance, fatigue, damping or landing capacity. Material properties and print orientation require separate qualification. No completed print or physical load test is claimed here.
 
 The mounting interface was developed from an estimated reference geometry. Measure the real interface and check the complete load path before considering fabrication. The supplied files contain no printer commands or flight-control integration.
+
+## Licence
+
+Project-owned hardware and CAD files in this directory are available under the [Warden Core Hardware Research and Education License 1.0](LICENSE.md). It permits noncommercial personal experimentation, teaching and academic research under its conditions. Commercial use requires a [separate written paid agreement](../COMMERCIAL-LICENSING.md).

@@ -16,7 +16,9 @@ The full development archive, training datasets and weights, internal documentat
 
 ## Reuse notice
 
-No open-source or hardware license is granted in this initial publication. Contact the repository owner before reusing the project material. Dependencies retain their own licenses and are installed separately rather than bundled here.
+The repository now uses a scoped noncommercial licence model. Project-owned code uses PolyForm Noncommercial 1.0.0, project-owned documentation and specifically identified media use CC BY-NC-SA 4.0, and project-owned hardware/CAD uses the Warden Core Hardware Research and Education License 1.0. Noncommercial education and academic experimentation are permitted within the applicable terms. See the complete [licence map](../LICENSE.md).
+
+Third-party material, teammate-owned work and rights-unconfirmed photographs or footage are excluded from those project grants. Dependencies retain their own licences. Commercial use requires a [separate written paid agreement](../COMMERCIAL-LICENSING.md) with every applicable rights holder.
 
 ## Source basis
 

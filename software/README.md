@@ -74,3 +74,7 @@ ruff check .
 ```
 
 Tests use synthetic data and cover parsing, timing validation, evidence assembly, assessment failures, strict JSON reports, and CLI output preservation. The Linux collector requires separate platform verification before making hardware measurement claims.
+
+## Licence
+
+Project-owned source code and examples in this directory are available under the [PolyForm Noncommercial License 1.0.0](LICENSE.md). It permits the noncommercial uses defined in that licence, including personal research and use by educational institutions. Commercial use requires a [separate written paid agreement](../COMMERCIAL-LICENSING.md).
