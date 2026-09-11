@@ -47,7 +47,7 @@ def verify(manifest_path):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--manifest", type=Path,
-                        default=Path(__file__).resolve().parents[1] / "media" / "manifest.json")
+                        default=Path(__file__).resolve().parents[1] / "subsystems" / "simulation" / "media" / "manifest.json")
     args = parser.parse_args()
     try:
         checked = verify(args.manifest)

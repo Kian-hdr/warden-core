@@ -8,6 +8,7 @@ From the repository root:
 python3 tools/validate_repository.py
 python3 -m unittest discover -s tools -p 'test_*.py'
 python3 tools/verify_media.py
+python3 tools/verify_media.py --manifest subsystems/airframe/media/manifest.json
 ```
 
 The repository validator checks Markdown/HTML paths and anchors, JSON syntax, source-catalogue destinations, the team evidence ledger, media/presentation hashes and prohibited model artifact extensions. It skips generated environments and outputs. This is structural validation, not proof of engineering performance or an exhaustive confidentiality review.
@@ -17,9 +18,9 @@ For the executable package, install its development dependencies in a fresh Pyth
 ```sh
 python3 -m venv .venv
 . .venv/bin/activate
-python -m pip install -e './software[dev]'
-(cd software && python -m pytest)
-ruff check --config ruff.toml software tools
+python -m pip install -e './subsystems/observability[dev]'
+(cd subsystems/observability && python -m pytest)
+ruff check --config ruff.toml subsystems/observability tools
 ```
 
-Confidential model/access terms remain in [licensing](../licensing/model-access.md). Maintenance source uses the [software licence](LICENSE.md).
+Confidential model/access terms remain in [licensing](../licensing/model-access.md). Maintenance source uses the [software licence](../licensing/scopes/tools.md).

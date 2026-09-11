@@ -190,15 +190,15 @@ def validate(root):
         for link in sorted(set(links)):
             check_link(path, link)
 
-    records_path = root / 'results/source-records.json'
+    records_path = root / 'project/evidence/source-records.json'
     records = json_data.get(records_path)
     source_destinations = {}
     if not isinstance(records, list) or not records:
-        errors.append('results/source-records.json: expected non-empty list')
+        errors.append('project/evidence/source-records.json: expected non-empty list')
     else:
         seen = set()
         for index, record in enumerate(records):
-            label = 'results/source-records.json record ' + str(index)
+            label = 'project/evidence/source-records.json record ' + str(index)
             if not isinstance(record, dict):
                 errors.append(label + ': expected object')
                 continue
@@ -222,15 +222,15 @@ def validate(root):
                         if isinstance(identity, str) and identity in source_destinations:
                             source_destinations[identity].add(destination.split('#', 1)[0])
 
-    team_path = root / 'results/team-work.json'
+    team_path = root / 'project/evidence/team-work.json'
     team = json_data.get(team_path)
     contributors = team.get('contributors') if isinstance(team, dict) else None
     if not isinstance(contributors, list) or not contributors:
-        errors.append('results/team-work.json: expected non-empty contributors list')
+        errors.append('project/evidence/team-work.json: expected non-empty contributors list')
     else:
         seen_names = set()
         for index, contributor in enumerate(contributors):
-            label = 'results/team-work.json contributor ' + str(index)
+            label = 'project/evidence/team-work.json contributor ' + str(index)
             if not isinstance(contributor, dict):
                 errors.append(label + ': expected object')
                 continue
@@ -269,8 +269,21 @@ def validate(root):
                     if chapter.split('#', 1)[0] not in eligible_chapters:
                         errors.append(label + ': public chapter not mapped by listed source ids: ' + chapter)
 
-    for relative in ('media/manifest.json', 'docs/presentations/assets-manifest.json'):
-        path = root / relative
+    # Require the published baseline manifests, while including future subsystem
+    # media/presentation manifests without scanning generated or private trees.
+    manifest_paths = {
+        root / 'subsystems/simulation/media/manifest.json',
+        root / 'subsystems/airframe/media/manifest.json',
+        root / 'subsystems/multicamera-sensing/presentation/assets-manifest.json',
+    }
+    for path in included_files:
+        parts = path.relative_to(root).parts
+        if len(parts) >= 4 and parts[0] == 'subsystems' and (
+                (path.name == 'manifest.json' and 'media' in parts[2:-1]) or
+                (path.name == 'assets-manifest.json' and 'presentation' in parts[2:-1])):
+            manifest_paths.add(path)
+    for path in sorted(manifest_paths):
+        relative = str(path.relative_to(root))
         records = json_data.get(path)
         if not isinstance(records, list) or not records:
             errors.append(relative + ': expected non-empty manifest list')

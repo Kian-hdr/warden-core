@@ -1,0 +1,25 @@
+[
+  {
+    "file": "prototype-hover.mp4",
+    "source_sha256": "abaf8dd32d1176f1d4ac6fbcbab1fc9c8d45e54a5f0f521d1890a78dbcc12c8e",
+    "sha256": "ed5cc9dc41c49aa479cf50c2463c32575bd4d8440a7501bf3b156491620de293",
+    "technical_format": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 720,
+          "height": 1280,
+          "r_frame_rate": "60/1",
+          "nb_frames": "3594"
+        }
+      ],
+      "format": {
+        "duration": "60.016667",
+        "size": "25602118"
+      }
+    },
+    "scope": "Physical prototype hover; control mode undocumented; no learned-policy claim."
+  }
+]

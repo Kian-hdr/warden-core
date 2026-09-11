@@ -10,7 +10,7 @@ This directory is the canonical licensing entry point for Warden Core.
 | Study or fabricate project-owned hardware for education/research | [Hardware Research and Education License](licenses/Warden-Core-Hardware-Research-and-Education-1.0.md) |
 | Request commercial rights | [Commercial licensing](commercial-licensing.md) |
 | Understand contributor and third-party boundaries | [Contributors and rights](contributors-and-rights.md) |
-| Review presentation-material rights | [Presentation rights](../docs/presentations/LICENSE.md) |
+| Review presentation-material rights | [Presentation rights](scopes/docs-presentations.md) |
 | Request closed-source model access | [Model access](model-access.md) |
 
 Commercial model access requires a separate written paid agreement. Education and academic requests are reviewed individually. A request does not guarantee access or imply that every archived model will be offered.

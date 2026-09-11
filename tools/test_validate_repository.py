@@ -48,13 +48,14 @@ class RepositoryTests(unittest.TestCase):
         self.write('docs/chapter.md', '# First\n## Second\n')
         self.record = {'id': 'DOC-example', 'sha256': 'a' * 64,
                        'destinations': ['docs/chapter.md#second']}
-        self.write_json('results/source-records.json', [self.record])
-        self.write_json('results/team-work.json', {'contributors': [
+        self.write_json('project/evidence/source-records.json', [self.record])
+        self.write_json('project/evidence/team-work.json', {'contributors': [
             {'contributor': 'Example', 'source_ids': ['DOC-example'],
              'public_chapters': ['docs/chapter.md#second']}]})
-        for location in ('media', 'docs/presentations'):
+        for location in ('subsystems/simulation/media', 'subsystems/airframe/media',
+                         'subsystems/multicamera-sensing/presentation'):
             self.write(location + '/sample.txt', 'checked bytes')
-            self.write_json(location + ('/manifest.json' if location == 'media' else '/assets-manifest.json'),
+            self.write_json(location + ('/manifest.json' if location.endswith('/media') else '/assets-manifest.json'),
                             [{'file': 'sample.txt', 'sha256': hashlib.sha256(b'checked bytes').hexdigest(), 'bytes': 13}])
 
     def write(self, name, content):
@@ -86,7 +87,7 @@ class RepositoryTests(unittest.TestCase):
         self.assertEqual(self.errors(), '')
 
     def test_record_ids_digest_and_destinations(self):
-        self.write_json('results/source-records.json', [self.record, self.record,
+        self.write_json('project/evidence/source-records.json', [self.record, self.record,
                         {'id': 'other', 'sha256': 'wrong', 'destinations': ['docs/chapter.md#absent']}])
         errors = self.errors()
         self.assertIn('duplicate id', errors)
@@ -94,12 +95,22 @@ class RepositoryTests(unittest.TestCase):
         self.assertIn('missing fragment', errors)
 
     def test_manifest_hash_byte_count_and_escape(self):
-        self.write('media/sample.txt', 'tampered')
-        self.write_json('docs/presentations/assets-manifest.json', [{'file': '../../../README.md', 'sha256': 'a' * 64}])
+        self.write('subsystems/simulation/media/sample.txt', 'tampered')
+        self.write_json('subsystems/multicamera-sensing/presentation/assets-manifest.json', [{'file': '../../../README.md', 'sha256': 'a' * 64}])
         errors = self.errors()
         self.assertIn('SHA-256 mismatch', errors)
         self.assertIn('byte-count mismatch', errors)
         self.assertIn('invalid or duplicate file path', errors)
+
+    def test_discovers_additional_public_subsystem_manifests(self):
+        self.write('subsystems/new-subsystem/media/sample.txt', 'new asset')
+        self.write_json('subsystems/new-subsystem/media/manifest.json', [
+            {'file': 'sample.txt', 'sha256': 'a' * 64}])
+        self.assertIn('new-subsystem/media/manifest.json record 0: SHA-256 mismatch', self.errors())
+
+    def test_baseline_manifest_cannot_silently_disappear(self):
+        (self.root / 'subsystems/airframe/media/manifest.json').unlink()
+        self.assertIn('subsystems/airframe/media/manifest.json: expected non-empty manifest list', self.errors())
 
     def test_invalid_json_and_model_artifact(self):
         self.write('bad.json', '{"same": 1, "same": 2}')
@@ -117,7 +128,7 @@ class RepositoryTests(unittest.TestCase):
 
     def test_team_source_ids_chapters_and_catalogue_mapping(self):
         self.write('docs/unmapped.md', '# Unmapped')
-        self.write_json('results/team-work.json', {'contributors': [
+        self.write_json('project/evidence/team-work.json', {'contributors': [
             {'contributor': 'Example', 'source_ids': ['DOC-example', 'DOC-missing'],
              'public_chapters': ['docs/chapter.md#absent', 'docs/unmapped.md', 'missing.md']}]})
         errors = self.errors()
