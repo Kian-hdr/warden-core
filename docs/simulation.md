@@ -38,3 +38,5 @@ The camera workflow produced frame sequences and encoded video. Our public [para
 The simulator SDK, third-party robot assets and cloud-machine configuration are not distributed in this repository. NVIDIA products are tools used by the project; their use does not imply NVIDIA endorsement or partnership.
 
 Official references: [Brev overview](https://docs.nvidia.com/brev/getting-started/overview), [Isaac Sim 4.5 documentation](https://docs.isaacsim.omniverse.nvidia.com/4.5.0/index.html), and [Isaac Lab](https://isaac-sim.github.io/IsaacLab/).
+
+For a reusable version of this workflow, see our [Isaac Sim and Brev Operations skill](https://github.com/Kian-hdr/isaac-sim-brev-operations) and its [setup prompt](https://github.com/Kian-hdr/isaac-sim-brev-operations/blob/main/SETUP_PROMPT.md).

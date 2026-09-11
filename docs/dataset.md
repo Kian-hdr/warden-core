@@ -25,4 +25,4 @@ For that reason, this repository describes the collection and workflow but does 
 
 ## What is useful to preserve
 
-The development package retains partition records, feature artifacts, model state, training logs and error analysis. Keeping these together made the collection’s version differences and split-quality issues visible. Future work should add a complete source manifest, per-item rights information, content hashes and a group-aware partition record before publishing or reusing the dataset more broadly.
+The development package retains partition records, feature artifacts, model state, training logs and error analysis. Keeping these together made the collection’s version differences and split-quality issues visible.

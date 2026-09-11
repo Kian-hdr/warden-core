@@ -26,8 +26,4 @@ Parallel environments were part of the development workflow. Infrastructure exer
 
 ## How to read the videos
 
-The published parallel-scene clip is scripted visualization. It explains the scene layout and development approach. It is not a video of a successfully trained autonomous agent. The retained archive also contains experimental checkpoints, but this public release makes no claim that a checkpoint provides a fully working autopilot.
-
-## Development direction
-
-The next learning milestone is a repeatable evaluation of a fixed candidate against fresh conditions, with complete logs and behavior review. Physical transfer is a subsequent, separate engineering task. No future model weights are presented as existing results, and unfinished capabilities are not described as classified.
+The [gallery](../media/README.md) distinguishes early PPO checkpoint playback, behavioral-baseline course views, scripted parallel-scene visualization and camera calibration. Each clip is labelled for its actual role. The two-second PPO recording shows the agent near the start, not completed gate racing; the longer course views are non-learned baselines.

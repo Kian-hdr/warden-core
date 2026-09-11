@@ -10,3 +10,7 @@ The upstream Iris asset credits Lorenz Meier and Thomas Gubler, with the origina
 - [Pinned Pegasus licence](https://github.com/PegasusSimulator/PegasusSimulator/blob/db7bf43a5b26b0dd56ec18d0afb682383862fbd3/LICENSE)
 
 The project’s procedural scene composition, cameras and presentation are distinct from the upstream robot model. This repository publishes rendered video, not the raw USD asset or simulator software. Names identify contributors and tools; no endorsement is implied. The project reuse notice does not replace these third-party notices.
+
+## Early PPO debug recording
+
+The early checkpoint recording uses [Isaac Drone Racer](https://github.com/kousheekc/isaac_drone_racer/tree/d530f67768d53701454f406e4da967e0e9c30842) at revision `d530f67768d53701454f406e4da967e0e9c30842`. The pinned project contains the gate and five-inch-drone assets used by its default task and is licensed under BSD 3-Clause, copyright 2025 Kousheek Chakraborty. The [upstream notice](Isaac-Drone-Racer-LICENSE.txt) is retained. The clip is initial checkpoint playback, not a demonstration of completed gate racing. No model weights or raw asset files are distributed here.

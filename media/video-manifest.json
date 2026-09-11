@@ -44,5 +44,97 @@
       }
     },
     "scope": "scripted parallel-scene visualization, not trained, not certified"
+  },
+  {
+    "source_sha256": "0f79b6faac6c90a135bec25fddb781f77638b33882278d3b417fb9f37970680f",
+    "file": "videos/course-baseline-chase.mp4",
+    "sha256": "18eb462a19ddf75f35e6386586fb3896f77e93749516658d6442e50278a9b275",
+    "technical_format": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1920,
+          "height": 1080,
+          "r_frame_rate": "30/1",
+          "nb_frames": "300"
+        }
+      ],
+      "format": {
+        "duration": "10.000000",
+        "size": "3354918"
+      }
+    },
+    "scope": "BEHAVIORAL BASELINE | NOT A LEARNED POLICY | SIMULATION ONLY"
+  },
+  {
+    "source_sha256": "fbdffb32f0e18d9261e48642d71b7e972b5de7584d540e9ecaa583df95b67803",
+    "file": "videos/course-baseline-fpv.mp4",
+    "sha256": "dea2ed2c4eb40423363fa8ea339a2d7336bfb2ea76ae10671beddcceb9f44c44",
+    "technical_format": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1920,
+          "height": 1080,
+          "r_frame_rate": "30/1",
+          "nb_frames": "300"
+        }
+      ],
+      "format": {
+        "duration": "10.000000",
+        "size": "2053235"
+      }
+    },
+    "scope": "BEHAVIORAL BASELINE | NOT A LEARNED POLICY | SIMULATION ONLY"
+  },
+  {
+    "source_sha256": "898ace93fc0a8179aa153643e7e6520b842944ce765915279124e8c62a983d72",
+    "file": "videos/ppo-initial-debug.mp4",
+    "sha256": "352861a5290243e9d89f12d74e4275383504243feeac57cb2df643b2a21d188c",
+    "technical_format": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1280,
+          "height": 720,
+          "r_frame_rate": "100/1",
+          "nb_frames": "200"
+        }
+      ],
+      "format": {
+        "duration": "2.000000",
+        "size": "271276"
+      }
+    },
+    "scope": "EARLY PPO DEBUG | INITIAL CHECKPOINT | NO COURSE COMPLETION"
+  },
+  {
+    "file": "videos/prototype-hover.mp4",
+    "source_sha256": "abaf8dd32d1176f1d4ac6fbcbab1fc9c8d45e54a5f0f521d1890a78dbcc12c8e",
+    "sha256": "ed5cc9dc41c49aa479cf50c2463c32575bd4d8440a7501bf3b156491620de293",
+    "technical_format": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 720,
+          "height": 1280,
+          "r_frame_rate": "60/1",
+          "nb_frames": "3594"
+        }
+      ],
+      "format": {
+        "duration": "60.016667",
+        "size": "25602118"
+      }
+    },
+    "scope": "Physical prototype hover; control mode undocumented; no learned-policy claim."
   }
 ]
