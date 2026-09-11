@@ -4,6 +4,10 @@ Engineering from our Warden Core project: tools for understanding compute pipeli
 
 I led Annihilation Industries at the European Defense Tech Hackathon in Hamburg, bringing together simulation, software, hardware development and the project presentation. This repository collects two parts of that work that can be explored independently.
 
+<img src="media/prototype-open.jpg" alt="Warden Core prototype with arms open" width="480">
+
+*Prototype assembly on the workbench. [Build photos and simulation preview](media/README.md).*
+
 ## Explore the work
 
 | Project | What you can inspect |

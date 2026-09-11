@@ -7,6 +7,7 @@ This is a curated public collection from Annihilation Industries / Warden Core. 
 - Standalone pipeline observability and offline assessment tools.
 - Selected tests and usage examples.
 - Custom LL-11 leg geometry, editable source and a leg-only preview.
+- Selected project photographs and a labelled simulation-development preview.
 - Notes explaining the implementation and remaining work.
 
 ## Kept outside this collection
