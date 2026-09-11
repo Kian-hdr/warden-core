@@ -12,6 +12,9 @@ Annihilation Industries brought together simulation, computer vision, software t
 | [Computer vision](perception.md) | Vincent’s offline baseline and the dataset workflow. |
 | [Dataset record](dataset.md) | Dataset versions, recorded partitions and publication boundaries. |
 | [Software engineering](software-engineering.md) | Data contracts, timestamps, hashing, assessment logic and failure behavior. |
+| [Computational geometry studies](computational-geometry.md) | Four separately recorded PicoGK studies and their digital evidence. |
+| [Experiment artifacts](experiment-artifacts.md) | Contracts, checkpoint/export lineage, recovery packages and media review. |
+| [Public source records](source-records.md) | Document identities, dates and publication forms behind the chapters. |
 | [Hardware engineering](hardware-engineering.md) | Geometry construction, topology changes, mesh/export checks and numerical screening. |
 | [Visual walkthrough](visual-walkthrough.md) | Assembly, recorded hover, course views and CAD layer images. |
 | [Reproducibility](reproducibility.md) | Artifact identity, source-to-public transformations and remote readback. |

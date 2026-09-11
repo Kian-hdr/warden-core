@@ -22,6 +22,8 @@ The recordings serve different purposes. The PPO clip documents an early experim
 | Walkthrough | What it explains |
 | --- | --- |
 | [Software internals](docs/software-engineering.md) | Typed events, timestamp ordering, capture assembly, input hashing and assessment behavior. |
+| [Computational geometry studies](docs/computational-geometry.md) | The separate PicoGK branch: field/lattice/frame representations and recorded digital checks. |
+| [Experiment artifacts](docs/experiment-artifacts.md) | How source revisions, checkpoints, exports and media retain their relationships. |
 | [Hardware development](docs/hardware-engineering.md) | Connected-web topology, parametric geometry, STEP/STL integrity and slice-level checks. |
 | [Visual record](docs/visual-walkthrough.md) | Build photographs, outdoor hover, simulation cameras and CAD visualizations. |
 | [Reproducibility](docs/reproducibility.md) | How source, checkpoints, media and published copies retain their identities. |
@@ -151,3 +153,7 @@ Start with its [copy-ready setup prompt](https://github.com/Kian-hdr/isaac-sim-b
 My [EDTH Instagram highlight](https://www.instagram.com/stories/highlights/17880192807625231/) shows more of the build process. Instagram may require sign-in.
 
 Kian Tajbakhsh · [GitHub](https://github.com/Kian-hdr) · [Repository scope and reuse notice](docs/scope.md)
+
+## Source basis
+
+The [source records for this chapter](docs/source-records.md#chapter-readme-md) identify the archived versions used in this public explanation.

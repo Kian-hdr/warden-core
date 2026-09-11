@@ -26,3 +26,9 @@ For that reason, this repository describes the collection and workflow but does 
 ## What is useful to preserve
 
 The development package retains partition records, feature artifacts, model state, training logs and error analysis. Keeping these together made the collection’s version differences and split-quality issues visible.
+
+The first public-stills baseline and the later collected-image run have separate records. They are not treated as a before/after comparison on one fixed dataset. The private coverage matrix records both source versions and their archived locations.
+
+## Source basis
+
+This public explanation is grounded in the dated project records identified in the [source records for this chapter](source-records.md#chapter-docs-dataset-md). The catalogue distinguishes complete notices from adapted explanations and preserves separate document versions.

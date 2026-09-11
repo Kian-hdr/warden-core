@@ -51,3 +51,25 @@ Compare the result with the corresponding `sha256` field in the media manifest. 
 The [observability package](../software/) is runnable independently with synthetic examples. The [CAD package](../hardware/) provides both editable source and exchange files. The [Codex skill](https://github.com/Kian-hdr/isaac-sim-brev-operations) contains reusable workflow guidance and documentation tooling. These are distinct deliverables, each with its own requirements and checks.
 
 The historical simulator environment and perception dataset are described in their dedicated pages. A clean source snapshot is not the same thing as a complete, licensed reconstruction of every private dependency and dataset. Their identities and limitations are kept explicit so readers can tell which work they can run directly and which material is a documented experiment.
+
+## Lessons retained from recovery work
+
+The archive separates a package’s internal checksum ledger from an external record of the package’s identity. A changed ledger is not independent evidence that its own new contents were the reviewed version. Additive records preserve earlier identities instead of silently replacing them.
+
+Partial output is retained with its completion state. A log shard, an intermediate checkpoint or an unfinished folder can support diagnosis and recovery without becoming an accepted evaluation result. The preserved local archive also has a defined scope: it records what was exported and verified, not every byte that may once have existed on a remote disk.
+
+The private source inventory now records document identity, archive copy, version/date, related implementation or result, publication form and public destination. That mapping allows a reader of the public edition to distinguish an adapted explanation from a complete original document. [Public source records](source-records.md) expose the eligible record identities without exposing private paths or operational specifications.
+
+## Verify the published media bytes
+
+The small [media verification utility](../tools/verify_media.py) was added for this public edition, using the same file-hash workflow used to check the published copies. It reads the checked-in media manifest and compares each listed video with its SHA-256 digest:
+
+```sh
+python3 tools/verify_media.py
+```
+
+This checks file identity. Media captions and source records explain what the files represent.
+
+## Source basis
+
+This public explanation is grounded in the dated project records identified in the [source records for this chapter](source-records.md#chapter-docs-reproducibility-md). The catalogue distinguishes complete notices from adapted explanations and preserves separate document versions.

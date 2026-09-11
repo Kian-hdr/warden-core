@@ -85,3 +85,15 @@ A valid non-passing assessment returns exit code 2 with its JSON report. Input e
 The tests exercise causal ordering, strict booleans, duplicate timestamps, malformed JSON, raw-log hashing, incomplete stream coverage, unavailable metrics and output preservation. CLI tests run the synthetic example through recording, assembly and reassessment, checking that the reports agree. Mock Linux inputs test the resource collector’s fixed read-only command invocation; they do not establish performance on a physical Raspberry Pi.
 
 To inspect or extend the implementation, start with the [software usage guide](../software/README.md), [shared validators](../software/src/warden_observability/validation.py), and [tests](../software/tests/). Keep a new instrumented producer small: emit the documented timing records, preserve invalid outcomes, and record the context needed to interpret the timestamps later.
+
+For the surrounding source/configuration/checkpoint packaging workflow, see [Experiment artifacts](experiment-artifacts.md). The archived Pi4 measurement profile is separate from the Pi Zero2W host named in later commissioning records; the latter is not a deployment result for this standalone package.
+
+## Interface-design records
+
+The internal interface design work separated status, bounded tools and diagnostics. Its design profile prioritized a truthful summary of readiness and blockers, with the active-operation state kept visible across desktop, tablet and phone layouts. It specified semantic light/dark appearance, keyboard access, visible focus, reduced-motion behavior and values that remain readable without relying on colour alone.
+
+That is a design/interaction record, separate from the standalone command-line package published here. The public adaptation preserves the information architecture and accessibility reasoning; it does not distribute the private vehicle-operation interface or its operational controls. Backend state was treated as authoritative, with client presentation explaining it rather than manufacturing readiness.
+
+## Source basis
+
+This public explanation is grounded in the dated project records identified in the [source records for this chapter](source-records.md#chapter-docs-software-engineering-md). The catalogue distinguishes complete notices from adapted explanations and preserves separate document versions.

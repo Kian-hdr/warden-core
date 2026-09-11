@@ -20,3 +20,7 @@ The project produced more than presentation material. Its archive contains sourc
 The simulation and perception work were separate experiments. Perception results were not evidence that the flight system could recognize objects in operation. Likewise, a simulation checkpoint was not evidence that the physical prototype could fly autonomously. Keeping those boundaries explicit helped define what the next integration step would need to demonstrate.
 
 The [build gallery](../media/README.md) shows the physical assembly in open and folded configurations. The [CAD package](../hardware/) preserves the LL-11 source and exchange files. The [software package](../software/) can be explored with synthetic data without connecting any vehicle.
+
+## Source basis
+
+This public explanation is grounded in the dated project records identified in the [source records for this chapter](source-records.md#chapter-docs-progress-md). The catalogue distinguishes complete notices from adapted explanations and preserves separate document versions.

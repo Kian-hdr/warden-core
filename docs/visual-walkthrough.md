@@ -57,3 +57,7 @@ The mechanics screen displays a numerical frame model and magnified displacement
 ## 5. Connect visuals to records
 
 The images are backed by source files, media identities and documented scope. [Software engineering](software-engineering.md) explains the event and capture contracts; [reproducibility](reproducibility.md) explains how hashes, original files and public viewing copies are kept distinct. This lets a reader move from a picture to the implementation or the record that gives it meaning.
+
+## Source basis
+
+The [source records for this chapter](source-records.md#chapter-docs-visual-walkthrough-md) identify the archived versions used in this public explanation.

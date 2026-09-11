@@ -71,3 +71,13 @@ A saved two-dimensional Euler–Bernoulli frame calculation predicts 562.44 N/mm
 *Numerical deformation visualization; the magnification and no-rating labels are retained.*
 
 The public generator separates leg geometry from the original reference assembly. Its geometry functions match the original source, but native regeneration was not reverified during publication preparation because the available local CAD environment stalled while loading dependencies. The supplied exports remain inspectable without that environment. Physical qualification is outside the evidence represented by these digital checks.
+
+## Mechanical studies within the hardware record
+
+The broader hardware documentation separated the folding airframe, the flight-controller integration direction, companion-compute work and simulator surrogate. Those roles are distinct from the landing-leg geometry described here. The archived index identified an H680-family frame, a Pixhawk6C Mini direction and an initial Pi4 companion-compute direction; later commissioning notes describe a Pi Zero2W host. These records are not interchangeable hardware configurations.
+
+The photographs and supplied hover recording document the physical prototype. The LL-11 and PicoGK pages document separate geometric studies. Keeping the component roles and source dates explicit prevents a CAD result, a measurement-tool profile or an earlier hardware plan from being mistaken for the configuration used in a particular recording.
+
+## Source basis
+
+This public explanation is grounded in the dated project records identified in the [source records for this chapter](source-records.md#chapter-docs-hardware-engineering-md). The catalogue distinguishes complete notices from adapted explanations and preserves separate document versions.

@@ -40,3 +40,13 @@ The simulator SDK, third-party robot assets and cloud-machine configuration are 
 Official references: [Brev overview](https://docs.nvidia.com/brev/getting-started/overview), [Isaac Sim 4.5 documentation](https://docs.isaacsim.omniverse.nvidia.com/4.5.0/index.html), and [Isaac Lab](https://isaac-sim.github.io/IsaacLab/).
 
 For a reusable version of this workflow, see our [Isaac Sim and Brev Operations skill](https://github.com/Kian-hdr/isaac-sim-brev-operations) and its [setup prompt](https://github.com/Kian-hdr/isaac-sim-brev-operations/blob/main/SETUP_PROMPT.md).
+
+## Simulator surrogate and physical airframe
+
+The recorded vehicle decision selected a pinned Pegasus Simulator Iris asset for the established Isaac runtime. It provided an identifiable simulation model while the physical airframe was being developed. The original model identity and asset hash were kept with the simulator configuration, and the rendered footage identifies the surrogate separately from the photographed prototype.
+
+This decision preserved a repeatable model/runtime combination. It was not a digital-twin claim about the physical frame. The public [media credits](../third_party/README.md) retain the relevant upstream notices; the [visual walkthrough](visual-walkthrough.md) makes the difference between the simulated Iris and the actual prototype visible.
+
+## Source basis
+
+This public explanation is grounded in the dated project records identified in the [source records for this chapter](source-records.md#chapter-docs-simulation-md). The catalogue distinguishes complete notices from adapted explanations and preserves separate document versions.

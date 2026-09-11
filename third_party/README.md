@@ -14,3 +14,7 @@ The project’s procedural scene composition, cameras and presentation are disti
 ## Early PPO debug recording
 
 The early checkpoint recording uses [Isaac Drone Racer](https://github.com/kousheekc/isaac_drone_racer/tree/d530f67768d53701454f406e4da967e0e9c30842) at revision `d530f67768d53701454f406e4da967e0e9c30842`. The pinned project contains the gate and five-inch-drone assets used by its default task and is licensed under BSD 3-Clause, copyright 2025 Kousheek Chakraborty. The [upstream notice](Isaac-Drone-Racer-LICENSE.txt) is retained. The clip is initial checkpoint playback, not a demonstration of completed gate racing. No model weights or raw asset files are distributed here.
+
+## PicoGK study documentation
+
+The separate computational-geometry chapter draws on four archived project studies. Their [original project notices](picogk-records/README.md) are retained verbatim with historical context. PicoGK is upstream LEAP71 software; no Noyron output or endorsement is claimed.

@@ -17,3 +17,7 @@ The full development archive, training datasets and weights, internal documentat
 ## Reuse notice
 
 No open-source or hardware license is granted in this initial publication. Contact the repository owner before reusing the project material. Dependencies retain their own licenses and are installed separately rather than bundled here.
+
+## Source basis
+
+The [source records for this chapter](source-records.md#chapter-docs-scope-md) identify the archived versions used in this public explanation.

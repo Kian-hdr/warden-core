@@ -38,3 +38,15 @@ The partition record matters as much as the model file. Training data fits the h
 The [dataset record](dataset.md) describes the collected set and recorded partitions. The experiment was still-image classification, not object detection or recognition during flight. Its records identify near-duplicate images crossing partition boundaries, so its historical test score should not be treated as an independent measure of real-world generalization. We do not use that score as a headline capability claim.
 
 The perception experiment was not integrated into a demonstrated autonomous flight system. Awareness and avoidance remain separate from any inference about intent; no targeting or engagement function is published here.
+
+## Two distinct perception records
+
+The archive preserves an earlier public-stills baseline and a later collected-image linear-probe experiment. The later record does not supersede the earlier one as if they were repeated measurements on an unchanged benchmark. Their input collections, partitions and recorded evaluations differ.
+
+The earlier baseline’s source notes name Wikimedia Commons and Hugging Face. The later collected-image package retains the feature arrays, training log, selected head and evaluation records described above. Their separation matters when attributing data, reporting a result or trying to reconstruct an experiment. Platform names alone are not per-image reuse permissions.
+
+An abstention or `unknown` response is also distinct from a trained visual class. The records describe handling uncertain or unavailable-model conditions, but that should not be reported as an independently trained extra class. A separate third-party detector demonstration is not attributed to Vincent’s trained linear head and is not distributed in this edition.
+
+## Source basis
+
+This public explanation is grounded in the dated project records identified in the [source records for this chapter](source-records.md#chapter-docs-perception-md). The catalogue distinguishes complete notices from adapted explanations and preserves separate document versions.
