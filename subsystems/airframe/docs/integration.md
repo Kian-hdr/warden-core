@@ -1,6 +1,6 @@
 # Physical airframe and electronics
 
-Constantin led the physical FPV prototype and the flight-controller/electronics integration work. The retained media shows the folding airframe, motors, wiring, electronics packaging and outdoor hover.
+Kian and Constantin jointly worked on the airframe design. Kian developed the landing gear; Constantin handled Raspberry Pi–Pixhawk integration and flight-controller programming/configuration. The retained media shows the folding airframe, motors, wiring, electronics packaging and outdoor hover.
 
 ## Intended integration layers
 
@@ -29,6 +29,6 @@ Kian’s August 29 report states that the first prototype was assembled and most
 
 Later photographs document the folding structure and electronics packaging. The supplied recording shows physical hover, but does not record its control mode or demonstrate a learned policy driving the airframe.
 
-The September 4 commissioning account records successful companion-host/dashboard checks followed by loss of connectivity after the flight controller was connected. This is a separate host-integration record, not evidence of resolved controller integration. Its software authorship is not assigned to Constantin solely from his hardware role.
+The September 4 commissioning account records successful companion-host/dashboard checks followed by loss of connectivity after the flight controller was connected. This is a separate host-integration record, not evidence of resolved controller integration. Kian subsequently confirmed Constantin’s Raspberry Pi–Pixhawk integration and flight-controller programming/configuration contribution. The historical connectivity issue does not change that attribution.
 
 [Constantin’s GitHub profile](https://github.com/Takane0) and [team attribution](../../../project/team.md) identify his contribution. [Source records](../../../project/evidence/source-records.md) include the dated physical prototype update, DOC-9a6d109e0763; its historical evidence and open issues are retained.

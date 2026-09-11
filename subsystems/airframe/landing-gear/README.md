@@ -1,5 +1,7 @@
 # LL-11 landing-leg prototype
 
+**Contributor:** Kian Tajbakhsh. Kian and Constantin worked together on the wider airframe design; Kian developed the landing gear.
+
 [Hardware engineering](engineering.md) · [Computational-geometry studies](computational-geometry.md) · [CAD exchange files](cad/) · [Generated previews](images/)
 
 ![LL-11 digital CAD model](images/LL11_leg.png)

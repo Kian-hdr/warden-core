@@ -4,10 +4,10 @@ The public repository records four contributors. Full names are included only wh
 
 | Contributor | Recorded contribution |
 | --- | --- |
-| **Kian Tajbakhsh** | Project lead; NVIDIA Brev and Isaac Sim autonomy, policy/evaluation, evidence, media, presentation integration and public repository curation. |
+| **Kian Tajbakhsh** | Project lead; joint airframe design with Constantin and landing-gear development; NVIDIA Brev and Isaac Sim autonomy, policy/evaluation, evidence, media, presentation integration and public repository curation. |
 | **Vincent** | Separate supervised computer-vision baseline, dataset workflow, training record and error analysis. |
 | **Leon** | Related Warden Corps multi-camera sensing study, physics briefing, technical figures and presentation. |
-| **[Constantin](https://github.com/Takane0)** | Physical FPV prototype, flight-controller/electronics integration and hardware assembly. |
+| **[Constantin](https://github.com/Takane0)** | Joint airframe design with Kian, physical assembly, Raspberry Pi–Pixhawk integration and flight-controller programming/configuration. |
 
 The repository's licence notices apply only to project material for which the named licensor owns or controls the relevant rights. Vincent’s underlying dataset, code, model, checkpoint and experiment package are not distributed or licensed by this repository.
 

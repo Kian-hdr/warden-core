@@ -4,7 +4,7 @@ This catalogue identifies the archived document versions used by the public chap
 
 New diagrams, explanatory prose and the media-check utility were authored for this public edition. They are distinguished from the historical records below. Source dates come from frontmatter or file metadata, not independently established experiment dates. Byte-identical source copies share one content identity; changed versions remain separate.
 
-The current catalogue contains **116 source versions**. [Team coverage](team-work.json) maps individual contributions to these records.
+The current catalogue contains **117 source versions**. [Team coverage](team-work.json) maps individual contributions to these records.
 
 ## Chapter readme-md
 
@@ -1225,3 +1225,11 @@ Warden Corps historical study and presentation status
 - SHA-256: `c984e6873958cabbffb84dc044816fb57d070bd9ee3181b1c2e33d93f185ce53`
 - Publication form: adapted contribution/evidence history only; original not distributed
 - Public chapters: [subsystems/multicamera-sensing/README.md](../../subsystems/multicamera-sensing/README.md), [subsystems/multicamera-sensing/presentation/camera-study.md](../../subsystems/multicamera-sensing/presentation/camera-study.md), [project/team.md](../team.md), [project/history.md](../history.md), [project/evidence/team-work.json](team-work.json)
+
+## DOC-54356eb6d585
+
+Airframe contribution clarification. Kian’s direct confirmation, September 11, 2026.
+
+- SHA-256: `54356eb6d585c83699e809aded9c6fcb5cf92e239e48af5b1dabafe0b1c71d74`
+- Source: [public attribution record](airframe-contributions.md)
+- Public chapters: [README.md](../../README.md), [project/team.md](../../project/team.md), [project/engineering-tour.md](../../project/engineering-tour.md), [project/presentations/warden-core-engineering-brief.md](../../project/presentations/warden-core-engineering-brief.md), [subsystems/README.md](../../subsystems/README.md), [subsystems/airframe/README.md](../../subsystems/airframe/README.md), [subsystems/airframe/docs/integration.md](../../subsystems/airframe/docs/integration.md), [subsystems/airframe/landing-gear/README.md](../../subsystems/airframe/landing-gear/README.md), [licensing/contributors-and-rights.md](../../licensing/contributors-and-rights.md), [project/evidence/team-work.json](../../project/evidence/team-work.json), [project/evidence/airframe-contributions.md](../../project/evidence/airframe-contributions.md)

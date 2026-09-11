@@ -1406,5 +1406,26 @@
       "project/history.md",
       "project/evidence/team-work.json"
     ]
+  },
+  {
+    "id": "DOC-54356eb6d585",
+    "title": "Airframe contribution clarification",
+    "source_date": "2026-09-11",
+    "date_basis": "direct user clarification",
+    "sha256": "54356eb6d585c83699e809aded9c6fcb5cf92e239e48af5b1dabafe0b1c71d74",
+    "form": "public attribution record based on project-owner confirmation",
+    "destinations": [
+      "README.md",
+      "project/team.md",
+      "project/engineering-tour.md",
+      "project/presentations/warden-core-engineering-brief.md",
+      "subsystems/README.md",
+      "subsystems/airframe/README.md",
+      "subsystems/airframe/docs/integration.md",
+      "subsystems/airframe/landing-gear/README.md",
+      "licensing/contributors-and-rights.md",
+      "project/evidence/team-work.json",
+      "project/evidence/airframe-contributions.md"
+    ]
   }
 ]

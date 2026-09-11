@@ -4,18 +4,21 @@
   "contributors": [
     {
       "contributor": "Kian Tajbakhsh",
-      "workstream": "Simulation, evaluation and project integration",
-      "evidence_status": "historical source-linked experiments; selected public software/CAD artifacts",
+      "workstream": "Simulation, evaluation, joint airframe design, landing-gear development and project integration",
+      "evidence_status": "historical source-linked experiments; selected public software/CAD artifacts; airframe roles directly confirmed by Kian on 2026-09-11",
       "public_chapters": [
         "subsystems/simulation/README.md",
         "subsystems/observability/engineering.md",
         "subsystems/airframe/landing-gear/engineering.md",
-        "project/evidence/README.md"
+        "project/evidence/README.md",
+        "subsystems/airframe/README.md",
+        "project/evidence/airframe-contributions.md"
       ],
       "source_ids": [
         "DOC-a3142c8a4795",
         "DOC-a90493c44704",
-        "DOC-5acc3e49a3fc"
+        "DOC-5acc3e49a3fc",
+        "DOC-54356eb6d585"
       ],
       "limits": "Partial learning record; no integrated physical autonomy established."
     },
@@ -52,16 +55,19 @@
     },
     {
       "contributor": "Constantin",
-      "workstream": "Physical prototype assembly and electronics integration",
-      "evidence_status": "human-stated build report; separately preserved photographs and hover",
+      "workstream": "Joint airframe design, physical assembly, Raspberry Pi–Pixhawk integration and flight-controller programming/configuration",
+      "evidence_status": "human-stated build report; separately preserved photographs and hover; airframe roles directly confirmed by Kian on 2026-09-11",
       "public_chapters": [
         "subsystems/airframe/docs/integration.md",
-        "subsystems/airframe/media/README.md"
+        "subsystems/airframe/media/README.md",
+        "subsystems/airframe/README.md",
+        "project/evidence/airframe-contributions.md"
       ],
       "source_ids": [
-        "DOC-9a6d109e0763"
+        "DOC-9a6d109e0763",
+        "DOC-54356eb6d585"
       ],
-      "limits": "Hover control mode undocumented; no completed integrated flight stack; later software authorship not inferred.",
+      "limits": "Hover control mode undocumented; complete autonomous physical integration not established.",
       "github": "https://github.com/Takane0"
     }
   ]

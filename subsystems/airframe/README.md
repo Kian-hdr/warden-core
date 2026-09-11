@@ -1,6 +1,8 @@
 # Airframe and physical integration
 
-[Constantin](https://github.com/Takane0) led the physical prototype assembly and flight-controller/electronics integration work. The separate landing-gear design track retains its own digital evidence.
+Kian Tajbakhsh and [Constantin](https://github.com/Takane0) worked together on the airframe design. Kian developed the landing gear. Constantin handled the Raspberry Pi integration with the Pixhawk flight controller and programmed/configured the flight controller to make it work.
+
+This division of work was [confirmed by Kian](../../project/evidence/airframe-contributions.md). The landing-gear design retains its own digital evidence.
 
 | Start here | Contents |
 | --- | --- |

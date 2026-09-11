@@ -42,7 +42,7 @@ Leon’s related Warden Corps study models five 4K monochrome cameras, 3-of-5 co
 
 ## 8. Physical prototype
 
-Constantin led the physical airframe and electronics integration. The retained gallery shows assembly, folding configuration and outdoor hover.
+Kian and Constantin jointly designed the airframe. Kian developed the landing gear; Constantin handled Raspberry Pi–Pixhawk integration and flight-controller programming/configuration. The retained gallery shows assembly, folding configuration and outdoor hover.
 
 [Physical integration](../../subsystems/airframe/docs/integration.md)
 
@@ -56,9 +56,9 @@ Every public result connects source revision, configuration, runtime identity, t
 
 | Contributor | Recorded contribution |
 | --- | --- |
-| Kian | Project lead, Isaac/Brev autonomy, evaluation, evidence, media and presentation integration |
+| Kian | Project lead, joint airframe design, landing gear, Isaac/Brev autonomy, evaluation, evidence, media and presentation integration |
 | Vincent | Supervised computer-vision baseline |
 | Leon | Warden Corps multi-camera sensing study and presentation |
-| [Constantin](https://github.com/Takane0) | Physical FPV prototype and electronics integration |
+| [Constantin](https://github.com/Takane0) | Joint airframe design; Raspberry Pi–Pixhawk integration and flight-controller programming/configuration |
 
 Public software and documentation are available under the repository’s [licensing map](../../licensing/README.md). Model weights remain closed source under the [model-access policy](../../licensing/model-access.md).
