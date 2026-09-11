@@ -76,7 +76,7 @@ The controller includes anti-windup, slew limits, motor lag and ordered desatura
 
 ## Course and reward structure
 
-The course representation tracks ordered gate progress, directed crossing and collision-aware clearance. Dense shaping is accumulated in a bounded episodic ledger; valid completion and invalid terminal outcomes are separated by terminal terms. The exact formula and coefficient table are published in the [reward-policy chapter](../policies/reward-policy.md).
+The course representation tracks ordered gate progress, directed crossing and collision-aware clearance. Dense shaping is accumulated in a bounded episodic ledger; valid completion and invalid terminal outcomes are separated by terminal terms. The exact formula and coefficient table are published in the [reward-policy chapter](../../policies/reward-policy.md).
 
 ```mermaid
 flowchart LR
@@ -102,8 +102,8 @@ Every major stage emits artifacts with explicit identity:
 | Media | Source run, encode properties, representative frames, visual review |
 | Delivery | Relative-file checksums, manifests and immutable package ledgers |
 
-This structure supported exact replay comparison, independent media review and recovery of interrupted cloud work. The [experiment-artifact chapter](artifact-lineage.md) explains the packaging mechanics, and [verified engineering results](../results/README.md) collects the completed numerical outcomes.
+This structure supported exact replay comparison, independent media review and recovery of interrupted cloud work. The [experiment-artifact chapter](artifact-lineage.md) explains the packaging mechanics, and [verified engineering results](../../results/README.md) collects the completed numerical outcomes.
 
 ## Public and private boundary
 
-The public repository contains architecture, interfaces, mathematical policy documentation, runnable observability tools and selected verified media. Model weights remain closed source under the [model-access policy](../licensing/model-access.md). Upstream simulator and robot assets retain their own licences and notices in [`third_party/`](../third_party/README.md).
+The public repository contains architecture, interfaces, mathematical policy documentation, runnable observability tools and selected verified media. Model weights remain closed source under the [model-access policy](../../licensing/model-access.md). Upstream simulator and robot assets retain their own licences and notices in [`third_party/`](../../third_party/README.md).

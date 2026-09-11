@@ -6,7 +6,7 @@ The project’s records connect source, inputs, outputs and the context in which
 
 The consolidated project library retains development-source snapshots, Git-history bundles, experiment configurations, training and evaluation records, checkpoints, CAD revisions, original media and checksum manifests. Source originals were preserved during consolidation. The public repository is a reviewed selection from that library, with its own clean history and a corresponding local source snapshot.
 
-For the public media, [manifest.json](../media/manifest.json) records the published file identity, the original source hash, technical format and the role of the recording. Viewing copies may have been compressed, stripped of metadata or given a scope label. Their hashes therefore differ from the originals, and both identities are retained.
+For the public media, [manifest.json](../../media/manifest.json) records the published file identity, the original source hash, technical format and the role of the recording. Viewing copies may have been compressed, stripped of metadata or given a scope label. Their hashes therefore differ from the originals, and both identities are retained.
 
 ```mermaid
 flowchart LR
@@ -48,7 +48,7 @@ Compare the result with the corresponding `sha256` field in the media manifest. 
 
 ## Working with separate components
 
-The [observability package](../software/) is runnable independently with synthetic examples. The [CAD package](../hardware/) provides both editable source and exchange files. The [Codex skill](https://github.com/Kian-hdr/isaac-sim-brev-operations) contains reusable workflow guidance and documentation tooling. These are distinct deliverables, each with its own requirements and checks.
+The [observability package](../../software/) is runnable independently with synthetic examples. The [CAD package](../../hardware/) provides both editable source and exchange files. The [Codex skill](https://github.com/Kian-hdr/isaac-sim-brev-operations) contains reusable workflow guidance and documentation tooling. These are distinct deliverables, each with its own requirements and checks.
 
 The historical simulator environment and perception dataset are described in their dedicated pages. A clean source snapshot is not the same thing as a complete, licensed reconstruction of every private dependency and dataset. Their identities and limitations are kept explicit so readers can tell which work they can run directly and which material is a documented experiment.
 
@@ -58,11 +58,11 @@ The archive separates a package’s internal checksum ledger from an external re
 
 Every retained output carries its completion state. Log shards, intermediate checkpoints and completed packages therefore remain distinguishable and useful for diagnosis, recovery and accepted-result review. The preserved local archive records the exact bytes that were exported and verified.
 
-The private source inventory now records document identity, archive copy, version/date, related implementation or result, publication form and public destination. That mapping allows a reader of the public edition to distinguish an adapted explanation from a complete original document. [Public source records](../results/source-records.md) expose the eligible record identities without exposing private paths or operational specifications.
+The private source inventory now records document identity, archive copy, version/date, related implementation or result, publication form and public destination. That mapping allows a reader of the public edition to distinguish an adapted explanation from a complete original document. [Public source records](../../results/source-records.md) expose the eligible record identities without exposing private paths or operational specifications.
 
 ## Verify the published media bytes
 
-The small [media verification utility](../tools/verify_media.py) was added for this public edition, using the same file-hash workflow used to check the published copies. It reads the checked-in media manifest and compares each listed video with its SHA-256 digest:
+The small [media verification utility](../../tools/verify_media.py) was added for this public edition, using the same file-hash workflow used to check the published copies. It reads the checked-in media manifest and compares each listed video with its SHA-256 digest:
 
 ```sh
 python3 tools/verify_media.py
@@ -72,4 +72,4 @@ This checks file identity. Media captions and source records explain what the fi
 
 ## Source basis
 
-This public explanation is grounded in the dated project records identified in the [source records for this chapter](../results/source-records.md#chapter-docs-reproducibility-md). The catalogue distinguishes complete notices from adapted explanations and preserves separate document versions.
+This public explanation is grounded in the dated project records identified in the [source records for this chapter](../../results/source-records.md#chapter-docs-reproducibility-md). The catalogue distinguishes complete notices from adapted explanations and preserves separate document versions.

@@ -4,6 +4,8 @@
 
 Vincent developed the team’s separate offline computer-vision experiment. It used frozen ImageNet-pretrained ResNet18 features and a linear classification head trained on CPU. This provided a compact baseline that could be inspected through its saved inputs, training log and error analysis.
 
+[Compare the two dated experiment records](experiments.md), including scores, attribution and data limitations.
+
 ## What the work produced
 
 The collected-stills experiment covered six aircraft/background classes. Its retained package includes a checkpoint, extracted features, training log, confusion matrix and error records. The saved run records seed 1337 and validation-based selection of epoch 33.
@@ -51,4 +53,4 @@ An abstention or `unknown` response is also distinct from a trained visual class
 
 ## Source basis
 
-This public explanation is grounded in the dated project records identified in the [source records for this chapter](../results/source-records.md#chapter-docs-perception-md). The catalogue distinguishes complete notices from adapted explanations and preserves separate document versions.
+This public explanation is grounded in the dated project records identified in the [source records for this chapter](../../results/source-records.md#chapter-docs-perception-md). The catalogue distinguishes complete notices from adapted explanations and preserves separate document versions.

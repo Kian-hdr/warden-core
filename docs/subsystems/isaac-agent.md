@@ -45,7 +45,7 @@ flowchart LR
 
 ## How learning feedback works
 
-The reward policy combines progress, gate crossing, clearance, alignment, control smoothness and terminal outcomes. Its shaping terms accumulate through a bounded episodic ledger. The full equation, all coefficients and the terminal-dominance proof are published in the [reward policy](../policies/reward-policy.md).
+The reward policy combines progress, gate crossing, clearance, alignment, control smoothness and terminal outcomes. Its shaping terms accumulate through a bounded episodic ledger. The full equation, all coefficients and the terminal-dominance proof are published in the [reward policy](../../policies/reward-policy.md).
 
 ## How the agent was evaluated
 
@@ -55,11 +55,11 @@ The Stage 0 training package records ten accepted optimizer updates and 1,310,72
 
 ## What readers can inspect
 
-- [Observation and action contracts](../policies/observation-action-contracts.md)
-- [Evaluation methodology](../policies/evaluation-methodology.md)
-- [Verified result table](../results/README.md)
-- [Run identities](../results/run-identities.md)
-- [Autonomous corridor flight](../media/autonomous/README.md)
-- [Isaac Sim and Brev workflow](../docs/simulation.md)
+- [Observation and action contracts](../../policies/observation-action-contracts.md)
+- [Evaluation methodology](../../policies/evaluation-methodology.md)
+- [Verified result table](../../results/README.md)
+- [Run identities](../../results/run-identities.md)
+- [Autonomous corridor flight](../../media/autonomous/README.md)
+- [Isaac Sim and Brev workflow](../simulation/simulation.md)
 
-Model weights, checkpoints and exported policy binaries remain closed source. Commercial and academic requests follow the [model-access policy](../licensing/model-access.md).
+Model weights, checkpoints and exported policy binaries remain closed source. Commercial and academic requests follow the [model-access policy](../../licensing/model-access.md).

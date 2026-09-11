@@ -2,21 +2,23 @@
 
 **A simulation-first robotics project combining experimental learning, computer vision, software instrumentation and hardware development.**
 
-I led Annihilation Industries at the European Defense Tech Hackathon in Hamburg, connecting the simulation and evaluation work with the team’s hardware, perception and sensing contributions. Vincent developed the separate computer-vision baseline, [Constantin](https://github.com/Takane0) led physical airframe and electronics integration, and Leon developed the related Warden Corps multi-camera sensing study and presentation.
+I led Annihilation Industries at the European Defense Tech Hackathon in Hamburg, connecting the simulation and evaluation work with the team’s hardware, perception and sensing contributions. Vincent developed the separate computer-vision baseline, [Konstantin (Constantin in earlier records)](https://github.com/Takane0) led physical airframe and electronics integration, and Leon developed the related Warden Corps multi-camera sensing study and presentation.
 
 This repository explains how the project works and shares selected development footage, build photographs, a runnable observability toolkit and editable landing-leg CAD. The runnable component is the standalone pipeline observability package; the wider simulation, perception and hardware work is documented alongside it.
+
+The project remains unfinished. [Team contributions](docs/project/team.md) and [unfinished work](docs/project/history.md) distinguish each person’s outputs from planned integration.
 
 ## Start here
 
 | Question | Go directly to |
 | --- | --- |
 | **What did Warden Core achieve?** | [Verified results](results/README.md) and [machine-readable results](results/verified-results.json) |
-| **How does the system work?** | [System architecture](docs/architecture.md) |
+| **How does the system work?** | [System architecture](docs/simulation/architecture.md) |
 | **Where are the reward and policy specifications?** | [Policy and mathematics index](policies/README.md) |
-| **How does each subsystem work?** | [Subsystem and contributor map](subsystems/README.md) |
+| **How does each subsystem work?** | [Subsystem and contributor map](docs/subsystems/README.md) |
 | **Where are the evidence identities?** | [Run identities](results/run-identities.md) and [source records](results/source-records.md) |
 | **Where are the flight videos?** | [Media gallery](media/README.md) and [media provenance](media/provenance.md) |
-| **Where are the presentation materials?** | [Public presentation package](presentations/README.md) |
+| **Where are the presentation materials?** | [Public presentation package](docs/presentations/README.md) |
 | **How can I run the public software?** | [Warden observability](software/README.md) |
 | **What can I use for education or research?** | [Licensing guide](licensing/README.md) |
 | **How do I request model access?** | [Closed-source model access](licensing/model-access.md) |
@@ -25,11 +27,11 @@ This repository explains how the project works and shares selected development f
 
 ```text
 policies/     Reward mathematics, observation/action contracts, evaluation method
-subsystems/   Isaac agent, computer vision, multi-camera sensing, hardware integration
+docs/subsystems/ Isaac agent, computer vision, multi-camera sensing, hardware integration
 results/      Verified outcomes, run identities, source records, machine-readable data
 docs/         Overview, architecture, simulation, training, perception, development
 media/        Autonomous flight, simulator footage, physical prototype, posters
-presentations/ Public engineering brief and Warden Corps camera-study presentation
+docs/presentations/ Public engineering brief and Warden Corps camera-study presentation
 software/     Runnable observability package, examples, tests, engineering notes
 hardware/     Parametric CAD, STEP/STL, previews, engineering documentation
 licensing/    Reuse guide, licence texts, commercial terms, model-access policy
@@ -40,12 +42,12 @@ third_party/  Upstream notices only
 
 | Contributor | Subsystem | What the public record explains |
 | --- | --- | --- |
-| **Kian Tajbakhsh** | [Isaac Sim agent](subsystems/isaac-agent.md) | Brev/Isaac environment, observation and action interface, reward policy, training, evaluation, telemetry, rendering and evidence. |
-| **Vincent** | [Computer vision](subsystems/computer-vision.md) | Frozen ResNet18 features, linear six-class head, offline training/evaluation and explicit unknown behavior. |
-| **Leon** | [Multi-camera sensing](subsystems/multicamera-sensing.md) | Related Warden Corps five-camera geometry, radiometry, 3-of-5 coincidence, sparse voxel tracking and presentation. |
-| **[Constantin · Takane0](https://github.com/Takane0)** | [Hardware integration](subsystems/hardware-integration.md) | Physical FPV prototype, folding airframe, flight-controller/electronics integration and hover record. |
+| **Kian Tajbakhsh** | [Isaac Sim agent](docs/subsystems/isaac-agent.md) | Brev/Isaac environment, observation and action interface, reward policy, training, evaluation, telemetry, rendering and evidence. |
+| **Vincent** | [Computer vision](docs/subsystems/computer-vision.md) | Frozen ResNet18 features, linear six-class head, offline training/evaluation and explicit unknown behavior. |
+| **Leon** | [Multi-camera sensing](docs/subsystems/multicamera-sensing.md) | Related Warden Corps five-camera geometry, radiometry, 3-of-5 coincidence, sparse voxel tracking and presentation. |
+| **[Konstantin / Constantin · Takane0](https://github.com/Takane0)** | [Hardware integration](docs/subsystems/hardware-integration.md) | Physical FPV prototype, folding airframe, flight-controller/electronics integration and hover record. |
 
-[Public presentation package](presentations/README.md) · [Contributors and rights](licensing/contributors-and-rights.md)
+[Public presentation package](docs/presentations/README.md) · [Contributors and rights](licensing/contributors-and-rights.md)
 
 ## Verified engineering highlights
 
@@ -57,7 +59,7 @@ third_party/  Upstream notices only
 | Autonomous corridor demonstration | 15 seconds, 450 frames, 15.485 m travel, zero collisions or safety interventions |
 | Engineering contract suite | 409 full tests, 139 focused tests, schema/Ruff/syntax checks passed |
 
-[Read the full verified results](results/README.md) · [Explore the system architecture](docs/architecture.md)
+[Read the full verified results](results/README.md) · [Explore the system architecture](docs/simulation/architecture.md)
 
 ## Watch the simulation work
 
@@ -74,7 +76,7 @@ third_party/  Upstream notices only
 | --- | --- |
 | [![Mapped-course chase view](media/posters/mapped-course-chase.jpg)](media/simulator/mapped-course-chase.mp4?raw=1) | [![Mapped-course first-person view](media/posters/mapped-course-fpv.jpg)](media/simulator/mapped-course-fpv.mp4?raw=1) |
 
-[Physical prototype hover](media/physical/prototype-hover.mp4?raw=1) · [Visual engineering walkthrough](docs/visual-walkthrough.md)
+[Physical prototype hover](media/physical/prototype-hover.mp4?raw=1) · [Visual engineering walkthrough](docs/media/README.md)
 
 ## Explore the engineering in depth
 
@@ -82,12 +84,12 @@ third_party/  Upstream notices only
 | --- | --- |
 | [Software internals](software/engineering.md) | Typed events, timestamp ordering, capture assembly, input hashing and assessment behavior. |
 | [Computational geometry studies](hardware/computational-geometry.md) | The separate PicoGK branch: field/lattice/frame representations and recorded digital checks. |
-| [Experiment artifacts](docs/artifact-lineage.md) | How source revisions, checkpoints, exports and media retain their relationships. |
+| [Experiment artifacts](docs/simulation/artifact-lineage.md) | How source revisions, checkpoints, exports and media retain their relationships. |
 | [Hardware development](hardware/engineering.md) | Connected-web topology, parametric geometry, STEP/STL integrity and slice-level checks. |
-| [Visual record](docs/visual-walkthrough.md) | Build photographs, outdoor hover, simulation cameras and CAD visualizations. |
-| [Reproducibility](docs/reproducibility.md) | How source, checkpoints, media and published copies retain their identities. |
+| [Visual record](docs/media/README.md) | Build photographs, outdoor hover, simulation cameras and CAD visualizations. |
+| [Reproducibility](docs/project/reproducibility.md) | How source, checkpoints, media and published copies retain their identities. |
 | [Verified results](results/README.md) | Real-Isaac integration, dynamics, replay, scale profiling, training execution and autonomous corridor results. |
-| [System architecture](docs/architecture.md) | Cloud, simulator, observation, control, reward and evidence layers. |
+| [System architecture](docs/simulation/architecture.md) | Cloud, simulator, observation, control, reward and evidence layers. |
 | [Flight media](media/provenance.md) | Video provenance, exact measurements and the role of each published clip. |
 
 ## How the pieces fit together
@@ -111,7 +113,7 @@ Archived runs used Isaac Sim 4.5.0. Early setup records identify Isaac Lab 2.1.0
 
 The development workflow kept source/configuration identity, logs, checkpoints and media together. Headless experiments and visible scene inspection were separate activities, so a working viewer or an attractive render did not stand in for a successful evaluation.
 
-[Simulation setup and architecture](docs/simulation.md) · [Sources and upstream tools](docs/sources.md)
+[Simulation setup and architecture](docs/simulation/simulation.md) · [Sources and upstream tools](docs/project/sources.md)
 
 ## How the learning workflow works
 
@@ -128,7 +130,7 @@ Our development records distinguish these steps:
 
 The retained archive includes source-linked experiment configurations, logs, closed-source checkpoints, evaluation records and reviewed camera output.
 
-[Training and evaluation documentation](docs/training.md) · [Exact acro-racing reward policy](policies/reward-policy.md) · [Source coverage](docs/source-coverage.md)
+[Training and evaluation documentation](docs/simulation/training.md) · [Exact acro-racing reward policy](policies/reward-policy.md) · [Source coverage](docs/project/source-coverage.md)
 
 The model weights and exported policy artifacts are closed source and are not present in this repository. Commercial, education and academic requests are handled through the [model-access policy](licensing/model-access.md).
 
@@ -140,7 +142,7 @@ The recorded partitions contain 1,331 training, 283 validation and 291 test imag
 
 This was still-image classification, not demonstrated recognition during flight. Raw images, embeddings and weights are not distributed here because their complete source and reuse permissions have not been established.
 
-[Computer-vision workflow](docs/perception.md) · [Dataset versions and limitations](docs/dataset.md)
+[Computer-vision workflow](docs/perception/README.md) · [Dataset versions and limitations](docs/perception/dataset.md)
 
 ## Physical prototype and CAD
 
@@ -187,13 +189,13 @@ The included example is synthetic. Assembly intentionally returns exit code **2*
 | Folder | Contents |
 | --- | --- |
 | [`policies/`](policies/README.md) | Reward mathematics, observation/action contracts and evaluation methodology. |
-| [`subsystems/`](subsystems/README.md) | Detailed Isaac-agent, computer-vision, multi-camera and hardware-integration explanations. |
+| [`docs/subsystems/`](docs/subsystems/README.md) | Detailed Isaac-agent, computer-vision, multi-camera and hardware-integration explanations. |
 | [`results/`](results/README.md) | Verified outcomes, run identities, source records and machine-readable evidence. |
 | [`docs/`](docs/README.md) | Overview, architecture, simulation, training, perception and development approach. |
 | [`software/`](software/) | Standalone observability package, examples and tests. |
 | [`hardware/`](hardware/) | LL-11 source, CAD exchange files and design limits. |
 | [`media/`](media/README.md) | Autonomous-flight, simulator and physical-prototype media with provenance and hashes. |
-| [`presentations/`](presentations/README.md) | Public engineering brief and Leon’s Warden Corps camera-study presentation. |
+| [`docs/presentations/`](docs/presentations/README.md) | Public engineering brief and Leon’s Warden Corps camera-study presentation. |
 | [`licensing/`](licensing/README.md) | Licence map, commercial terms, contributor rights and model-access policy. |
 | [`third_party/`](third_party/README.md) | Upstream media credits and licence notices. |
 
@@ -220,7 +222,7 @@ Start with its [copy-ready setup prompt](https://github.com/Kian-hdr/isaac-sim-b
 
 My [EDTH Instagram highlight](https://www.instagram.com/stories/highlights/17880192807625231/) shows more of the build process. Instagram may require sign-in.
 
-Kian Tajbakhsh · [GitHub](https://github.com/Kian-hdr) · [Repository scope](docs/scope.md) · [Licence map](LICENSE.md)
+Kian Tajbakhsh · [GitHub](https://github.com/Kian-hdr) · [Repository scope](docs/project/scope.md) · [Licence map](LICENSE.md)
 
 ## Source basis
 

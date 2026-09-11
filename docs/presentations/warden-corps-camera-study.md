@@ -38,4 +38,4 @@ Motion pixels cast rays into a shared voxel volume. Sparse traversal follows tho
 
 Leon’s presentation expands the project beyond a single camera. Vincent’s classifier asks what appears in one image, while the multi-camera study asks where a consistent object lies in 3D and how its path changes over time. The two remain separate technical studies with distinct evidence.
 
-[Detailed subsystem explanation](../subsystems/multicamera-sensing.md) · [Team contributors](../licensing/contributors-and-rights.md)
+[Detailed subsystem explanation](../subsystems/multicamera-sensing.md) · [Team contributors](../../licensing/contributors-and-rights.md)

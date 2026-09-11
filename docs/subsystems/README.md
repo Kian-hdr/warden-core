@@ -20,4 +20,4 @@ flowchart LR
 
 The tracks remain technically distinct. The public record connects them through documented interfaces and team responsibilities without treating separate experiments as one integrated flight demonstration.
 
-[Verified results](../results/README.md) · [Presentation materials](../presentations/README.md) · [Contributors and rights](../licensing/contributors-and-rights.md)
+[Verified results](../../results/README.md) · [Presentation materials](../presentations/README.md) · [Contributors and rights](../../licensing/contributors-and-rights.md)

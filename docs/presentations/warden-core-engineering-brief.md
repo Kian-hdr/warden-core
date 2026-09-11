@@ -14,17 +14,17 @@ The agent receives a four-frame, 260-value observation history at 50 Hz. Its act
 
 The published policy specification contains the complete dense shaping equation, nine coefficients, clearance barrier, bounded episodic ledger, terminal reward and terminal-dominance proof.
 
-[Open the reward policy](../policies/reward-policy.md)
+[Open the reward policy](../../policies/reward-policy.md)
 
 ## 4. Verified simulator execution
 
 The completed dynamics gate covered 800 cases, 526,800 telemetry records and 400 exact replay pairs. The GPU scale profile measured 15 real-Isaac runs and selected 2,048 parallel environments at 64,094.408 transitions per second.
 
-[Inspect verified results](../results/README.md)
+[Inspect verified results](../../results/README.md)
 
 ## 5. Autonomous corridor demonstration
 
-[![Model-based autonomous corridor flight](../media/posters/corridor-flight.png)](../media/autonomous/corridor-flight.mp4?raw=1)
+[![Model-based autonomous corridor flight](../../media/posters/corridor-flight.png)](../../media/autonomous/corridor-flight.mp4?raw=1)
 
 The 15-second direct Isaac Sim render records 450 frames, 15.485 metres of travel, zero collisions, zero command saturations and zero safety interventions in the recorded scenario.
 
@@ -50,7 +50,7 @@ Leon’s related Warden Corps study models five 4K monochrome cameras, 3-of-5 co
 
 Every public result connects source revision, configuration, runtime identity, telemetry, media and checksum records.
 
-[Run identities](../results/run-identities.md) · [Source records](../results/source-records.md)
+[Run identities](../../results/run-identities.md) · [Source records](../../results/source-records.md)
 
 ## 10. Team and access
 
@@ -61,4 +61,4 @@ Every public result connects source revision, configuration, runtime identity, t
 | Leon | Warden Corps multi-camera sensing study and presentation |
 | [Constantin · Takane0](https://github.com/Takane0) | Physical FPV prototype and electronics integration |
 
-Public software and documentation are available under the repository’s [licensing map](../licensing/README.md). Model weights remain closed source under the [model-access policy](../licensing/model-access.md).
+Public software and documentation are available under the repository’s [licensing map](../../licensing/README.md). Model weights remain closed source under the [model-access policy](../../licensing/model-access.md).

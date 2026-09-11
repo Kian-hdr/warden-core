@@ -40,3 +40,13 @@ These plots are outputs of the retained physics model and presentation package. 
 ## Presentation record
 
 The reviewed public presentation extract is in [Warden Corps camera study](../presentations/warden-corps-camera-study.md). It retains Leon’s contribution and the original technical figures while focusing on sensing geometry, radiometry and multi-view tracking.
+
+## Contribution, package and limits
+
+Leon’s related work includes the sensing-study direction, technical briefing, plots, presentation revisions and business/valuation presentation records. The preserved technical package includes methods, numerical summaries, figures and a separate synthetic tracking prototype. This public chapter documents that work without importing the full private study or its operational planning.
+
+The methods explicitly state that the tracking prototype is **not wired into the camera signal-to-noise calculation**. Therefore the figures, modeled probabilities and synthetic worldlines must not be described as one validated end-to-end system. Equal-range model outputs also do not establish geographic coverage or measured field performance.
+
+The historical valuation and investor decks are presentation work, not verified sales, contracts, funding or deployed capacity. The public presentation is a reviewed extract, not the complete original deck. Leon’s underlying figures retain the [separate rights exclusion](../../licensing/contributors-and-rights.md).
+
+[Team contribution record](../project/team.md) · [Unfinished work](../project/history.md) · [Source catalogue](../../results/source-records.md)

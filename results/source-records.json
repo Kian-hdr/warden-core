@@ -7,8 +7,8 @@
     "sha256": "dc931afd3e9e49412e71794a3b806518b53622d77f74cc61529961256941c77d",
     "form": "adapted explanation, not original specification",
     "destinations": [
-      "docs/development.md",
-      "docs/reproducibility.md",
+      "docs/project/development.md",
+      "docs/project/reproducibility.md",
       "README.md#use-the-workflow-in-your-own-project"
     ]
   },
@@ -21,10 +21,16 @@
     "form": "exact reward equations and coefficients reproduced within an adapted explanation; original specification not reproduced verbatim",
     "destinations": [
       "policies/reward-policy.md",
-      "docs/training.md",
-      "docs/source-coverage.md",
-      "subsystems/isaac-agent.md",
-      "presentations/warden-core-engineering-brief.md"
+      "docs/simulation/training.md",
+      "docs/project/source-coverage.md",
+      "docs/subsystems/isaac-agent.md",
+      "docs/presentations/warden-core-engineering-brief.md",
+      "software/engineering.md",
+      "hardware/engineering.md",
+      "results/README.md",
+      "docs/project/team.md",
+      "docs/project/history.md",
+      "results/team-work.json"
     ]
   },
   {
@@ -35,7 +41,13 @@
     "sha256": "5acc3e49a3fcda08bf0fc6aee50f223784970e520731f6923c7630429bf6a196",
     "form": "adapted explanation, not original specification",
     "destinations": [
-      "hardware/engineering.md"
+      "hardware/engineering.md",
+      "docs/subsystems/isaac-agent.md",
+      "software/engineering.md",
+      "results/README.md",
+      "docs/project/team.md",
+      "docs/project/history.md",
+      "results/team-work.json"
     ]
   },
   {
@@ -46,7 +58,7 @@
     "sha256": "24a0606beab319952e9df1dcd02e207e607b496f2a4646c14dbddf55f61b9533",
     "form": "adapted explanation, not original specification",
     "destinations": [
-      "docs/development.md"
+      "docs/project/development.md"
     ]
   },
   {
@@ -80,9 +92,9 @@
     "form": "adapted explanation, not original specification",
     "destinations": [
       "README.md",
-      "docs/overview.md",
-      "docs/simulation.md",
-      "docs/perception.md"
+      "docs/project/overview.md",
+      "docs/simulation/simulation.md",
+      "docs/perception/README.md"
     ]
   },
   {
@@ -93,8 +105,8 @@
     "sha256": "b380d376d71e9e45d26f39da1a172ea1a3eb76bfa2d8bc34a4017de91f35d0bb",
     "form": "adapted explanation, not original specification",
     "destinations": [
-      "docs/overview.md",
-      "docs/source-coverage.md"
+      "docs/project/overview.md",
+      "docs/project/source-coverage.md"
     ]
   },
   {
@@ -105,11 +117,11 @@
     "sha256": "a29b58675d676f443315cedbb62b711188ad5a944ba9479c29b6d58f79e002aa",
     "form": "adapted explanation, not original specification",
     "destinations": [
-      "docs/simulation.md",
-      "docs/visual-walkthrough.md",
-      "docs/reproducibility.md",
-      "subsystems/isaac-agent.md",
-      "presentations/warden-core-engineering-brief.md"
+      "docs/simulation/simulation.md",
+      "docs/media/README.md",
+      "docs/project/reproducibility.md",
+      "docs/subsystems/isaac-agent.md",
+      "docs/presentations/warden-core-engineering-brief.md"
     ]
   },
   {
@@ -120,10 +132,14 @@
     "sha256": "33c6ebc616082558504d3eee0b8fff6578263f5bcfa2ece538eb82a8f8be578f",
     "form": "adapted explanation, not original specification",
     "destinations": [
-      "docs/perception.md",
-      "docs/dataset.md",
-      "subsystems/computer-vision.md",
-      "presentations/warden-core-engineering-brief.md"
+      "docs/perception/README.md",
+      "docs/perception/dataset.md",
+      "docs/subsystems/computer-vision.md",
+      "docs/presentations/warden-core-engineering-brief.md",
+      "docs/perception/experiments.md",
+      "docs/project/team.md",
+      "docs/project/history.md",
+      "results/team-work.json"
     ]
   },
   {
@@ -134,11 +150,15 @@
     "sha256": "9a6d109e0763d435218f5b625ca52f985d3e66591bec4da64df0781990359bc3",
     "form": "adapted explanation, not original specification",
     "destinations": [
-      "docs/overview.md",
-      "docs/visual-walkthrough.md",
+      "docs/project/overview.md",
+      "docs/media/README.md",
       "hardware/engineering.md",
-      "subsystems/hardware-integration.md",
-      "presentations/warden-core-engineering-brief.md"
+      "docs/subsystems/hardware-integration.md",
+      "docs/presentations/warden-core-engineering-brief.md",
+      "media/physical/README.md",
+      "docs/project/team.md",
+      "docs/project/history.md",
+      "results/team-work.json"
     ]
   },
   {
@@ -150,8 +170,8 @@
     "form": "adapted explanation, not original specification",
     "destinations": [
       "hardware/engineering.md",
-      "docs/visual-walkthrough.md",
-      "subsystems/hardware-integration.md"
+      "docs/media/README.md",
+      "docs/subsystems/hardware-integration.md"
     ]
   },
   {
@@ -162,11 +182,11 @@
     "sha256": "bda58e45413dcd2f9556fbcc71622b5d51c094b586f12c2d382807279d20adf0",
     "form": "adapted explanation, not original specification",
     "destinations": [
-      "docs/overview.md",
-      "docs/simulation.md",
+      "docs/project/overview.md",
+      "docs/simulation/simulation.md",
       "software/engineering.md",
-      "subsystems/isaac-agent.md",
-      "presentations/warden-core-engineering-brief.md"
+      "docs/subsystems/isaac-agent.md",
+      "docs/presentations/warden-core-engineering-brief.md"
     ]
   },
   {
@@ -178,7 +198,7 @@
     "form": "adapted explanation, not original specification",
     "destinations": [
       "software/engineering.md",
-      "docs/reproducibility.md"
+      "docs/project/reproducibility.md"
     ]
   },
   {
@@ -189,9 +209,9 @@
     "sha256": "b7cc93dc52ee4b988813d29429660ac58e86815b51db25077a07a319c4c5679f",
     "form": "adapted explanation, not original specification",
     "destinations": [
-      "docs/training.md",
-      "docs/reproducibility.md",
-      "docs/source-coverage.md"
+      "docs/simulation/training.md",
+      "docs/project/reproducibility.md",
+      "docs/project/source-coverage.md"
     ]
   },
   {
@@ -202,9 +222,13 @@
     "sha256": "1e119f1f2adaa880d81a62de3daea834dff74956729176f382f8d54eedea91c0",
     "form": "adapted explanation, not original specification",
     "destinations": [
-      "docs/perception.md",
-      "docs/dataset.md",
-      "subsystems/computer-vision.md"
+      "docs/perception/README.md",
+      "docs/perception/dataset.md",
+      "docs/subsystems/computer-vision.md",
+      "docs/perception/experiments.md",
+      "docs/project/team.md",
+      "docs/project/history.md",
+      "results/team-work.json"
     ]
   },
   {
@@ -215,8 +239,8 @@
     "sha256": "e16fed035019bea6f4b06f053573918b527f8ba35aeb2afe8e49c0e5b1db719f",
     "form": "adapted explanation, not original specification",
     "destinations": [
-      "docs/sources.md",
-      "docs/simulation.md"
+      "docs/project/sources.md",
+      "docs/simulation/simulation.md"
     ]
   },
   {
@@ -227,8 +251,8 @@
     "sha256": "f270c03fe3dd82e0c2f95f29b0cc5b16d5d7937cf6d88aa0089b1c895f041b9f",
     "form": "adapted explanation, not original specification",
     "destinations": [
-      "docs/sources.md",
-      "docs/simulation.md"
+      "docs/project/sources.md",
+      "docs/simulation/simulation.md"
     ]
   },
   {
@@ -240,7 +264,7 @@
     "form": "adapted explanation, not original specification",
     "destinations": [
       "policies/reward-policy.md",
-      "docs/training.md"
+      "docs/simulation/training.md"
     ]
   },
   {
@@ -251,9 +275,9 @@
     "sha256": "2ac8929fadd5a258deee4da493fd90cab7d2fa26ef7e455ecccf37f6b9c2f84a",
     "form": "adapted explanation, not original specification",
     "destinations": [
-      "docs/overview.md",
-      "docs/training.md",
-      "docs/visual-walkthrough.md"
+      "docs/project/overview.md",
+      "docs/simulation/training.md",
+      "docs/media/README.md"
     ]
   },
   {
@@ -264,8 +288,8 @@
     "sha256": "4da515e6cd7609461f77fa37bad95dadaa1320142b8c51ca3c78843cdff4c7d2",
     "form": "adapted explanation, not original specification",
     "destinations": [
-      "docs/overview.md",
-      "docs/scope.md"
+      "docs/project/overview.md",
+      "docs/project/scope.md"
     ]
   },
   {
@@ -276,8 +300,8 @@
     "sha256": "07bb61e2f94ed1eb78b45e4456cc8fc5e188efbdb9aece716ae38146054524c1",
     "form": "adapted explanation, not original specification",
     "destinations": [
-      "docs/overview.md",
-      "docs/source-coverage.md"
+      "docs/project/overview.md",
+      "docs/project/source-coverage.md"
     ]
   },
   {
@@ -288,8 +312,8 @@
     "sha256": "c2f30479f2d3d7ddeaeb8866a29ee8a1ba603260a777cc15a503f379430f2953",
     "form": "adapted explanation, not original specification",
     "destinations": [
-      "docs/simulation.md",
-      "docs/reproducibility.md"
+      "docs/simulation/simulation.md",
+      "docs/project/reproducibility.md"
     ]
   },
   {
@@ -300,7 +324,7 @@
     "sha256": "14c2804ed026ccc3c4fd389ca7c450c276263d66ab363602882418bf2808b706",
     "form": "adapted explanation, not original specification",
     "destinations": [
-      "docs/simulation.md",
+      "docs/simulation/simulation.md",
       "README.md#use-the-workflow-in-your-own-project"
     ]
   },
@@ -312,8 +336,8 @@
     "sha256": "0e8ca16669e1261d98a420913fa2b05d8d95ecb6c14c8abca3f9472d770ecccc",
     "form": "adapted explanation, not original specification",
     "destinations": [
-      "docs/simulation.md",
-      "docs/reproducibility.md"
+      "docs/simulation/simulation.md",
+      "docs/project/reproducibility.md"
     ]
   },
   {
@@ -325,7 +349,7 @@
     "form": "adapted explanation, not original specification",
     "destinations": [
       "hardware/engineering.md",
-      "docs/visual-walkthrough.md"
+      "docs/media/README.md"
     ]
   },
   {
@@ -336,8 +360,8 @@
     "sha256": "7c10fc8561ceacf2829596da3c3a27c5be74cf8b68c31829b2b065dad7432e55",
     "form": "adapted explanation, not original specification",
     "destinations": [
-      "docs/development.md",
-      "docs/visual-walkthrough.md"
+      "docs/project/development.md",
+      "docs/media/README.md"
     ]
   },
   {
@@ -348,9 +372,9 @@
     "sha256": "3bcae7cf2b24afe394be43b43c0d6525ce15801fd18b5be5caf1cf2321fff605",
     "form": "adapted explanation, not original specification",
     "destinations": [
-      "docs/development.md",
-      "docs/visual-walkthrough.md",
-      "docs/source-coverage.md"
+      "docs/project/development.md",
+      "docs/media/README.md",
+      "docs/project/source-coverage.md"
     ]
   },
   {
@@ -361,9 +385,9 @@
     "sha256": "b6b51ab5f194c2ad905f02ce8e3d596a9f9d174279f9ad895931bc8fb2beab6e",
     "form": "adapted explanation, not original specification",
     "destinations": [
-      "docs/development.md",
-      "docs/training.md",
-      "docs/reproducibility.md"
+      "docs/project/development.md",
+      "docs/simulation/training.md",
+      "docs/project/reproducibility.md"
     ]
   },
   {
@@ -374,8 +398,8 @@
     "sha256": "2ef3c78df57cf902d5c06f446e54377d7127c56e04e1eefcc74359e58c896c6d",
     "form": "adapted explanation, not original specification",
     "destinations": [
-      "docs/scope.md",
-      "docs/overview.md"
+      "docs/project/scope.md",
+      "docs/project/overview.md"
     ]
   },
   {
@@ -386,9 +410,9 @@
     "sha256": "1a41e89cdcae48f5c1563672b82cdc9a81a581ca0cdd197111e82c4384b80cda",
     "form": "adapted explanation, not original specification",
     "destinations": [
-      "docs/development.md",
-      "docs/reproducibility.md",
-      "docs/source-coverage.md"
+      "docs/project/development.md",
+      "docs/project/reproducibility.md",
+      "docs/project/source-coverage.md"
     ]
   },
   {
@@ -399,7 +423,7 @@
     "sha256": "ea555e44bfe3ee8593179ba4d4918da08480c7902b9c8166c408f666740aadbc",
     "form": "adapted explanation, not original specification",
     "destinations": [
-      "docs/sources.md",
+      "docs/project/sources.md",
       "policies/reward-policy.md"
     ]
   },
@@ -411,9 +435,9 @@
     "sha256": "77b4466b292623b6979a294fac198f3fe9ff8edd43d7d69d78f7e6ab23fc33a2",
     "form": "adapted explanation, not original specification",
     "destinations": [
-      "docs/visual-walkthrough.md",
-      "docs/training.md",
-      "docs/reproducibility.md"
+      "docs/media/README.md",
+      "docs/simulation/training.md",
+      "docs/project/reproducibility.md"
     ]
   },
   {
@@ -424,8 +448,8 @@
     "sha256": "1acacf4b629d22aa7cbf1c8b09426090df98cc9d27c9d9cf2ac3bfb6338ae7f3",
     "form": "adapted explanation, not original specification",
     "destinations": [
-      "docs/development.md",
-      "docs/overview.md"
+      "docs/project/development.md",
+      "docs/project/overview.md"
     ]
   },
   {
@@ -436,7 +460,7 @@
     "sha256": "6e9d7c89b8ec83e99e3c7b084852ee2465ea6aa302e49833911513f378114ca5",
     "form": "adapted explanation, not original specification",
     "destinations": [
-      "docs/simulation.md",
+      "docs/simulation/simulation.md",
       "software/engineering.md"
     ]
   },
@@ -448,8 +472,8 @@
     "sha256": "ed8a1f66cfa55ba018ae46903c95d3f64113c48115c22b8c870f201c59614687",
     "form": "adapted explanation, not original specification",
     "destinations": [
-      "docs/development.md",
-      "docs/overview.md"
+      "docs/project/development.md",
+      "docs/project/overview.md"
     ]
   },
   {
@@ -460,8 +484,8 @@
     "sha256": "cad393783291e1e8940e38c0834d1f3f92f7908534af8a05a2a2078d5ff03a74",
     "form": "adapted explanation, not original specification",
     "destinations": [
-      "docs/overview.md",
-      "docs/development.md"
+      "docs/project/overview.md",
+      "docs/project/development.md"
     ]
   },
   {
@@ -472,8 +496,8 @@
     "sha256": "44e6dacc43377d92dd1a3d0903904f4ab31d46cd89e8c024a28c7cda811058cd",
     "form": "adapted explanation, not original specification",
     "destinations": [
-      "docs/simulation.md",
-      "docs/development.md"
+      "docs/simulation/simulation.md",
+      "docs/project/development.md"
     ]
   },
   {
@@ -484,8 +508,8 @@
     "sha256": "5dc595a1952a872cae19b44b96b5e3335d05d4707d187a6ac5030fd1c7f0487a",
     "form": "adapted explanation, not original specification",
     "destinations": [
-      "docs/development.md",
-      "docs/overview.md"
+      "docs/project/development.md",
+      "docs/project/overview.md"
     ]
   },
   {
@@ -496,9 +520,9 @@
     "sha256": "2a4443a678888f7131b9330a37fd3e9a5d470ce925ab256824e420395fad0d79",
     "form": "adapted explanation, not original specification",
     "destinations": [
-      "docs/scope.md",
-      "docs/reproducibility.md",
-      "docs/source-coverage.md"
+      "docs/project/scope.md",
+      "docs/project/reproducibility.md",
+      "docs/project/source-coverage.md"
     ]
   },
   {
@@ -520,7 +544,7 @@
     "sha256": "cbc68987e114423055d763cee8cd70f7cba3fc0f2460b0a53b882b39c8be2e49",
     "form": "adapted explanation, not original specification",
     "destinations": [
-      "docs/development.md"
+      "docs/project/development.md"
     ]
   },
   {
@@ -531,7 +555,7 @@
     "sha256": "7296e474d1c2fc9201438a36984d39d77821c557bb1f8be2972fd08c7a5d2c5c",
     "form": "adapted explanation, not original specification",
     "destinations": [
-      "docs/simulation.md"
+      "docs/simulation/simulation.md"
     ]
   },
   {
@@ -542,8 +566,8 @@
     "sha256": "2acde63c57ca25e1a780674bd94713f12f3c5aa85eb1466b948abe8725fb28bd",
     "form": "adapted explanation, not original specification",
     "destinations": [
-      "docs/perception.md",
-      "docs/dataset.md"
+      "docs/perception/README.md",
+      "docs/perception/dataset.md"
     ]
   },
   {
@@ -554,7 +578,7 @@
     "sha256": "6ebafc7884ffa0cb5a95e69524a6dd1a9a670cd54044da62645ef343d43c76fa",
     "form": "adapted explanation, not original specification",
     "destinations": [
-      "docs/training.md"
+      "docs/simulation/training.md"
     ]
   },
   {
@@ -565,8 +589,8 @@
     "sha256": "6a80c1027458389fb3af49caa64dcb48488fe9822dbc0c166e8182515ff20958",
     "form": "adapted explanation, not original specification",
     "destinations": [
-      "docs/reproducibility.md",
-      "docs/artifact-lineage.md"
+      "docs/project/reproducibility.md",
+      "docs/simulation/artifact-lineage.md"
     ]
   },
   {
@@ -600,7 +624,7 @@
     "form": "adapted explanation, not original specification",
     "destinations": [
       "software/engineering.md",
-      "docs/artifact-lineage.md"
+      "docs/simulation/artifact-lineage.md"
     ]
   },
   {
@@ -611,7 +635,7 @@
     "sha256": "79ae71a5d0af270508541e416483193ae05423eec2882874ec6b59fcd209f516",
     "form": "adapted explanation, not original specification",
     "destinations": [
-      "docs/simulation.md"
+      "docs/simulation/simulation.md"
     ]
   },
   {
@@ -622,7 +646,7 @@
     "sha256": "62c65f4f31a6b20a8ff5775a2eebb084aa055385a1b7470b353143b1a2afbb24",
     "form": "adapted explanation, not original specification",
     "destinations": [
-      "docs/simulation.md"
+      "docs/simulation/simulation.md"
     ]
   },
   {
@@ -677,7 +701,7 @@
     "sha256": "72eec44cd612695477ceecb4a4355ae7f6bb208d10116fd9dc65011c9ab1fd3f",
     "form": "adapted explanation, not original specification",
     "destinations": [
-      "docs/training.md"
+      "docs/simulation/training.md"
     ]
   },
   {
@@ -853,7 +877,7 @@
     "sha256": "c5ef6c3a4637a2eacd12793ab3191d735bba790acde66b66c86242cd19360f01",
     "form": "adapted explanation, not original specification",
     "destinations": [
-      "docs/reproducibility.md"
+      "docs/project/reproducibility.md"
     ]
   },
   {
@@ -875,8 +899,8 @@
     "sha256": "9af4249067e8cc3547b19d033a34a78ad36318e61b24d7a6ac2de18885dc6f43",
     "form": "adapted explanation, not original specification",
     "destinations": [
-      "docs/simulation.md",
-      "docs/reproducibility.md"
+      "docs/simulation/simulation.md",
+      "docs/project/reproducibility.md"
     ]
   },
   {
@@ -887,8 +911,15 @@
     "sha256": "a3142c8a4795839a6aacce1cee65e5979fa69a216e292864a439489e47a02887",
     "form": "adapted explanation, not original specification",
     "destinations": [
-      "docs/training.md",
-      "docs/artifact-lineage.md"
+      "docs/simulation/training.md",
+      "docs/simulation/artifact-lineage.md",
+      "docs/subsystems/isaac-agent.md",
+      "software/engineering.md",
+      "hardware/engineering.md",
+      "results/README.md",
+      "docs/project/team.md",
+      "docs/project/history.md",
+      "results/team-work.json"
     ]
   },
   {
@@ -910,7 +941,7 @@
     "sha256": "fe9517226a5a7cca5355a2e67eac9a174e0c7fc8cac3d3808f08d7a98309ef7c",
     "form": "adapted explanation, not original specification",
     "destinations": [
-      "docs/reproducibility.md"
+      "docs/project/reproducibility.md"
     ]
   },
   {
@@ -921,7 +952,7 @@
     "sha256": "3c0035b3408de2a1736c6afaa41eda710e350fe584eee3e0994fbd485ff46282",
     "form": "adapted explanation, not original specification",
     "destinations": [
-      "docs/reproducibility.md"
+      "docs/project/reproducibility.md"
     ]
   },
   {
@@ -932,7 +963,7 @@
     "sha256": "dbf03a5ff56b9bff0d92fdc7d2f9ddafe73b0d034187846e79e2d18663980af5",
     "form": "adapted explanation, not original specification",
     "destinations": [
-      "docs/reproducibility.md"
+      "docs/project/reproducibility.md"
     ]
   },
   {
@@ -943,7 +974,7 @@
     "sha256": "677d3e4460e23616a9e6ba75cf6f4c438ab5397085b5fadcacdd7c61e3cd5c60",
     "form": "adapted explanation, not original specification",
     "destinations": [
-      "docs/reproducibility.md"
+      "docs/project/reproducibility.md"
     ]
   },
   {
@@ -954,7 +985,7 @@
     "sha256": "3cd88fde3b4401bdac5171a49998b7c426a88e009aa539d916cecfccd3f7015b",
     "form": "adapted explanation, not original specification",
     "destinations": [
-      "docs/development.md"
+      "docs/project/development.md"
     ]
   },
   {
@@ -965,7 +996,7 @@
     "sha256": "34818a1ba677dfb536bf4ca94eb0e15ff67c981a0fef67066ecc558880d3e9ed",
     "form": "adapted explanation, not original specification",
     "destinations": [
-      "docs/development.md"
+      "docs/project/development.md"
     ]
   },
   {
@@ -976,7 +1007,7 @@
     "sha256": "6be5bdf895a2f067dc10b41fae8ebf529de69c1284acf40f61799a1257e7f11b",
     "form": "adapted explanation, not original specification",
     "destinations": [
-      "docs/reproducibility.md"
+      "docs/project/reproducibility.md"
     ]
   },
   {
@@ -998,8 +1029,8 @@
     "sha256": "6ca06059d75dabf483e3af82c50ed513db0c40f3793f1582ad3edeb28cf35df4",
     "form": "adapted explanation, not original specification",
     "destinations": [
-      "docs/source-coverage.md",
-      "docs/sources.md"
+      "docs/project/source-coverage.md",
+      "docs/project/sources.md"
     ]
   },
   {
@@ -1043,7 +1074,7 @@
     "sha256": "6a0e15169e375900ba71ad1a0cf5b850b45e5f17614e3505ec8d8b5612962c29",
     "form": "adapted explanation, not original specification",
     "destinations": [
-      "docs/simulation.md"
+      "docs/simulation/simulation.md"
     ]
   },
   {
@@ -1054,8 +1085,8 @@
     "sha256": "9cfcb309e2d80905454d38eb61d960f1de455bbee71fce8d12e2f4814bceae83",
     "form": "adapted explanation, not original specification",
     "destinations": [
-      "docs/training.md",
-      "docs/artifact-lineage.md"
+      "docs/simulation/training.md",
+      "docs/simulation/artifact-lineage.md"
     ]
   },
   {
@@ -1066,8 +1097,8 @@
     "sha256": "1fb8db94b780e2c80472b45d73cdafa4c10fa46c62118d660ab018dbc2db914d",
     "form": "adapted explanation, not original specification",
     "destinations": [
-      "docs/training.md",
-      "docs/artifact-lineage.md"
+      "docs/simulation/training.md",
+      "docs/simulation/artifact-lineage.md"
     ]
   },
   {
@@ -1078,8 +1109,8 @@
     "sha256": "26eda6ee80d56eae091d2505e512d11871aaec08b2fc184c9a1881b254ea2cd4",
     "form": "adapted explanation, not original specification",
     "destinations": [
-      "docs/reproducibility.md",
-      "docs/artifact-lineage.md"
+      "docs/project/reproducibility.md",
+      "docs/simulation/artifact-lineage.md"
     ]
   },
   {
@@ -1090,8 +1121,8 @@
     "sha256": "cc543fa8d7559535a45dbd4c5fbba890863b0624e57e41a2b1f309096847bddc",
     "form": "adapted explanation, not original specification",
     "destinations": [
-      "docs/perception.md",
-      "docs/dataset.md"
+      "docs/perception/README.md",
+      "docs/perception/dataset.md"
     ]
   },
   {
@@ -1102,7 +1133,7 @@
     "sha256": "b7c1b85a96178d85ea7e7b0af819ee734c89662f021463fc97b0b8803eadb72b",
     "form": "adapted explanation, not original specification",
     "destinations": [
-      "docs/simulation.md"
+      "docs/simulation/simulation.md"
     ]
   },
   {
@@ -1114,7 +1145,7 @@
     "form": "adapted explanation, not original specification",
     "destinations": [
       "software/engineering.md",
-      "docs/artifact-lineage.md"
+      "docs/simulation/artifact-lineage.md"
     ]
   },
   {
@@ -1169,7 +1200,7 @@
     "sha256": "e59f7c5c83bcea3b7d6a2a71a33c7c07fc35288fda7733f9ec8bbe50156f99a3",
     "form": "adapted explanation, not original specification",
     "destinations": [
-      "docs/training.md"
+      "docs/simulation/training.md"
     ]
   },
   {
@@ -1180,7 +1211,7 @@
     "sha256": "13ecb8518c4ae5942ff8a67ad5a76cb71e05f1496248101be95a7c454978b50b",
     "form": "adapted explanation, not original specification",
     "destinations": [
-      "docs/visual-walkthrough.md"
+      "docs/media/README.md"
     ]
   },
   {
@@ -1191,7 +1222,7 @@
     "sha256": "5d1e07ee7675adaff41f5d18313599e24eb367b69e8f904b66d2aad0506f01d1",
     "form": "adapted explanation, not original specification",
     "destinations": [
-      "docs/development.md"
+      "docs/project/development.md"
     ]
   },
   {
@@ -1202,7 +1233,7 @@
     "sha256": "9aca5c2bbbd8a284ee182f2eb19d68855635af1abfec72c0ff367b7b3267056d",
     "form": "adapted explanation, not original specification",
     "destinations": [
-      "docs/development.md"
+      "docs/project/development.md"
     ]
   },
   {
@@ -1213,7 +1244,7 @@
     "sha256": "d184ba5bdcfa70f1539ca2871d700f5982d60ba4eef90bed8ae4819a6d06b128",
     "form": "adapted explanation, not original specification",
     "destinations": [
-      "docs/development.md"
+      "docs/project/development.md"
     ]
   },
   {
@@ -1224,7 +1255,7 @@
     "sha256": "2bf4d3807f697cd1fad9634aa5586585a0a21e2f7a2f89f889731d5700087954",
     "form": "adapted explanation, not original specification",
     "destinations": [
-      "docs/development.md"
+      "docs/project/development.md"
     ]
   },
   {
@@ -1246,9 +1277,9 @@
     "sha256": "98730fa5ce20ab1123e505fe63378fcf043e7cc4f2d5c98664681eeae429e947",
     "form": "adapted explanation, not original specification",
     "destinations": [
-      "docs/perception.md",
-      "docs/dataset.md",
-      "subsystems/computer-vision.md"
+      "docs/perception/README.md",
+      "docs/perception/dataset.md",
+      "docs/subsystems/computer-vision.md"
     ]
   },
   {
@@ -1259,9 +1290,9 @@
     "sha256": "fffbeee0aa0738c120b5736e3008a6102b203aa471a0ad87489be9e81d47bcd3",
     "form": "adapted explanation, not original specification",
     "destinations": [
-      "docs/visual-walkthrough.md",
-      "docs/reproducibility.md",
-      "docs/source-coverage.md"
+      "docs/media/README.md",
+      "docs/project/reproducibility.md",
+      "docs/project/source-coverage.md"
     ]
   },
   {
@@ -1272,9 +1303,9 @@
     "sha256": "1c37fcfc0cd46846c966906b460ae9759fecc9fc4f0b49d28a7b2047f38aecca",
     "form": "adapted explanation, not original specification",
     "destinations": [
-      "docs/simulation.md",
-      "docs/training.md",
-      "docs/visual-walkthrough.md"
+      "docs/simulation/simulation.md",
+      "docs/simulation/training.md",
+      "docs/media/README.md"
     ]
   },
   {
@@ -1285,8 +1316,8 @@
     "sha256": "6149bb9998d9a26adff142d43b9206fb37170fdcae28177704482b9bf0fc59a6",
     "form": "adapted explanation, not original specification",
     "destinations": [
-      "docs/reproducibility.md",
-      "docs/source-coverage.md"
+      "docs/project/reproducibility.md",
+      "docs/project/source-coverage.md"
     ]
   },
   {
@@ -1297,8 +1328,8 @@
     "sha256": "ad4788e496c70193c2826832fd1aeece850dd2b7be52d14a09aafb259ed819ba",
     "form": "adapted explanation, not original specification",
     "destinations": [
-      "docs/reproducibility.md",
-      "docs/training.md"
+      "docs/project/reproducibility.md",
+      "docs/simulation/training.md"
     ]
   },
   {
@@ -1309,8 +1340,8 @@
     "sha256": "19b5ad514b6eba896c5ec39896bb53bdb7ec6488df9049fa856168a10904eec3",
     "form": "adapted explanation, not original specification",
     "destinations": [
-      "docs/perception.md",
-      "docs/dataset.md"
+      "docs/perception/README.md",
+      "docs/perception/dataset.md"
     ]
   },
   {
@@ -1321,9 +1352,12 @@
     "sha256": "74ca4f2ab41c39b8a12df052868c083fcaa8428b408f0f693547e2b27fc380af",
     "form": "adapted public subsystem and presentation explanation",
     "destinations": [
-      "subsystems/multicamera-sensing.md",
-      "presentations/warden-corps-camera-study.md",
-      "presentations/README.md"
+      "docs/subsystems/multicamera-sensing.md",
+      "docs/presentations/warden-corps-camera-study.md",
+      "docs/presentations/README.md",
+      "docs/project/team.md",
+      "docs/project/history.md",
+      "results/team-work.json"
     ]
   },
   {
@@ -1334,8 +1368,11 @@
     "sha256": "c649b441d8357608c97b92125866c25d850e24185f0e18866ba350976d41fd95",
     "form": "adapted public sensing-method explanation",
     "destinations": [
-      "subsystems/multicamera-sensing.md",
-      "presentations/warden-corps-camera-study.md"
+      "docs/subsystems/multicamera-sensing.md",
+      "docs/presentations/warden-corps-camera-study.md",
+      "docs/project/team.md",
+      "docs/project/history.md",
+      "results/team-work.json"
     ]
   },
   {
@@ -1346,9 +1383,27 @@
     "sha256": "0a0d0de51abb04a38adf3233a4ad258df057d84f2a2962176407915c98565428",
     "form": "adapted public project-boundary and presentation explanation",
     "destinations": [
-      "subsystems/multicamera-sensing.md",
-      "presentations/warden-corps-camera-study.md",
-      "licensing/contributors-and-rights.md"
+      "docs/subsystems/multicamera-sensing.md",
+      "docs/presentations/warden-corps-camera-study.md",
+      "licensing/contributors-and-rights.md",
+      "docs/project/team.md",
+      "docs/project/history.md",
+      "results/team-work.json"
+    ]
+  },
+  {
+    "id": "DOC-c984e6873958",
+    "title": "Warden Corps historical study and presentation status",
+    "source_date": "2026-09-03",
+    "date_basis": "frontmatter updated or checked; historical source record",
+    "sha256": "c984e6873958cabbffb84dc044816fb57d070bd9ee3181b1c2e33d93f185ce53",
+    "form": "adapted contribution/evidence history only; original not distributed",
+    "destinations": [
+      "docs/subsystems/multicamera-sensing.md",
+      "docs/presentations/warden-corps-camera-study.md",
+      "docs/project/team.md",
+      "docs/project/history.md",
+      "results/team-work.json"
     ]
   }
 ]

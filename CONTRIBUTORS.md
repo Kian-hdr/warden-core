@@ -1,3 +1,5 @@
-# Contributors and rights moved
+# Contributors
 
-The canonical contributor and rights statement is now in [`licensing/contributors-and-rights.md`](licensing/contributors-and-rights.md).
+Kian Tajbakhsh, Vincent, Leon and Konstantin (Constantin in earlier records).
+
+[Team contributions and evidence](docs/project/team.md) records each person’s work, outputs and remaining gaps. [Contributor rights and exclusions](licensing/contributors-and-rights.md) governs reuse. Attribution does not transfer ownership.

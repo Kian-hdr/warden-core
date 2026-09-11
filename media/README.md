@@ -68,6 +68,6 @@ Both videos are compressed viewing copies of retained project renders. No third-
 
 [Watch the supplied hover recording](physical/prototype-hover.mp4?raw=1). The airframe is visibly airborne and demonstrates the assembled physical prototype in flight. The public copy retains the full visual duration; the full original remains in the project library.
 
-[More images with engineering explanations](../docs/visual-walkthrough.md).
+[More images with engineering explanations](../docs/media/README.md).
 
 [Complete flight-media provenance and measurements](provenance.md).

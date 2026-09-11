@@ -25,8 +25,8 @@ The full private archive is retained separately. This repository publishes a sco
 
 Product names identify tools used. They do not imply endorsement, sponsorship or a partnership. Upstream software, assets and datasets retain their own terms; no blanket license over them is granted here.
 
-Simulation media attribution and the retained upstream licence notices are in [media credits](../third_party/README.md).
+Simulation media attribution and the retained upstream licence notices are in [media credits](../../third_party/README.md).
 
 ## Source basis
 
-The [source records for this chapter](../results/source-records.md#chapter-docs-sources-md) identify the archived versions used in this public explanation.
+The [source records for this chapter](../../results/source-records.md#chapter-docs-sources-md) identify the archived versions used in this public explanation.

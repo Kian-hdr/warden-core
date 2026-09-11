@@ -189,7 +189,7 @@ This distinction mattered in the retained project history: checkpoint artifacts 
 
 The transferable contribution is the discipline of making each claim traceable: define the outcome, explain the score, test failure paths, freeze the candidate, retain the evidence and state what the result actually supports.
 
-This is a newly written public adaptation of the archived design records. It reproduces the recorded reward equations and coefficients above, but does not reproduce aircraft-control interfaces, course-generation implementation, pursuit/interception logic, or vehicle-operation instructions. [Source coverage](../docs/source-coverage.md) identifies the publication forms.
+This is a newly written public adaptation of the archived design records. It reproduces the recorded reward equations and coefficients above, but does not reproduce aircraft-control interfaces, course-generation implementation, pursuit/interception logic, or vehicle-operation instructions. [Source coverage](../docs/project/source-coverage.md) identifies the publication forms.
 
 ## Source basis
 

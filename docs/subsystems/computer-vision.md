@@ -31,12 +31,14 @@ Freezing the backbone separates the pretrained visual representation from the pr
 
 The public baseline record identifies seed `1337`, a validation-selected checkpoint and a held-out evaluation of 64 images. The recorded score is 0.891 accuracy and 0.863 macro-F1. Class-level analysis, confusion records and data-partition identities remain associated with the experiment.
 
-The runtime contract can return a supported class or `unknown` using configured confidence and temporal-consistency rules. Camera, model or inference availability also has a defined fail-safe state. Those behaviors keep uncertain inputs explicit.
+The dated baseline records confidence-based abstention and fail-safe `unknown` for missing model or unreadable image conditions. Temporal consistency across video frames was explicitly not implemented and remained roadmap work. `unknown` is abstention, not a trained class.
+
+[The two dated experiments](../perception/experiments.md) preserve the earlier and later results separately, with their split-quality and preservation limitations.
 
 ## Relationship to the other subsystems
 
 The perception baseline is an offline supervised experiment. It has its own data, training and evaluation history and is documented separately from the Isaac policy and physical controller work.
 
-[Detailed perception record](../docs/perception.md) · [Dataset record](../docs/dataset.md) · [Verified results](../results/README.md)
+[Detailed perception record](../perception/README.md) · [Dataset record](../perception/dataset.md) · [Verified results](../../results/README.md)
 
-Vincent’s underlying dataset, embeddings, checkpoint and model code are not distributed here. They remain outside the public licence grants and closed-source model policy.
+Vincent’s underlying dataset, embeddings, checkpoint and model code are not distributed here. They are excluded from the public licence grants; this repository grants no access or rights to Vincent’s underlying work. Model artifacts remain confidential; see the [model-access policy](../../licensing/model-access.md).

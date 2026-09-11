@@ -86,7 +86,7 @@ The tests exercise causal ordering, strict booleans, duplicate timestamps, malfo
 
 To inspect or extend the implementation, start with the [software usage guide](README.md), [shared validators](src/warden_observability/validation.py), and [tests](tests/). Keep a new instrumented producer small: emit the documented timing records, preserve invalid outcomes, and record the context needed to interpret the timestamps later.
 
-For the surrounding source/configuration/checkpoint packaging workflow, see [Experiment artifacts](../docs/artifact-lineage.md). The archived Pi4 measurement profile is separate from the Pi Zero2W host named in later commissioning records; the latter is not a deployment result for this standalone package.
+For the surrounding source/configuration/checkpoint packaging workflow, see [Experiment artifacts](../docs/simulation/artifact-lineage.md). The archived Pi4 measurement profile is separate from the Pi Zero2W host named in later commissioning records; the latter is not a deployment result for this standalone package.
 
 ## Interface-design records
 

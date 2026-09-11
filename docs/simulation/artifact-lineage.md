@@ -1,6 +1,6 @@
 # From an experiment to a reviewable result
 
-Our development work produced more than checkpoints and videos. We built the surrounding records and tools needed to identify which source, configuration and recorded run produced an artifact. The public [pipeline evidence toolkit](../software/README.md) is one usable part of that work. The wider archive also contains experiment packaging and media-review tooling.
+Our development work produced more than checkpoints and videos. We built the surrounding records and tools needed to identify which source, configuration and recorded run produced an artifact. The public [pipeline evidence toolkit](../../software/README.md) is one usable part of that work. The wider archive also contains experiment packaging and media-review tooling.
 
 ## Give each boundary a clear contract
 
@@ -8,7 +8,7 @@ A robotics project joins components that run at different rates and use differen
 
 The original project documented this interface discipline in Python dataclasses and portable JSON schemas. Changing a field’s meaning, units or requiredness was treated as an interface change. A familiar field name is insufficient if two components disagree about its interpretation.
 
-The published toolkit applies the same approach to timestamps and recorded pipeline events. A parser checks input structure before the assessor calculates timing metrics. The [software walkthrough](../software/engineering.md) explains how strict types, causal ordering and stream coverage are handled in the implementation. Those checks make a malformed capture distinguishable from a well-formed capture that does not meet its declared measurement conditions.
+The published toolkit applies the same approach to timestamps and recorded pipeline events. A parser checks input structure before the assessor calculates timing metrics. The [software walkthrough](../../software/engineering.md) explains how strict types, causal ordering and stream coverage are handled in the implementation. Those checks make a malformed capture distinguishable from a well-formed capture that does not meet its declared measurement conditions.
 
 ## Preserve the links between artifacts
 
@@ -46,8 +46,8 @@ The project’s media QA tooling separates technical inspection from visual revi
 
 The candidate record can bind the video to supporting footage, telemetry and its run identity. A subsequent publication step rechecks linked bytes so that changing a video after review does not silently preserve the old review outcome. Implementing this workflow is distinct from a particular candidate completing it.
 
-Our [gallery](../media/README.md) therefore labels each published clip for its actual role: checkpoint playback, baseline course visualization, camera development or a physical prototype recording. Readers can follow an image into the relevant chapter without confusing the way a clip was produced with the capability it demonstrates.
+Our [gallery](../../media/README.md) therefore labels each published clip for its actual role: checkpoint playback, baseline course visualization, camera development or a physical prototype recording. Readers can follow an image into the relevant chapter without confusing the way a clip was produced with the capability it demonstrates.
 
 ## Source basis
 
-This public explanation is grounded in the dated project records identified in the [source records for this chapter](../results/source-records.md#chapter-docs-artifact-lineage-md). The catalogue distinguishes complete notices from adapted explanations and preserves separate document versions.
+This public explanation is grounded in the dated project records identified in the [source records for this chapter](../../results/source-records.md#chapter-docs-artifact-lineage-md). The catalogue distinguishes complete notices from adapted explanations and preserves separate document versions.

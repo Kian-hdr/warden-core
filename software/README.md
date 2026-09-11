@@ -4,12 +4,12 @@
 
 This folder contains the independently runnable public observability package. The complete project story spans several separate subsystems:
 
-- [Isaac Sim agent and policy loop](../subsystems/isaac-agent.md)
-- [Computer-vision model](../subsystems/computer-vision.md)
-- [Multi-camera sensing study](../subsystems/multicamera-sensing.md)
-- [Physical airframe and electronics](../subsystems/hardware-integration.md)
+- [Isaac Sim agent and policy loop](../docs/subsystems/isaac-agent.md)
+- [Computer-vision model](../docs/subsystems/computer-vision.md)
+- [Multi-camera sensing study](../docs/subsystems/multicamera-sensing.md)
+- [Physical airframe and electronics](../docs/subsystems/hardware-integration.md)
 
-The [presentation package](../presentations/README.md) explains how those contributions fit together.
+The [presentation package](../docs/presentations/README.md) explains how those contributions fit together.
 
 A small Python toolkit for recording pipeline timings, collecting Raspberry Pi resource measurements, and assessing local evidence files. It reports throughput, latency, processing gaps, CPU and memory use, temperature, and missing provenance.
 

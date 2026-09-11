@@ -44,4 +44,4 @@ flowchart LR
     D --> X[Simulated rotors]
 ```
 
-The public [system architecture](../docs/architecture.md) shows this interface in the full Isaac Sim loop. The [verified results](../results/README.md) record the completed contract, dynamics and replay checks.
+The public [system architecture](../docs/simulation/architecture.md) shows this interface in the full Isaac Sim loop. The [verified results](../results/README.md) record the completed contract, dynamics and replay checks.

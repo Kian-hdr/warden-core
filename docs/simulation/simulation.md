@@ -1,6 +1,6 @@
 # NVIDIA Brev and Isaac Sim
 
-[Complete Isaac-agent subsystem guide](../subsystems/isaac-agent.md) · [Policy specifications](../policies/README.md) · [Verified run identities](../results/run-identities.md)
+[Complete Isaac-agent subsystem guide](../subsystems/isaac-agent.md) · [Policy specifications](../../policies/README.md) · [Verified run identities](../../results/run-identities.md)
 
 We used NVIDIA Brev to access remote GPU infrastructure and NVIDIA Isaac Sim with Isaac Lab for the simulation work. Keeping compute remote let the local machine serve as the development and viewing workstation while experiment outputs were preserved separately.
 
@@ -35,7 +35,7 @@ The project retained configurations, checkpoints and logs together. This made it
 
 ## From simulation to presentation
 
-The camera workflow produced frame sequences and encoded video. The public [autonomous corridor demonstration](../media/provenance.md#model-based-autonomous-corridor-flight) connects a source revision, physically simulated vehicle, model-based trajectory controller, runtime measurements, 450 source frames and independent technical/visual review. The [verified simulation montage](../media/provenance.md#verified-simulation-montage) combines exterior, chase and first-person camera work with explicit title cards.
+The camera workflow produced frame sequences and encoded video. The public [autonomous corridor demonstration](../../media/provenance.md#model-based-autonomous-corridor-flight) connects a source revision, physically simulated vehicle, model-based trajectory controller, runtime measurements, 450 source frames and independent technical/visual review. The [verified simulation montage](../../media/provenance.md#verified-simulation-montage) combines exterior, chase and first-person camera work with explicit title cards.
 
 The simulator SDK, third-party robot assets and cloud-machine configuration are not distributed in this repository. NVIDIA products are tools used by the project; their use does not imply NVIDIA endorsement or partnership.
 
@@ -47,8 +47,8 @@ For a reusable version of this workflow, see our [Isaac Sim and Brev Operations 
 
 The recorded vehicle decision selected a pinned Pegasus Simulator Iris asset for the established Isaac runtime. It provided an identifiable simulation model while the physical airframe was being developed. The original model identity and asset hash were kept with the simulator configuration, and the rendered footage identifies the surrogate separately from the photographed prototype.
 
-This decision preserved a repeatable model/runtime combination. It was not a digital-twin claim about the physical frame. The public [media credits](../third_party/README.md) retain the relevant upstream notices; the [visual walkthrough](visual-walkthrough.md) makes the difference between the simulated Iris and the actual prototype visible.
+This decision preserved a repeatable model/runtime combination. It was not a digital-twin claim about the physical frame. The public [media credits](../../third_party/README.md) retain the relevant upstream notices; the [visual walkthrough](../media/README.md) makes the difference between the simulated Iris and the actual prototype visible.
 
 ## Source basis
 
-This public explanation is grounded in the dated project records identified in the [source records for this chapter](../results/source-records.md#chapter-docs-simulation-md). The catalogue distinguishes complete notices from adapted explanations and preserves separate document versions.
+This public explanation is grounded in the dated project records identified in the [source records for this chapter](../../results/source-records.md#chapter-docs-simulation-md). The catalogue distinguishes complete notices from adapted explanations and preserves separate document versions.
