@@ -9,6 +9,8 @@ The following project-created simulation compositions, captures, labels and thum
 - `simulation-preview.png`
 - `videos/camera-calibration.jpg`
 - `videos/camera-calibration.mp4`
+- `videos/model-based-autonomous-corridor.png`
+- `videos/model-based-autonomous-corridor.mp4`
 - `videos/course-baseline-chase.jpg`
 - `videos/course-baseline-chase.mp4`
 - `videos/course-baseline-fpv.jpg`
@@ -17,6 +19,8 @@ The following project-created simulation compositions, captures, labels and thum
 - `videos/parallel-simulation-preview.mp4`
 - `videos/ppo-initial-debug.jpg`
 - `videos/ppo-initial-debug.mp4`
+- `videos/verified-simulation-montage.png`
+- `videos/verified-simulation-montage.mp4`
 
 Suggested attribution: “Warden Core simulation media, Kian Tajbakhsh / Annihilation Industries, CC BY-NC-SA 4.0; incorporates upstream simulator assets identified in the repository notices.”
 

@@ -34,6 +34,18 @@ More behind the scenes: [EDTH Instagram highlight](https://www.instagram.com/sto
 
 ## Development videos
 
+### Model-based autonomous corridor flight
+
+[![Model-based autonomous trajectory controller](videos/model-based-autonomous-corridor.png)](videos/model-based-autonomous-corridor.mp4)
+
+[Watch the 15-second autonomous corridor demonstration](videos/model-based-autonomous-corridor.mp4). The physically simulated Iris surrogate travels 15.485 metres through the recorded fictional corridor scenario. Runtime and independent QA recorded 450/450 frames, zero collisions, zero command saturations, zero safety interventions and successful technical, motion, visual and provenance review.
+
+### Verified simulation montage
+
+[![Warden Iris simulation montage](videos/verified-simulation-montage.png)](videos/verified-simulation-montage.mp4)
+
+[Watch the 34.5-second simulation reel](videos/verified-simulation-montage.mp4). Title cards separate exterior camera calibration, mapped-course chase and first-person views. All three source clips passed full decode and representative-frame review.
+
 ### Parallel simulation preview
 
 [![Parallel simulated scenes, scripted preview](videos/parallel-simulation-preview.jpg)](videos/parallel-simulation-preview.mp4)
@@ -75,3 +87,5 @@ Both videos are compressed viewing copies of retained project renders. No third-
 [Watch the supplied hover recording](videos/prototype-hover.mp4). The airframe is visibly airborne. The control mode is not documented by the recording, so this is presented as a physical-build demonstration rather than learned-policy evidence. Audio and source metadata were removed from the public copy. The full original remains in the project library.
 
 [More images with engineering explanations](../docs/visual-walkthrough.md).
+
+[Complete flight-media provenance and measurements](../docs/flight-media.md).

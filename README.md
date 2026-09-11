@@ -6,7 +6,28 @@ I led Annihilation Industries at the European Defense Tech Hackathon in Hamburg,
 
 This repository explains how the project works and shares selected development footage, build photographs, a runnable observability toolkit and editable landing-leg CAD. The runnable component is the standalone pipeline observability package; the wider simulation, perception and hardware work is documented alongside it.
 
-## See the development
+## Verified engineering highlights
+
+| Completed result | Recorded outcome |
+| --- | --- |
+| Real Isaac dynamics qualification | 800 cases, 526,800 telemetry records, 400 exact replay pairs, zero failures |
+| Parallel GPU scale profile | 15 real-Isaac runs; 2,048 environments selected at 64,094.408 transitions/s |
+| Stage 0 shared-policy training | 10 accepted updates and 1,310,720 accepted transitions across 2,048 environments |
+| Autonomous corridor demonstration | 15 seconds, 450 frames, 15.485 m travel, zero collisions or safety interventions |
+| Engineering contract suite | 409 full tests, 139 focused tests, schema/Ruff/syntax checks passed |
+
+[Read the full verified results](docs/verified-engineering-results.md) · [Explore the system architecture](docs/system-architecture.md)
+
+## Watch the simulation work
+
+| Autonomous trajectory control | Verified simulation montage |
+| --- | --- |
+| [![Model-based autonomous flight through the fictional corridor](media/videos/model-based-autonomous-corridor.png)](media/videos/model-based-autonomous-corridor.mp4) | [![Warden Iris simulation montage](media/videos/verified-simulation-montage.png)](media/videos/verified-simulation-montage.mp4) |
+| **Model-based autonomous corridor flight.** A 15-second, 450-frame direct Isaac Sim render with zero collisions, command saturations or safety interventions in the recorded scenario. | **Isaac Sim development reel.** Camera calibration plus chase and first-person views from the verified mapped-course behavioral baseline. |
+
+[Flight-media provenance and measurements](docs/flight-media.md)
+
+## More development footage
 
 | Training environment and early checkpoint | Course visualization |
 | --- | --- |
@@ -27,6 +48,9 @@ The recordings serve different purposes. The PPO clip documents an early experim
 | [Hardware development](docs/hardware-engineering.md) | Connected-web topology, parametric geometry, STEP/STL integrity and slice-level checks. |
 | [Visual record](docs/visual-walkthrough.md) | Build photographs, outdoor hover, simulation cameras and CAD visualizations. |
 | [Reproducibility](docs/reproducibility.md) | How source, checkpoints, media and published copies retain their identities. |
+| [Verified results](docs/verified-engineering-results.md) | Real-Isaac integration, dynamics, replay, scale profiling, training execution and autonomous corridor results. |
+| [System architecture](docs/system-architecture.md) | Cloud, simulator, observation, control, reward and evidence layers. |
+| [Flight media](docs/flight-media.md) | Video provenance, exact measurements and the role of each published clip. |
 
 ## How the pieces fit together
 
@@ -79,6 +103,8 @@ Our development records distinguish these steps:
 The retained archive includes experimental checkpoints. The short PPO recording above shows initial debug playback; the longer course recordings use a behavioral baseline.
 
 [Training and evaluation documentation](docs/training.md) · [Exact acro-racing reward policy](docs/reward-policy-overview.md) · [Source coverage](docs/vault-source-coverage.md)
+
+The model weights and exported policy artifacts are closed source and are not present in this repository. Commercial, education and academic requests are handled through the [model-access policy](MODEL-ACCESS.md).
 
 ## Computer vision and the dataset
 
@@ -139,6 +165,7 @@ The included example is synthetic. Assembly intentionally returns exit code **2*
 | [`hardware/`](hardware/) | LL-11 source, CAD exchange files and design limits. |
 | [`media/`](media/README.md) | Build photos, correctly labelled development videos and media hashes. |
 | [`third_party/`](third_party/README.md) | Upstream media credits and licence notices. |
+| [`MODEL-ACCESS.md`](MODEL-ACCESS.md) | Closed-source model policy and commercial or academic request route. |
 
 ## Licensing
 

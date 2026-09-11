@@ -16,3 +16,5 @@ To discuss a licence, contact [Kian Tajbakhsh through the repository owner's Git
 An inquiry, discussion, quotation or access to the public repository does not grant commercial rights. Commercial use begins only after the applicable rights holder and the licensee sign a written agreement covering that use.
 
 Third-party and teammate-owned material is outside this offer unless its rights holder separately participates in the agreement.
+
+Model weights, checkpoints and exported policy artifacts are closed source and require a separate access decision and agreement. See the [model-access policy](MODEL-ACCESS.md) for commercial and academic request information.

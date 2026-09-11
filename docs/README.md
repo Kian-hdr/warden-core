@@ -5,6 +5,9 @@ Annihilation Industries brought together simulation, computer vision, software t
 | Read | Covers |
 | --- | --- |
 | [Project and engineering progress](progress.md) | The workstreams, concrete outputs and project leadership. |
+| [Verified engineering results](verified-engineering-results.md) | Completed real-Isaac integration, dynamics, replay, scale, training and media results. |
+| [System architecture](system-architecture.md) | The cloud, simulator, observation, control, reward and evidence architecture. |
+| [Flight and simulation media](flight-media.md) | Exact video roles, measurements, provenance and source identities. |
 | [NVIDIA Brev and Isaac Sim](simulation.md) | The cloud development setup, simulator stack and media workflow. |
 | [Acro-racing reward policy](reward-policy-overview.md) | The complete recorded reward equation, bounded shaping ledger, terminal proof and coefficient ranges. |
 | [Vault source coverage](vault-source-coverage.md) | Which project records are summarized or distributed here. |
@@ -23,3 +26,5 @@ Annihilation Industries brought together simulation, computer vision, software t
 | [Source notes and acknowledgements](sources.md) | Evidence records and the tools used. |
 
 Runnable software is in [software](../software/). The editable landing-leg design is in [hardware](../hardware/).
+
+Model weights and exported policy artifacts remain closed source. See the [model-access policy](../MODEL-ACCESS.md) for commercial, education and academic requests.

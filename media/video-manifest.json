@@ -136,5 +136,47 @@
       }
     },
     "scope": "Physical prototype hover; control mode undocumented; no learned-policy claim."
+  },
+  {
+    "file": "videos/model-based-autonomous-corridor.mp4",
+    "source_sha256": "de2629261c7be02d4c2c1ae0d5154b5c0f318e4765820539269430918fa319ee",
+    "sha256": "de2629261c7be02d4c2c1ae0d5154b5c0f318e4765820539269430918fa319ee",
+    "technical_format": {
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1920,
+          "height": 1080,
+          "r_frame_rate": "30/1",
+          "nb_frames": "450"
+        }
+      ],
+      "format": {
+        "duration": "15.000000",
+        "size": "9615200"
+      }
+    },
+    "scope": "MODEL-BASED AUTONOMOUS TRAJECTORY CONTROLLER | VERIFIED CORRIDOR SCENARIO | SIMULATION ONLY"
+  },
+  {
+    "file": "videos/verified-simulation-montage.mp4",
+    "source_sha256": "b2c79e1a3f51c7be223c47b45a7012ec6a9eff6dce65536690aa65156baa0a83",
+    "sha256": "b2c79e1a3f51c7be223c47b45a7012ec6a9eff6dce65536690aa65156baa0a83",
+    "technical_format": {
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1920,
+          "height": 1080,
+          "r_frame_rate": "30/1",
+          "nb_frames": "1035"
+        }
+      ],
+      "format": {
+        "duration": "34.500000",
+        "size": "22374264"
+      }
+    },
+    "scope": "VERIFIED ISAAC SIM CAMERA CALIBRATION AND MAPPED-COURSE DEVELOPMENT REEL"
   }
 ]

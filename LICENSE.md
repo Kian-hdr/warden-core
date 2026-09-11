@@ -21,6 +21,8 @@ The licences above cover only rights held by the applicable project contributor.
 - patents or trademarks, except for the limited patent grant contained in PolyForm for the software it covers; or
 - private archives, datasets, weights or other material that is described but not distributed in this repository.
 
+Model weights, checkpoints and exported policy artifacts remain closed source. The [model-access policy](MODEL-ACCESS.md) explains how commercial, education and academic requests are reviewed.
+
 Repository history or a project credit does not by itself establish ownership of every embedded element. Where a file contains both project-owned expression and upstream material, the project licence covers only the project-owned contribution and the upstream terms continue to apply.
 
 ## Commercial use

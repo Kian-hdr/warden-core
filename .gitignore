@@ -9,3 +9,13 @@ build/
 dist/
 *.egg-info/
 hardware/generated/
+
+# Closed-source model artifacts
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.safetensors
+*.weights
+*.tflite
+*.engine

@@ -1,0 +1,128 @@
+{
+  "schema": "warden-core-public-verified-results-v1",
+  "project": "Annihilation Industries / Warden Core",
+  "scope": "Completed simulation, training-system, media, perception and digital-hardware checks represented in the public documentation",
+  "results": [
+    {
+      "id": "phase-a-contracts",
+      "run_id": "phase-a-20260830T023006Z-ba7ed1a",
+      "status": "PASSED",
+      "metrics": {
+        "full_tests_passed": 409,
+        "focused_tests_passed": 139,
+        "syntax_compiled_files": 119,
+        "policy_hz": 50,
+        "physics_hz": 250
+      }
+    },
+    {
+      "id": "phase-b-real-isaac-integration",
+      "run_id": "20260830-015612-7ea4ee",
+      "status": "PASSED",
+      "runtime": {
+        "isaac_sim": "4.5.0",
+        "isaac_lab_source_release": "2.1.1",
+        "gpu": "NVIDIA RTX PRO 6000 Blackwell Server Edition"
+      },
+      "metrics": {
+        "parallel_environments": 32,
+        "policy_steps": 180,
+        "physics_steps": 900,
+        "actor_observation_width": 260,
+        "critic_observation_width": 290,
+        "camera_frames": 3
+      }
+    },
+    {
+      "id": "phase-c-dynamics",
+      "run_id": "warden-phase-c-full-gate-68ad1a7-20260830t060800z",
+      "status": "PASSED",
+      "metrics": {
+        "scenario_seed_cases": 800,
+        "telemetry_records": 526800,
+        "fresh_processes": 2,
+        "exact_replay_pairs": 400,
+        "failure_count": 0,
+        "finite_state_and_action": true
+      }
+    },
+    {
+      "id": "phase-c-recovery-repeatability",
+      "run_id": "warden-phase-c-recovery-process-pair-2472bca-20260830t054633z",
+      "status": "PASSED",
+      "metrics": {
+        "hard_recovery_cases": 32,
+        "independent_real_isaac_processes": 2,
+        "transitions_per_process": 24000,
+        "exact_cpu_comparison_pairs": 32,
+        "contact_count": 0,
+        "maximum_recovery_time_seconds": 1.208
+      }
+    },
+    {
+      "id": "real-isaac-scale-profile",
+      "run_id": "warden-scale-ladder-2b54a2f-20260830t071219z",
+      "status": "PASSED",
+      "metrics": {
+        "run_count": 15,
+        "environment_counts": [128, 256, 512, 1024, 2048],
+        "seed_count": 3,
+        "selected_environment_count": 2048,
+        "selected_transitions_per_second": 64094.40803768784,
+        "minimum_per_seed_vram_headroom_fraction": 0.9451919049516279
+      }
+    },
+    {
+      "id": "stage-0-training-execution",
+      "run_id": "warden-phase-d-stage0-tranche02-e2048-u10-s4409-50185db-20260830t081630z",
+      "status": "COMPLETED_RECORDED_TRANCHE",
+      "metrics": {
+        "parallel_environments": 2048,
+        "accepted_optimizer_updates": 10,
+        "rollout_steps_per_update": 64,
+        "accepted_policy_transitions": 1310720,
+        "shared_policy": true
+      },
+      "model_artifacts": "CLOSED_SOURCE_NOT_DISTRIBUTED"
+    },
+    {
+      "id": "model-based-autonomous-corridor",
+      "source_revision": "d48c92668000fe1e435de47a093001d008ea0d10",
+      "status": "PASSED",
+      "media_sha256": "de2629261c7be02d4c2c1ae0d5154b5c0f318e4765820539269430918fa319ee",
+      "metrics": {
+        "duration_seconds": 15.0,
+        "frames": 450,
+        "unique_decoded_frame_hashes": 450,
+        "maximum_displacement_m": 15.484857805728769,
+        "maximum_speed_mps": 1.7351967096328735,
+        "collisions": 0,
+        "flight_volume_violations": 0,
+        "command_saturations": 0,
+        "safety_interventions": 0
+      }
+    },
+    {
+      "id": "offline-perception-baseline",
+      "status": "RECORDED_HELD_OUT_EVALUATION",
+      "metrics": {
+        "classes": 6,
+        "held_out_images": 64,
+        "accuracy": 0.891,
+        "macro_f1": 0.863
+      },
+      "ownership": "Vincent's separate workstream; underlying artifacts are not distributed by this repository"
+    },
+    {
+      "id": "ll11-digital-hardware-package",
+      "status": "PASSED_RETAINED_DIGITAL_CHECKS",
+      "metrics": {
+        "mesh_triangles": 5862,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0
+      }
+    }
+  ],
+  "model_access": "../MODEL-ACCESS.md",
+  "media_manifest": "../media/video-manifest.json"
+}
