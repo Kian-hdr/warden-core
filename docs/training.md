@@ -27,3 +27,5 @@ Parallel environments were part of the development workflow. Infrastructure exer
 ## How to read the videos
 
 The [gallery](../media/README.md) distinguishes early PPO checkpoint playback, behavioral-baseline course views, scripted parallel-scene visualization and camera calibration. Each clip is labelled for its actual role. The two-second PPO recording shows the agent near the start, not completed gate racing; the longer course views are non-learned baselines.
+
+The [reward-policy overview](reward-policy-overview.md) explains the terminology and structure of the retained design records. [Source coverage](vault-source-coverage.md) identifies the public summaries and original documents retained privately.

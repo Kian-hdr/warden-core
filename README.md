@@ -76,7 +76,7 @@ Our development records distinguish these steps:
 
 The retained archive includes experimental checkpoints. The short PPO recording above shows initial debug playback; the longer course recordings use a behavioral baseline.
 
-[Training and evaluation documentation](docs/training.md)
+[Training and evaluation documentation](docs/training.md) · [Reward-policy overview](docs/reward-policy-overview.md) · [Source coverage](docs/vault-source-coverage.md)
 
 ## Computer vision and the dataset
 

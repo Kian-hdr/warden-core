@@ -6,6 +6,8 @@ Annihilation Industries brought together simulation, computer vision, software t
 | --- | --- |
 | [Project and engineering progress](progress.md) | The workstreams, concrete outputs and project leadership. |
 | [NVIDIA Brev and Isaac Sim](simulation.md) | The cloud development setup, simulator stack and media workflow. |
+| [Reward-policy documentation](reward-policy-overview.md) | The role of policies, feedback, checkpoints and separate evaluation records. |
+| [Vault source coverage](vault-source-coverage.md) | Which project records are summarized or distributed here. |
 | [Training and evaluation](training.md) | Checkpointed experiments, repeatability and the distinction between learning and visualization. |
 | [Computer vision](perception.md) | Vincent’s offline baseline and the dataset workflow. |
 | [Dataset record](dataset.md) | Dataset versions, recorded partitions and publication boundaries. |
