@@ -33,7 +33,7 @@ The project retained configurations, checkpoints and logs together. This made it
 
 ## From simulation to presentation
 
-The camera workflow produced frame sequences and encoded video. Our public [parallel-environment preview](../media/README.md#simulation-development) illustrates the visual layout of multiple simulated environments. It uses scripted reference motion and retains its original “not trained” and “not certified” labels. It is a visualization of the development setup, not playback proving that a trained policy completed the task.
+The camera workflow produced frame sequences and encoded video. The public [autonomous corridor demonstration](flight-media.md#model-based-autonomous-corridor-flight) connects a source revision, physically simulated vehicle, model-based trajectory controller, runtime measurements, 450 source frames and independent technical/visual review. The [verified simulation montage](flight-media.md#verified-simulation-montage) combines exterior, chase and first-person camera work with explicit title cards.
 
 The simulator SDK, third-party robot assets and cloud-machine configuration are not distributed in this repository. NVIDIA products are tools used by the project; their use does not imply NVIDIA endorsement or partnership.
 

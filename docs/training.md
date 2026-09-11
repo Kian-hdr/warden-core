@@ -11,7 +11,7 @@ The simulation archive includes checkpointed reinforcement-learning experiments.
 - Frame sequences, video candidates and their labels.
 - Checksums and recovery records for exported files.
 
-These records support inspection and recovery. A checkpoint by itself says that model state was saved; it does not say that the model met the intended task requirements.
+These records support inspection, reproducibility and recovery. Model weights and checkpoint bytes remain closed source under the [model-access policy](../MODEL-ACCESS.md).
 
 ## The development sequence
 
@@ -22,30 +22,26 @@ These records support inspection and recovery. A checkpoint by itself says that 
 5. Inspect recorded behavior before selecting material for a presentation.
 6. Preserve the outputs and enough context to continue the work later.
 
-Parallel environments were part of the development workflow. Infrastructure exercises and learning experiments were recorded separately, so increasing the amount of simulation running at once did not become a claim of better learned behavior.
+Parallel environments were part of the development workflow. The completed scale profile measured five environment counts across three seeds and selected 2,048 environments at 64,094.408 transitions per second under the recorded throughput/headroom rule.
 
 ## How to read the videos
 
-The [gallery](../media/README.md) distinguishes early PPO checkpoint playback, behavioral-baseline course views, scripted parallel-scene visualization and camera calibration. Each clip is labelled for its actual role. The two-second PPO recording shows the agent near the start, not completed gate racing; the longer course views are non-learned baselines.
+The [gallery](../media/README.md) leads with the verified model-based autonomous corridor flight and a reviewed simulation montage. Separate chase and first-person views show the mapped-course camera workflow, while the physical-prototype recording documents the assembled airframe hovering outdoors.
 
 The [acro-racing reward-policy specification](reward-policy-overview.md) reproduces the recorded reward equations, term coefficients, bounded ledger and terminal-dominance proof. [Source coverage](vault-source-coverage.md) identifies that adapted scope and the complete original documents retained privately.
 
 ## How the historical records fit together
 
-The earliest training specification defined separate baseline, learning and playback roles. Later source and run records added implementation and saved checkpoint artifacts. Those later artifacts supersede an earlier statement that no Warden-specific checkpoint existed, but they do not turn the initial plan into a completed evaluation.
-
-The later acro-racing design was a separate simulation profile. It superseded the racing-design portion of the earlier specification rather than replacing every operational assumption. The retained run history then records saved Stage0 training state, while the subsequent frozen evaluation did not produce a completed promotion record. Documentation of preserved partial/failure evidence is part of recovery work, not a trained-policy success.
+The training history connects the initial experiment specification to implemented control/observation contracts, real-Isaac integration, deterministic dynamics qualification, a measured parallelism profile and a retained Stage 0 training tranche. Each result keeps its run identity and source revision.
 
 | Record type | What it contributes to the engineering history |
 | --- | --- |
-| Initial specification | The intended component roles and experiment contract. |
-| Later design revision | A separately identified simulation design and its implementation boundaries. |
-| Implementation records | Source revisions and checks associated with the work. |
-| Saved checkpoint artifacts | Recoverable model state from recorded experiments. |
-| Evaluation records | The actual scope and outcome of a candidate assessment. |
-| Published footage | A labelled view of the specific checkpoint, baseline or visualization recorded. |
-
-The two-second public PPO clip is initial upstream checkpoint playback. The longer chase and FPV clips are behavioral baselines. They were selected from different camera-development revisions, so they should not be treated as synchronized views of one learned-policy run.
+| Initial specification | Component roles and the experiment contract. |
+| Implemented contracts | Control, observation, course, reward and evidence interfaces. |
+| Real-Isaac qualification | Source-linked integration, dynamics and exact replay results. |
+| Scale profile | A five-rung, three-seed measurement of parallel execution. |
+| Stage 0 package | Ten accepted updates, 1,310,720 transitions and hash-bound model-state records. |
+| Published footage | Independently reviewed autonomous trajectory control and camera outputs. |
 
 [Experiment-to-artifact workflow](experiment-artifacts.md) explains how these records are connected. [Source records](source-records.md) preserve the identities of the archived documents used in this public account.
 

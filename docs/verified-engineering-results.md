@@ -84,7 +84,7 @@ The project also completed a model-based autonomous trajectory-controller demons
 - all 450 source frames present and all 450 decoded frame hashes unique; and
 - successful technical, motion, visual and provenance review.
 
-[Watch the autonomous corridor demonstration](../media/videos/model-based-autonomous-corridor.mp4) or read its [media provenance](flight-media.md).
+[Watch the autonomous corridor demonstration](../media/videos/model-based-autonomous-corridor.mp4?raw=1) or read its [media provenance](flight-media.md).
 
 ## Evidence engineering
 

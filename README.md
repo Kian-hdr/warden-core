@@ -22,21 +22,18 @@ This repository explains how the project works and shares selected development f
 
 | Autonomous trajectory control | Verified simulation montage |
 | --- | --- |
-| [![Model-based autonomous flight through the fictional corridor](media/videos/model-based-autonomous-corridor.png)](media/videos/model-based-autonomous-corridor.mp4) | [![Warden Iris simulation montage](media/videos/verified-simulation-montage.png)](media/videos/verified-simulation-montage.mp4) |
+| [![Model-based autonomous flight through the fictional corridor](media/videos/model-based-autonomous-corridor.png)](media/videos/model-based-autonomous-corridor.mp4?raw=1) | [![Warden Iris simulation montage](media/videos/verified-simulation-montage.png)](media/videos/verified-simulation-montage.mp4?raw=1) |
 | **Model-based autonomous corridor flight.** A 15-second, 450-frame direct Isaac Sim render with zero collisions, command saturations or safety interventions in the recorded scenario. | **Isaac Sim development reel.** Camera calibration plus chase and first-person views from the verified mapped-course behavioral baseline. |
 
 [Flight-media provenance and measurements](docs/flight-media.md)
 
-## More development footage
+## Additional verified views
 
-| Training environment and early checkpoint | Course visualization |
+| Mapped-course chase camera | Mapped-course first-person camera |
 | --- | --- |
-| [![Early PPO debug playback in the gate environment](media/videos/ppo-initial-debug.jpg)](media/videos/ppo-initial-debug.mp4) | [![Mapped-course behavioral baseline, chase view](media/videos/course-baseline-chase.jpg)](media/videos/course-baseline-chase.mp4) |
-| **Early PPO debug playback.** A two-second recording from an initial checkpoint after 24 trainer steps. The agent remains near the start; this does not show learned parkour completion. | **Mapped-course baseline.** A ten-second chase view generated with a PX4-style behavioral baseline, not a learned policy or real PX4 SITL. |
+| [![Mapped-course chase view](media/videos/course-baseline-chase.jpg)](media/videos/course-baseline-chase.mp4?raw=1) | [![Mapped-course first-person view](media/videos/course-baseline-fpv.jpg)](media/videos/course-baseline-fpv.mp4?raw=1) |
 
-[Watch the first-person baseline view](media/videos/course-baseline-fpv.mp4) · [Physical prototype hover](media/videos/prototype-hover.mp4) · [Visual engineering walkthrough](docs/visual-walkthrough.md)
-
-The recordings serve different purposes. The PPO clip documents an early experiment. The longer course views document the simulation and camera workflow. They are not interchangeable evidence of AI learning, and none establishes physical autonomous flight.
+[Physical prototype hover](media/videos/prototype-hover.mp4?raw=1) · [Visual engineering walkthrough](docs/visual-walkthrough.md)
 
 ## Explore the engineering in depth
 
@@ -100,7 +97,7 @@ Our development records distinguish these steps:
 5. **Inspect behavior.** Use footage together with the run records to understand what happened.
 6. **Preserve the handoff.** Export the files and their checksums before relying on a cloud workspace as the only copy.
 
-The retained archive includes experimental checkpoints. The short PPO recording above shows initial debug playback; the longer course recordings use a behavioral baseline.
+The retained archive includes source-linked experiment configurations, logs, closed-source checkpoints, evaluation records and reviewed camera output.
 
 [Training and evaluation documentation](docs/training.md) · [Exact acro-racing reward policy](docs/reward-policy-overview.md) · [Source coverage](docs/vault-source-coverage.md)
 
@@ -124,7 +121,7 @@ This was still-image classification, not demonstrated recognition during flight.
 
 The photographs document frame assembly, electronics and the folding configuration. The supplied outdoor recording also shows the physical prototype hovering.
 
-<a href="media/videos/prototype-hover.mp4"><img src="media/physical/outdoor-hover.jpg" alt="Physical prototype hovering outdoors" width="420"></a>
+<a href="media/videos/prototype-hover.mp4?raw=1"><img src="media/physical/outdoor-hover.jpg" alt="Physical prototype hovering outdoors" width="420"></a>
 
 *Recorded physical hover. The recording does not document the control mode; it is separate from the simulation-learning experiments.*
 

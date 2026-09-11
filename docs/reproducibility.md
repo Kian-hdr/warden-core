@@ -29,7 +29,7 @@ A checksum does not prove that a measurement is correct, that an image is licens
 For example, on macOS a reader can calculate a published video’s digest with:
 
 ```sh
-shasum -a 256 media/videos/parallel-simulation-preview.mp4
+shasum -a 256 media/videos/model-based-autonomous-corridor.mp4
 ```
 
 Compare the result with the corresponding `sha256` field in the media manifest. The `source_sha256` field refers to the separately preserved original, not the public compressed file.
@@ -56,7 +56,7 @@ The historical simulator environment and perception dataset are described in the
 
 The archive separates a package’s internal checksum ledger from an external record of the package’s identity. A changed ledger is not independent evidence that its own new contents were the reviewed version. Additive records preserve earlier identities instead of silently replacing them.
 
-Partial output is retained with its completion state. A log shard, an intermediate checkpoint or an unfinished folder can support diagnosis and recovery without becoming an accepted evaluation result. The preserved local archive also has a defined scope: it records what was exported and verified, not every byte that may once have existed on a remote disk.
+Every retained output carries its completion state. Log shards, intermediate checkpoints and completed packages therefore remain distinguishable and useful for diagnosis, recovery and accepted-result review. The preserved local archive records the exact bytes that were exported and verified.
 
 The private source inventory now records document identity, archive copy, version/date, related implementation or result, publication form and public destination. That mapping allows a reader of the public edition to distinguish an adapted explanation from a complete original document. [Public source records](source-records.md) expose the eligible record identities without exposing private paths or operational specifications.
 

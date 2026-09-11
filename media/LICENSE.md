@@ -6,7 +6,6 @@ Only the files listed under “CC-licensed project media” are licensed under [
 
 The following project-created simulation compositions, captures, labels and thumbnails are licensed under CC BY-NC-SA 4.0, subject to the upstream rights and notices in [`third_party/`](../third_party/):
 
-- `simulation-preview.png`
 - `videos/camera-calibration.jpg`
 - `videos/camera-calibration.mp4`
 - `videos/model-based-autonomous-corridor.png`
@@ -15,10 +14,6 @@ The following project-created simulation compositions, captures, labels and thum
 - `videos/course-baseline-chase.mp4`
 - `videos/course-baseline-fpv.jpg`
 - `videos/course-baseline-fpv.mp4`
-- `videos/parallel-simulation-preview.jpg`
-- `videos/parallel-simulation-preview.mp4`
-- `videos/ppo-initial-debug.jpg`
-- `videos/ppo-initial-debug.mp4`
 - `videos/verified-simulation-montage.png`
 - `videos/verified-simulation-montage.mp4`
 

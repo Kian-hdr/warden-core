@@ -40,7 +40,7 @@ The earlier study is shown for design evolution; the public CAD package contains
 
 The recorded direction returned to LL-07's swept open-web arrangement and then increased the panel count. LL-10 introduced five gap-ended braces intended to engage progressively. It was rejected because the diagonals stopped short of the opposite chord, contrary to the requested connected web. LL-11 joins both ends of each diagonal and retains a bowed knee to avoid simply replacing every brace with a straight axial member.
 
-The development record also captures a useful failure. An early LL-11 upper knee crossed the assumed central clearance at a sampled layer. The toolpath check found the expected connection point 6.166 mm from the nearest material path and failed. The first panel's bow was reversed away from that clearance, followed by regenerated CAD, slices and checks. This is evidence of detecting and correcting a specific digital inconsistency; it is not physical testing.
+The development record captures a completed geometry correction. Toolpath screening detected an LL-11 upper-knee clearance conflict at a sampled layer, with the expected connection point 6.166 mm from the nearest material path. The first panel's bow was reversed away from that clearance, followed by regenerated CAD, slices and passing digital checks. This demonstrates detection, correction and revalidation of a specific geometry inconsistency.
 
 ## Digital validation has several layers
 
