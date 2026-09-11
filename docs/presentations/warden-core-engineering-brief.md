@@ -42,7 +42,7 @@ Leon’s related Warden Corps study models five 4K monochrome cameras, 3-of-5 co
 
 ## 8. Physical prototype
 
-[Constantin · Takane0](https://github.com/Takane0) led the physical airframe and electronics integration. The retained gallery shows assembly, folding configuration and outdoor hover.
+Constantin led the physical airframe and electronics integration. The retained gallery shows assembly, folding configuration and outdoor hover.
 
 [Physical integration](../subsystems/hardware-integration.md)
 
@@ -59,6 +59,6 @@ Every public result connects source revision, configuration, runtime identity, t
 | Kian | Project lead, Isaac/Brev autonomy, evaluation, evidence, media and presentation integration |
 | Vincent | Supervised computer-vision baseline |
 | Leon | Warden Corps multi-camera sensing study and presentation |
-| [Constantin · Takane0](https://github.com/Takane0) | Physical FPV prototype and electronics integration |
+| Constantin | Physical FPV prototype and electronics integration |
 
 Public software and documentation are available under the repository’s [licensing map](../../licensing/README.md). Model weights remain closed source under the [model-access policy](../../licensing/model-access.md).

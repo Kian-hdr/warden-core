@@ -2,14 +2,14 @@
 
 Warden Core is unfinished. This is the documented work of Kian, Leon, Vincent and Konstantin, including completed outputs, historical experiments and unresolved integration work. Documentation completeness does not mean the prototype is complete.
 
-The earlier source records spell Konstantin’s name **Constantin** and identify the GitHub account **Takane0**. This page uses Kian’s current spelling, Konstantin, while retaining the historical spelling in the attribution record. No additional full names or account identities are inferred.
+The earlier source records spell Konstantin’s name **Constantin** and are retained as historical attribution. This page uses Kian’s current spelling, Konstantin, while retaining the historical spelling in the attribution record. No additional full names or account identities are inferred.
 
 | Contributor | Contribution and retained outputs | Evidence and limits |
 | --- | --- | --- |
 | **Kian Tajbakhsh** | Project leadership; Brev/Isaac environment and simulation experiments; policy and evaluation contracts; observability software; evidence preservation, rendering, landing-leg CAD development and presentation/repository integration. | [Simulation](../subsystems/isaac-agent.md), [software](../../software/engineering.md), [CAD](../../hardware/engineering.md), [results](../../results/README.md). Simulation and digital CAD checks are separate from physical qualification. |
 | **Vincent** | Offline computer-vision dataset workflow, frozen-feature linear classifiers, CPU training, two recorded evaluations, confusion/error analysis and explicit uncertainty handling. | [Two experiment records](../perception/experiments.md). The August 29 ingest was Vincent’s solo work; Leon’s initially planned support does not establish a contribution to it. |
 | **Leon** | Related Warden Corps sensing concept, physics-study direction, technical/presentation material and figures. The retained package also records valuation and investor-presentation work. | [Sensing study](../subsystems/multicamera-sensing.md), [presentation record](../presentations/warden-corps-camera-study.md). Modeling, synthetic studies and pitch work do not establish a deployed camera network or integration with the classifier or flight controller. |
-| **[Konstantin / Constantin · Takane0](https://github.com/Takane0)** | Physical prototype assembly, folding airframe and flight-controller/electronics integration work. | [Hardware integration history](../subsystems/hardware-integration.md), [photographs and hover](../../media/physical/README.md). The recording’s control mode is undocumented; later Pi software work is not automatically attributed to the hardware owner. |
+| **Konstantin / Constantin** | Physical prototype assembly, folding airframe and flight-controller/electronics integration work. | [Hardware integration history](../subsystems/hardware-integration.md), [photographs and hover](../../media/physical/README.md). The recording’s control mode is undocumented; later Pi software work is not automatically attributed to the hardware owner. |
 
 ## How the contributions connect
 

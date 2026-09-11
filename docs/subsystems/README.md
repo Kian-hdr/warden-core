@@ -7,7 +7,7 @@ Warden development covered four distinct engineering tracks. Each track has its 
 | Isaac Sim autonomy and learning | Kian | [Isaac agent](isaac-agent.md) |
 | Supervised computer vision | Vincent | [Computer-vision model](computer-vision.md) |
 | Multi-camera sensing study | Leon | [Warden Corps camera network](multicamera-sensing.md) |
-| Physical airframe and electronics | [Constantin · Takane0](https://github.com/Takane0) | [Hardware integration](hardware-integration.md) |
+| Physical airframe and electronics | Constantin | [Hardware integration](hardware-integration.md) |
 
 ```mermaid
 flowchart LR

@@ -1,6 +1,6 @@
 # Physical airframe and electronics
 
-[Constantin · Takane0](https://github.com/Takane0) led the physical FPV prototype and the flight-controller/electronics integration work. The retained media shows the folding airframe, motors, wiring, electronics packaging and outdoor hover.
+Constantin led the physical FPV prototype and the flight-controller/electronics integration work. The retained media shows the folding airframe, motors, wiring, electronics packaging and outdoor hover.
 
 ## Intended integration layers
 
