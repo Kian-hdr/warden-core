@@ -49,9 +49,9 @@ The raw dense shaping signal is
 
 ```math
 \begin{aligned}
-z_t ={}& 3.0\,\operatorname{clip}\!\left(\frac{s_t-s_{t-1}}{L},-0.02,0.02\right)-0.002 \\
+z_t ={}& 3.0\,\mathrm{clip}\!\left(\frac{s_t-s_{t-1}}{L},-0.02,0.02\right)-0.002 \\
 &+0.10\,\mathbb{1}[\text{correct next-gate crossing}] \\
-&-0.05\,\operatorname{clip}\!\left(\frac{\max(0,s_{t-1}-s_t)}{0.02L},0,1\right) \\
+&-0.05\,\mathrm{clip}\!\left(\frac{\max(0,s_{t-1}-s_t)}{0.02L},0,1\right) \\
 &+0.0005\,v_t c_t\max(0,\cos\theta_t) \\
 &-0.005\,B(d_t) \\
 &-0.001\,\frac{\lVert a_t-a_{t-1}\rVert_2^2}{4} \\
@@ -63,7 +63,7 @@ z_t ={}& 3.0\,\operatorname{clip}\!\left(\frac{s_t-s_{t-1}}{L},-0.02,0.02\right)
 The clearance barrier is
 
 ```math
-B(d)=\operatorname{clip}\!\left(\left(\frac{m-d}{m}\right)^2,0,1\right).
+B(d)=\mathrm{clip}\!\left(\left(\frac{m-d}{m}\right)^2,0,1\right).
 ```
 
 `S_t` is the fraction of the previous `0.30 s` during which any motor, rate, or moment channel was saturated, applied after the first `0.10 s` of continuous saturation. `R_t ∈ [0,1]` is a curriculum-only recovery indicator, active in recovery stages when attitude error and body-rate magnitude decrease while clearance remains safe or improves.
@@ -88,7 +88,7 @@ Instead of allowing dense shaping to accumulate without limit, the specification
 
 ```math
 H_0=0,\qquad
-H_t=\operatorname{clip}(H_{t-1}+z_t,-1,1),\qquad
+H_t=\mathrm{clip}(H_{t-1}+z_t,-1,1),\qquad
 h_t=H_t-H_{t-1}.
 ```
 
@@ -105,7 +105,7 @@ The recorded calibration condition requires ledger clipping on fewer than `0.1%`
 The terminal terms are
 
 ```math
-F=5+2\,\operatorname{clip}\!\left(1-\frac{T_{\mathrm{finish}}}{T_{\max}},0,1\right)
+F=5+2\,\mathrm{clip}\!\left(1-\frac{T_{\mathrm{finish}}}{T_{\max}},0,1\right)
 ```
 
 for valid ordered completion, and
