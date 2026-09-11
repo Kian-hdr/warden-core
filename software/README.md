@@ -1,5 +1,7 @@
 # Warden observability
 
+[Software engineering walkthrough](engineering.md) · [Examples](examples/) · [Tests](tests/)
+
 A small Python toolkit for recording pipeline timings, collecting Raspberry Pi resource measurements, and assessing local evidence files. It reports throughput, latency, processing gaps, CPU and memory use, temperature, and missing provenance.
 
 The package contains no vehicle transport or actuation code. A `command` event records an output timestamp and validity flag only. Assessment results describe the supplied measurements; they do not establish VIO accuracy, vehicle integration, or flight readiness.
@@ -77,4 +79,4 @@ Tests use synthetic data and cover parsing, timing validation, evidence assembly
 
 ## Licence
 
-Project-owned source code and examples in this directory are available under the [PolyForm Noncommercial License 1.0.0](LICENSE.md). It permits the noncommercial uses defined in that licence, including personal research and use by educational institutions. Commercial use requires a [separate written paid agreement](../COMMERCIAL-LICENSING.md).
+Project-owned source code and examples in this directory are available under the [PolyForm Noncommercial License 1.0.0](LICENSE.md). It permits the noncommercial uses defined in that licence, including personal research and use by educational institutions. Commercial use requires a [separate written paid agreement](../licensing/commercial-licensing.md).

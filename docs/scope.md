@@ -18,8 +18,8 @@ The full development archive, training datasets and weights, internal documentat
 
 The repository now uses a scoped noncommercial licence model. Project-owned code uses PolyForm Noncommercial 1.0.0, project-owned documentation and specifically identified media use CC BY-NC-SA 4.0, and project-owned hardware/CAD uses the Warden Core Hardware Research and Education License 1.0. Noncommercial education and academic experimentation are permitted within the applicable terms. See the complete [licence map](../LICENSE.md).
 
-Third-party material, teammate-owned work and rights-unconfirmed photographs or footage are excluded from those project grants. Dependencies retain their own licences. Commercial use requires a [separate written paid agreement](../COMMERCIAL-LICENSING.md) with every applicable rights holder.
+Third-party material, teammate-owned work and rights-unconfirmed photographs or footage are excluded from those project grants. Dependencies retain their own licences. Commercial use requires a [separate written paid agreement](../licensing/commercial-licensing.md) with every applicable rights holder.
 
 ## Source basis
 
-The [source records for this chapter](source-records.md#chapter-docs-scope-md) identify the archived versions used in this public explanation.
+The [source records for this chapter](../results/source-records.md#chapter-docs-scope-md) identify the archived versions used in this public explanation.

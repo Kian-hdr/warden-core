@@ -6,7 +6,7 @@ The project’s records connect source, inputs, outputs and the context in which
 
 The consolidated project library retains development-source snapshots, Git-history bundles, experiment configurations, training and evaluation records, checkpoints, CAD revisions, original media and checksum manifests. Source originals were preserved during consolidation. The public repository is a reviewed selection from that library, with its own clean history and a corresponding local source snapshot.
 
-For the public media, [video-manifest.json](../media/video-manifest.json) records the published file identity, the original source hash, technical format and the role of the recording. Viewing copies may have been compressed, stripped of metadata or given a scope label. Their hashes therefore differ from the originals, and both identities are retained.
+For the public media, [manifest.json](../media/manifest.json) records the published file identity, the original source hash, technical format and the role of the recording. Viewing copies may have been compressed, stripped of metadata or given a scope label. Their hashes therefore differ from the originals, and both identities are retained.
 
 ```mermaid
 flowchart LR
@@ -29,7 +29,7 @@ A checksum does not prove that a measurement is correct, that an image is licens
 For example, on macOS a reader can calculate a published video’s digest with:
 
 ```sh
-shasum -a 256 media/videos/model-based-autonomous-corridor.mp4
+shasum -a 256 media/autonomous/corridor-flight.mp4
 ```
 
 Compare the result with the corresponding `sha256` field in the media manifest. The `source_sha256` field refers to the separately preserved original, not the public compressed file.
@@ -58,7 +58,7 @@ The archive separates a package’s internal checksum ledger from an external re
 
 Every retained output carries its completion state. Log shards, intermediate checkpoints and completed packages therefore remain distinguishable and useful for diagnosis, recovery and accepted-result review. The preserved local archive records the exact bytes that were exported and verified.
 
-The private source inventory now records document identity, archive copy, version/date, related implementation or result, publication form and public destination. That mapping allows a reader of the public edition to distinguish an adapted explanation from a complete original document. [Public source records](source-records.md) expose the eligible record identities without exposing private paths or operational specifications.
+The private source inventory now records document identity, archive copy, version/date, related implementation or result, publication form and public destination. That mapping allows a reader of the public edition to distinguish an adapted explanation from a complete original document. [Public source records](../results/source-records.md) expose the eligible record identities without exposing private paths or operational specifications.
 
 ## Verify the published media bytes
 
@@ -72,4 +72,4 @@ This checks file identity. Media captions and source records explain what the fi
 
 ## Source basis
 
-This public explanation is grounded in the dated project records identified in the [source records for this chapter](source-records.md#chapter-docs-reproducibility-md). The catalogue distinguishes complete notices from adapted explanations and preserves separate document versions.
+This public explanation is grounded in the dated project records identified in the [source records for this chapter](../results/source-records.md#chapter-docs-reproducibility-md). The catalogue distinguishes complete notices from adapted explanations and preserves separate document versions.

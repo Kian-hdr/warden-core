@@ -38,7 +38,7 @@ This licence grants no commercial rights. Commercial use includes use primarily 
 - manufacture, sale, lease, licensing, paid training, paid consulting, paid integration or provision of a product or service; and
 - preparing the Covered Material or an adaptation for any anticipated commercial application.
 
-Merely viewing the public files to decide whether to request a commercial licence is allowed. Every other commercial use requires a separate written paid agreement from the applicable rights holder before that use begins. See [`COMMERCIAL-LICENSING.md`](../COMMERCIAL-LICENSING.md).
+Merely viewing the public files to decide whether to request a commercial licence is allowed. Every other commercial use requires a separate written paid agreement from the applicable rights holder before that use begins. See [`licensing/commercial-licensing.md`](../commercial-licensing.md).
 
 ## 6. Safety and regulated uses
 

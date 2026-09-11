@@ -20,9 +20,9 @@
     "sha256": "a90493c447044abda1c0ba0da65f52b0ee91afcc5876f37dff8560c4544e9007",
     "form": "exact reward equations and coefficients reproduced within an adapted explanation; original specification not reproduced verbatim",
     "destinations": [
-      "docs/reward-policy-overview.md",
+      "policies/reward-policy.md",
       "docs/training.md",
-      "docs/vault-source-coverage.md"
+      "docs/source-coverage.md"
     ]
   },
   {
@@ -33,7 +33,7 @@
     "sha256": "5acc3e49a3fcda08bf0fc6aee50f223784970e520731f6923c7630429bf6a196",
     "form": "adapted explanation, not original specification",
     "destinations": [
-      "docs/hardware-engineering.md"
+      "hardware/engineering.md"
     ]
   },
   {
@@ -55,7 +55,7 @@
     "sha256": "b44f5164e044d01bf6545d8cb220f99e0b835b53a1bfb7623dc3f11e6be3bb35",
     "form": "adapted explanation, not original specification",
     "destinations": [
-      "docs/software-engineering.md"
+      "software/engineering.md"
     ]
   },
   {
@@ -66,7 +66,7 @@
     "sha256": "1dd6eecbb412d72c67a92d2c4229bfaae890673151acb082ca83f22005ce70f1",
     "form": "adapted explanation, not original specification",
     "destinations": [
-      "docs/hardware-engineering.md"
+      "hardware/engineering.md"
     ]
   },
   {
@@ -78,7 +78,7 @@
     "form": "adapted explanation, not original specification",
     "destinations": [
       "README.md",
-      "docs/progress.md",
+      "docs/overview.md",
       "docs/simulation.md",
       "docs/perception.md"
     ]
@@ -91,8 +91,8 @@
     "sha256": "b380d376d71e9e45d26f39da1a172ea1a3eb76bfa2d8bc34a4017de91f35d0bb",
     "form": "adapted explanation, not original specification",
     "destinations": [
-      "docs/progress.md",
-      "docs/vault-source-coverage.md"
+      "docs/overview.md",
+      "docs/source-coverage.md"
     ]
   },
   {
@@ -128,9 +128,9 @@
     "sha256": "9a6d109e0763d435218f5b625ca52f985d3e66591bec4da64df0781990359bc3",
     "form": "adapted explanation, not original specification",
     "destinations": [
-      "docs/progress.md",
+      "docs/overview.md",
       "docs/visual-walkthrough.md",
-      "docs/hardware-engineering.md"
+      "hardware/engineering.md"
     ]
   },
   {
@@ -141,7 +141,7 @@
     "sha256": "253808409ec6027625282b56425a3fe2620c11623871feb8ad055d8bb79072cc",
     "form": "adapted explanation, not original specification",
     "destinations": [
-      "docs/hardware-engineering.md",
+      "hardware/engineering.md",
       "docs/visual-walkthrough.md"
     ]
   },
@@ -153,9 +153,9 @@
     "sha256": "bda58e45413dcd2f9556fbcc71622b5d51c094b586f12c2d382807279d20adf0",
     "form": "adapted explanation, not original specification",
     "destinations": [
-      "docs/progress.md",
+      "docs/overview.md",
       "docs/simulation.md",
-      "docs/software-engineering.md"
+      "software/engineering.md"
     ]
   },
   {
@@ -166,7 +166,7 @@
     "sha256": "715e485d32c95b415dcbbb9dce0fe11bf6597b3dc692eef3895639dee1f337b2",
     "form": "adapted explanation, not original specification",
     "destinations": [
-      "docs/software-engineering.md",
+      "software/engineering.md",
       "docs/reproducibility.md"
     ]
   },
@@ -180,7 +180,7 @@
     "destinations": [
       "docs/training.md",
       "docs/reproducibility.md",
-      "docs/vault-source-coverage.md"
+      "docs/source-coverage.md"
     ]
   },
   {
@@ -227,7 +227,7 @@
     "sha256": "1c625162e943d00a4a7e99d8a73e61e62e2ed8ae4d7b327f58938d96b0e2af5f",
     "form": "adapted explanation, not original specification",
     "destinations": [
-      "docs/reward-policy-overview.md",
+      "policies/reward-policy.md",
       "docs/training.md"
     ]
   },
@@ -239,7 +239,7 @@
     "sha256": "2ac8929fadd5a258deee4da493fd90cab7d2fa26ef7e455ecccf37f6b9c2f84a",
     "form": "adapted explanation, not original specification",
     "destinations": [
-      "docs/progress.md",
+      "docs/overview.md",
       "docs/training.md",
       "docs/visual-walkthrough.md"
     ]
@@ -252,7 +252,7 @@
     "sha256": "4da515e6cd7609461f77fa37bad95dadaa1320142b8c51ca3c78843cdff4c7d2",
     "form": "adapted explanation, not original specification",
     "destinations": [
-      "docs/progress.md",
+      "docs/overview.md",
       "docs/scope.md"
     ]
   },
@@ -264,8 +264,8 @@
     "sha256": "07bb61e2f94ed1eb78b45e4456cc8fc5e188efbdb9aece716ae38146054524c1",
     "form": "adapted explanation, not original specification",
     "destinations": [
-      "docs/progress.md",
-      "docs/vault-source-coverage.md"
+      "docs/overview.md",
+      "docs/source-coverage.md"
     ]
   },
   {
@@ -312,7 +312,7 @@
     "sha256": "2c4914abd7ade993d2158a20f3c8fc74af519b755b265afd9af3d9034d414bfd",
     "form": "adapted explanation, not original specification",
     "destinations": [
-      "docs/hardware-engineering.md",
+      "hardware/engineering.md",
       "docs/visual-walkthrough.md"
     ]
   },
@@ -338,7 +338,7 @@
     "destinations": [
       "docs/development.md",
       "docs/visual-walkthrough.md",
-      "docs/vault-source-coverage.md"
+      "docs/source-coverage.md"
     ]
   },
   {
@@ -363,7 +363,7 @@
     "form": "adapted explanation, not original specification",
     "destinations": [
       "docs/scope.md",
-      "docs/progress.md"
+      "docs/overview.md"
     ]
   },
   {
@@ -376,7 +376,7 @@
     "destinations": [
       "docs/development.md",
       "docs/reproducibility.md",
-      "docs/vault-source-coverage.md"
+      "docs/source-coverage.md"
     ]
   },
   {
@@ -388,7 +388,7 @@
     "form": "adapted explanation, not original specification",
     "destinations": [
       "docs/sources.md",
-      "docs/reward-policy-overview.md"
+      "policies/reward-policy.md"
     ]
   },
   {
@@ -413,7 +413,7 @@
     "form": "adapted explanation, not original specification",
     "destinations": [
       "docs/development.md",
-      "docs/progress.md"
+      "docs/overview.md"
     ]
   },
   {
@@ -425,7 +425,7 @@
     "form": "adapted explanation, not original specification",
     "destinations": [
       "docs/simulation.md",
-      "docs/software-engineering.md"
+      "software/engineering.md"
     ]
   },
   {
@@ -437,7 +437,7 @@
     "form": "adapted explanation, not original specification",
     "destinations": [
       "docs/development.md",
-      "docs/progress.md"
+      "docs/overview.md"
     ]
   },
   {
@@ -448,7 +448,7 @@
     "sha256": "cad393783291e1e8940e38c0834d1f3f92f7908534af8a05a2a2078d5ff03a74",
     "form": "adapted explanation, not original specification",
     "destinations": [
-      "docs/progress.md",
+      "docs/overview.md",
       "docs/development.md"
     ]
   },
@@ -473,7 +473,7 @@
     "form": "adapted explanation, not original specification",
     "destinations": [
       "docs/development.md",
-      "docs/progress.md"
+      "docs/overview.md"
     ]
   },
   {
@@ -486,7 +486,7 @@
     "destinations": [
       "docs/scope.md",
       "docs/reproducibility.md",
-      "docs/vault-source-coverage.md"
+      "docs/source-coverage.md"
     ]
   },
   {
@@ -497,7 +497,7 @@
     "sha256": "45eb362e267fec9466e7218a431b6233895a7c8f1aa60432b351e8b57bdfe49e",
     "form": "adapted explanation, not original specification",
     "destinations": [
-      "docs/software-engineering.md"
+      "software/engineering.md"
     ]
   },
   {
@@ -554,7 +554,7 @@
     "form": "adapted explanation, not original specification",
     "destinations": [
       "docs/reproducibility.md",
-      "docs/experiment-artifacts.md"
+      "docs/artifact-lineage.md"
     ]
   },
   {
@@ -565,7 +565,7 @@
     "sha256": "22847ab9fd8313943592b3897431220a57a35dceee4c3b690bb32c757c40799a",
     "form": "adapted explanation, not original specification",
     "destinations": [
-      "docs/hardware-engineering.md"
+      "hardware/engineering.md"
     ]
   },
   {
@@ -576,7 +576,7 @@
     "sha256": "71c4b79fe75072f043bcfdcc97ec275d207528922ccb9dd6a95e0f12005c72cd",
     "form": "adapted explanation, not original specification",
     "destinations": [
-      "docs/software-engineering.md"
+      "software/engineering.md"
     ]
   },
   {
@@ -587,8 +587,8 @@
     "sha256": "e91fe0615e2bd9dfa4a8cdd463f4fc6b98320db2c5de62aeb4a7984dd91b7a39",
     "form": "adapted explanation, not original specification",
     "destinations": [
-      "docs/software-engineering.md",
-      "docs/experiment-artifacts.md"
+      "software/engineering.md",
+      "docs/artifact-lineage.md"
     ]
   },
   {
@@ -621,7 +621,7 @@
     "sha256": "f4c7d24e8cb859b97ca91d064075b9dc87b9d7fecd9cc3d0b4c515c14be463b4",
     "form": "adapted explanation, not original specification",
     "destinations": [
-      "docs/hardware-engineering.md"
+      "hardware/engineering.md"
     ]
   },
   {
@@ -632,7 +632,7 @@
     "sha256": "740c393014287ebfb23922d93d9cb5fcfa1b69c18f0f1dc9085df9550f06655c",
     "form": "adapted explanation, not original specification",
     "destinations": [
-      "docs/hardware-engineering.md"
+      "hardware/engineering.md"
     ]
   },
   {
@@ -643,7 +643,7 @@
     "sha256": "c07879f94237fba8067c1d44823957cd01d25df78c2f2625e2a18a029a00c7a9",
     "form": "adapted explanation, not original specification",
     "destinations": [
-      "docs/hardware-engineering.md"
+      "hardware/engineering.md"
     ]
   },
   {
@@ -654,7 +654,7 @@
     "sha256": "efef6dc0e9b846ed5a7048dff9453f5bc90fef5e306eb88332fe5cf50a08b900",
     "form": "adapted explanation, not original specification",
     "destinations": [
-      "docs/hardware-engineering.md"
+      "hardware/engineering.md"
     ]
   },
   {
@@ -676,7 +676,7 @@
     "sha256": "48ac0bcf4666e631dcbbb600e73e42f1f91a30d9e72c5cc52d885024468164a2",
     "form": "adapted explanation, not original specification",
     "destinations": [
-      "docs/hardware-engineering.md"
+      "hardware/engineering.md"
     ]
   },
   {
@@ -687,7 +687,7 @@
     "sha256": "0146b440eb9bcfd7fa20ea9ee04cc6878eb56808885a5bb8f8ca78863f6aeec2",
     "form": "adapted explanation, not original specification",
     "destinations": [
-      "docs/hardware-engineering.md"
+      "hardware/engineering.md"
     ]
   },
   {
@@ -698,7 +698,7 @@
     "sha256": "e0f8bbe472fa26f1275e9520d178cb369cbd0fb257d156c143d7fac2a93bdfb2",
     "form": "adapted explanation, not original specification",
     "destinations": [
-      "docs/hardware-engineering.md"
+      "hardware/engineering.md"
     ]
   },
   {
@@ -709,7 +709,7 @@
     "sha256": "d395df0b31e3b36481f46e0cefe95414354745791c09c7f2137350140a439f77",
     "form": "adapted explanation, not original specification",
     "destinations": [
-      "docs/hardware-engineering.md"
+      "hardware/engineering.md"
     ]
   },
   {
@@ -720,7 +720,7 @@
     "sha256": "59201db02d13a28066a2ce777b14702aed4c558e8edf8e0f1cf2639182af82be",
     "form": "adapted explanation, not original specification",
     "destinations": [
-      "docs/hardware-engineering.md"
+      "hardware/engineering.md"
     ]
   },
   {
@@ -731,7 +731,7 @@
     "sha256": "9fc1b77d943833455349e8a03a4d917a551a41262d37b2e3c9f435e6b0d8476a",
     "form": "adapted explanation, not original specification",
     "destinations": [
-      "docs/hardware-engineering.md"
+      "hardware/engineering.md"
     ]
   },
   {
@@ -742,7 +742,7 @@
     "sha256": "b41ae992bcc7d8c22e44217fcbf79a475e16b5b51bf279ebe222b41a354e6dfe",
     "form": "adapted explanation, not original specification",
     "destinations": [
-      "docs/hardware-engineering.md"
+      "hardware/engineering.md"
     ]
   },
   {
@@ -753,7 +753,7 @@
     "sha256": "8999c06fb3e8803c900c83e6fc265e00297728c9ede3fe4596d9c6726609c014",
     "form": "adapted explanation, not original specification",
     "destinations": [
-      "docs/hardware-engineering.md"
+      "hardware/engineering.md"
     ]
   },
   {
@@ -764,7 +764,7 @@
     "sha256": "2effc930e1bc1dc83c78a6b6a338d8fdf3accb01a12b1e7b6014cc164718c711",
     "form": "adapted explanation, not original specification",
     "destinations": [
-      "docs/hardware-engineering.md"
+      "hardware/engineering.md"
     ]
   },
   {
@@ -775,7 +775,7 @@
     "sha256": "42af31287d46944d829ee1f9f310c5392cdb92d5c8d66666d8f6d32f59aaa088",
     "form": "adapted explanation, not original specification",
     "destinations": [
-      "docs/hardware-engineering.md"
+      "hardware/engineering.md"
     ]
   },
   {
@@ -786,7 +786,7 @@
     "sha256": "e432d33d9b1ce8bea3ef07404cba8fc273eabcfa65450c28ba43d1af41835589",
     "form": "adapted explanation, not original specification",
     "destinations": [
-      "docs/hardware-engineering.md"
+      "hardware/engineering.md"
     ]
   },
   {
@@ -797,7 +797,7 @@
     "sha256": "b8fe3881f2e5beb8cbd07b80efdae1f6ef7b9c518274f0b5d0d1119949a092d6",
     "form": "adapted explanation, not original specification",
     "destinations": [
-      "docs/hardware-engineering.md"
+      "hardware/engineering.md"
     ]
   },
   {
@@ -808,7 +808,7 @@
     "sha256": "17bcaaa68ab1056756f746f7ad3f9b7f04844d1b7d03bb42d13feb86288d59cc",
     "form": "adapted explanation, not original specification",
     "destinations": [
-      "docs/computational-geometry.md"
+      "hardware/computational-geometry.md"
     ]
   },
   {
@@ -819,7 +819,7 @@
     "sha256": "eb918e12830658f5c8f58280618d68ffd2b752856aef4dd6baa785c4f94da98d",
     "form": "adapted explanation, not original specification",
     "destinations": [
-      "docs/computational-geometry.md"
+      "hardware/computational-geometry.md"
     ]
   },
   {
@@ -830,7 +830,7 @@
     "sha256": "a0967eee945aef28355cc839e8c2789d8f8d91066846c180b8d14b3cc564966e",
     "form": "adapted explanation, not original specification",
     "destinations": [
-      "docs/computational-geometry.md"
+      "hardware/computational-geometry.md"
     ]
   },
   {
@@ -852,7 +852,7 @@
     "sha256": "4659e8ab3636a4aa52e04e3f7d20efdeef0a23c67946c0be31f81e83d9ed95d6",
     "form": "adapted explanation, not original specification",
     "destinations": [
-      "docs/hardware-engineering.md"
+      "hardware/engineering.md"
     ]
   },
   {
@@ -876,7 +876,7 @@
     "form": "adapted explanation, not original specification",
     "destinations": [
       "docs/training.md",
-      "docs/experiment-artifacts.md"
+      "docs/artifact-lineage.md"
     ]
   },
   {
@@ -887,7 +887,7 @@
     "sha256": "b57dace770ecf45392e92debb373382c2629b89631e6270747900b55d89d4a1f",
     "form": "adapted explanation, not original specification",
     "destinations": [
-      "docs/computational-geometry.md"
+      "hardware/computational-geometry.md"
     ]
   },
   {
@@ -975,7 +975,7 @@
     "sha256": "a24256b26aa4befd2291ae5f46a6a78474e5122d3f6ac230b38f0aa17a74c5da",
     "form": "adapted explanation, not original specification",
     "destinations": [
-      "docs/software-engineering.md"
+      "software/engineering.md"
     ]
   },
   {
@@ -986,7 +986,7 @@
     "sha256": "6ca06059d75dabf483e3af82c50ed513db0c40f3793f1582ad3edeb28cf35df4",
     "form": "adapted explanation, not original specification",
     "destinations": [
-      "docs/vault-source-coverage.md",
+      "docs/source-coverage.md",
       "docs/sources.md"
     ]
   },
@@ -998,7 +998,7 @@
     "sha256": "ce134d661d01845c8e8f1493b7801cc5c99d0b4e3412c3dc8893958d0053c2b5",
     "form": "adapted explanation, not original specification",
     "destinations": [
-      "docs/hardware-engineering.md"
+      "hardware/engineering.md"
     ]
   },
   {
@@ -1009,7 +1009,7 @@
     "sha256": "b377fdec40f8d4c2b8c26ba0057380e15ecaa0a79937e22d3a0d059a91edf0b5",
     "form": "adapted explanation, not original specification",
     "destinations": [
-      "docs/hardware-engineering.md"
+      "hardware/engineering.md"
     ]
   },
   {
@@ -1020,7 +1020,7 @@
     "sha256": "dc41d2a4bd0f53ae78282224e357d548a109acae4444ef565c5c64017bdff663",
     "form": "adapted explanation, not original specification",
     "destinations": [
-      "docs/software-engineering.md"
+      "software/engineering.md"
     ]
   },
   {
@@ -1043,7 +1043,7 @@
     "form": "adapted explanation, not original specification",
     "destinations": [
       "docs/training.md",
-      "docs/experiment-artifacts.md"
+      "docs/artifact-lineage.md"
     ]
   },
   {
@@ -1055,7 +1055,7 @@
     "form": "adapted explanation, not original specification",
     "destinations": [
       "docs/training.md",
-      "docs/experiment-artifacts.md"
+      "docs/artifact-lineage.md"
     ]
   },
   {
@@ -1067,12 +1067,12 @@
     "form": "adapted explanation, not original specification",
     "destinations": [
       "docs/reproducibility.md",
-      "docs/experiment-artifacts.md"
+      "docs/artifact-lineage.md"
     ]
   },
   {
     "id": "DOC-cc543fa8d755",
-    "title": "Supervised object identification \u2014 results\r",
+    "title": "Supervised object identification — results\r",
     "source_date": "2026-08-31",
     "date_basis": "filesystem_mtime",
     "sha256": "cc543fa8d7559535a45dbd4c5fbba890863b0624e57e41a2b1f309096847bddc",
@@ -1101,8 +1101,8 @@
     "sha256": "a0a9e28a7fb92807b209b7354a1c45b08702b2ef39084266ae14257f7383f3fb",
     "form": "adapted explanation, not original specification",
     "destinations": [
-      "docs/software-engineering.md",
-      "docs/experiment-artifacts.md"
+      "software/engineering.md",
+      "docs/artifact-lineage.md"
     ]
   },
   {
@@ -1223,7 +1223,7 @@
     "sha256": "83f326dcaaf8675a6510681ddcb7f791ee89075811b8da832822a7789aba6e56",
     "form": "adapted explanation, not original specification",
     "destinations": [
-      "docs/software-engineering.md"
+      "software/engineering.md"
     ]
   },
   {
@@ -1248,7 +1248,7 @@
     "destinations": [
       "docs/visual-walkthrough.md",
       "docs/reproducibility.md",
-      "docs/vault-source-coverage.md"
+      "docs/source-coverage.md"
     ]
   },
   {
@@ -1273,7 +1273,7 @@
     "form": "adapted explanation, not original specification",
     "destinations": [
       "docs/reproducibility.md",
-      "docs/vault-source-coverage.md"
+      "docs/source-coverage.md"
     ]
   },
   {
@@ -1290,7 +1290,7 @@
   },
   {
     "id": "DOC-19b5ad514b6e",
-    "title": "WCP collected stills \u2014 linear probe (2026-08-31)",
+    "title": "WCP collected stills — linear probe (2026-08-31)",
     "source_date": "2026-08-31",
     "date_basis": "filesystem_mtime",
     "sha256": "19b5ad514b6eba896c5ec39896bb53bdb7ec6488df9049fa856168a10904eec3",

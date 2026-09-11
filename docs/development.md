@@ -30,4 +30,4 @@ The engineering lesson is a method for investigating interfaces: establish what 
 
 ## Source basis
 
-The [source records for this chapter](source-records.md#chapter-docs-development-md) identify the archived versions used in this public explanation.
+The [source records for this chapter](../results/source-records.md#chapter-docs-development-md) identify the archived versions used in this public explanation.

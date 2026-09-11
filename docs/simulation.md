@@ -33,7 +33,7 @@ The project retained configurations, checkpoints and logs together. This made it
 
 ## From simulation to presentation
 
-The camera workflow produced frame sequences and encoded video. The public [autonomous corridor demonstration](flight-media.md#model-based-autonomous-corridor-flight) connects a source revision, physically simulated vehicle, model-based trajectory controller, runtime measurements, 450 source frames and independent technical/visual review. The [verified simulation montage](flight-media.md#verified-simulation-montage) combines exterior, chase and first-person camera work with explicit title cards.
+The camera workflow produced frame sequences and encoded video. The public [autonomous corridor demonstration](../media/provenance.md#model-based-autonomous-corridor-flight) connects a source revision, physically simulated vehicle, model-based trajectory controller, runtime measurements, 450 source frames and independent technical/visual review. The [verified simulation montage](../media/provenance.md#verified-simulation-montage) combines exterior, chase and first-person camera work with explicit title cards.
 
 The simulator SDK, third-party robot assets and cloud-machine configuration are not distributed in this repository. NVIDIA products are tools used by the project; their use does not imply NVIDIA endorsement or partnership.
 
@@ -49,4 +49,4 @@ This decision preserved a repeatable model/runtime combination. It was not a dig
 
 ## Source basis
 
-This public explanation is grounded in the dated project records identified in the [source records for this chapter](source-records.md#chapter-docs-simulation-md). The catalogue distinguishes complete notices from adapted explanations and preserves separate document versions.
+This public explanation is grounded in the dated project records identified in the [source records for this chapter](../results/source-records.md#chapter-docs-simulation-md). The catalogue distinguishes complete notices from adapted explanations and preserves separate document versions.

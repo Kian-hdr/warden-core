@@ -8,7 +8,7 @@ A robotics project joins components that run at different rates and use differen
 
 The original project documented this interface discipline in Python dataclasses and portable JSON schemas. Changing a field’s meaning, units or requiredness was treated as an interface change. A familiar field name is insufficient if two components disagree about its interpretation.
 
-The published toolkit applies the same approach to timestamps and recorded pipeline events. A parser checks input structure before the assessor calculates timing metrics. The [software walkthrough](software-engineering.md) explains how strict types, causal ordering and stream coverage are handled in the implementation. Those checks make a malformed capture distinguishable from a well-formed capture that does not meet its declared measurement conditions.
+The published toolkit applies the same approach to timestamps and recorded pipeline events. A parser checks input structure before the assessor calculates timing metrics. The [software walkthrough](../software/engineering.md) explains how strict types, causal ordering and stream coverage are handled in the implementation. Those checks make a malformed capture distinguishable from a well-formed capture that does not meet its declared measurement conditions.
 
 ## Preserve the links between artifacts
 
@@ -50,4 +50,4 @@ Our [gallery](../media/README.md) therefore labels each published clip for its a
 
 ## Source basis
 
-This public explanation is grounded in the dated project records identified in the [source records for this chapter](source-records.md#chapter-docs-experiment-artifacts-md). The catalogue distinguishes complete notices from adapted explanations and preserves separate document versions.
+This public explanation is grounded in the dated project records identified in the [source records for this chapter](../results/source-records.md#chapter-docs-artifact-lineage-md). The catalogue distinguishes complete notices from adapted explanations and preserves separate document versions.

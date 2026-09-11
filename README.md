@@ -6,6 +6,32 @@ I led Annihilation Industries at the European Defense Tech Hackathon in Hamburg,
 
 This repository explains how the project works and shares selected development footage, build photographs, a runnable observability toolkit and editable landing-leg CAD. The runnable component is the standalone pipeline observability package; the wider simulation, perception and hardware work is documented alongside it.
 
+## Start here
+
+| Question | Go directly to |
+| --- | --- |
+| **What did Warden Core achieve?** | [Verified results](results/README.md) and [machine-readable results](results/verified-results.json) |
+| **How does the system work?** | [System architecture](docs/architecture.md) |
+| **Where are the reward and policy specifications?** | [Policy and mathematics index](policies/README.md) |
+| **Where are the evidence identities?** | [Run identities](results/run-identities.md) and [source records](results/source-records.md) |
+| **Where are the flight videos?** | [Media gallery](media/README.md) and [media provenance](media/provenance.md) |
+| **How can I run the public software?** | [Warden observability](software/README.md) |
+| **What can I use for education or research?** | [Licensing guide](licensing/README.md) |
+| **How do I request model access?** | [Closed-source model access](licensing/model-access.md) |
+
+## Repository map
+
+```text
+policies/     Reward mathematics, observation/action contracts, evaluation method
+results/      Verified outcomes, run identities, source records, machine-readable data
+docs/         Overview, architecture, simulation, training, perception, development
+media/        Autonomous flight, simulator footage, physical prototype, posters
+software/     Runnable observability package, examples, tests, engineering notes
+hardware/     Parametric CAD, STEP/STL, previews, engineering documentation
+licensing/    Reuse guide, licence texts, commercial terms, model-access policy
+third_party/  Upstream notices only
+```
+
 ## Verified engineering highlights
 
 | Completed result | Recorded outcome |
@@ -16,38 +42,38 @@ This repository explains how the project works and shares selected development f
 | Autonomous corridor demonstration | 15 seconds, 450 frames, 15.485 m travel, zero collisions or safety interventions |
 | Engineering contract suite | 409 full tests, 139 focused tests, schema/Ruff/syntax checks passed |
 
-[Read the full verified results](docs/verified-engineering-results.md) · [Explore the system architecture](docs/system-architecture.md)
+[Read the full verified results](results/README.md) · [Explore the system architecture](docs/architecture.md)
 
 ## Watch the simulation work
 
 | Autonomous trajectory control | Verified simulation montage |
 | --- | --- |
-| [![Model-based autonomous flight through the fictional corridor](media/videos/model-based-autonomous-corridor.png)](media/videos/model-based-autonomous-corridor.mp4?raw=1) | [![Warden Iris simulation montage](media/videos/verified-simulation-montage.png)](media/videos/verified-simulation-montage.mp4?raw=1) |
+| [![Model-based autonomous flight through the fictional corridor](media/posters/corridor-flight.png)](media/autonomous/corridor-flight.mp4?raw=1) | [![Warden Iris simulation montage](media/posters/development-montage.png)](media/simulator/development-montage.mp4?raw=1) |
 | **Model-based autonomous corridor flight.** A 15-second, 450-frame direct Isaac Sim render with zero collisions, command saturations or safety interventions in the recorded scenario. | **Isaac Sim development reel.** Camera calibration plus chase and first-person views from the verified mapped-course behavioral baseline. |
 
-[Flight-media provenance and measurements](docs/flight-media.md)
+[Flight-media provenance and measurements](media/provenance.md)
 
 ## Additional verified views
 
 | Mapped-course chase camera | Mapped-course first-person camera |
 | --- | --- |
-| [![Mapped-course chase view](media/videos/course-baseline-chase.jpg)](media/videos/course-baseline-chase.mp4?raw=1) | [![Mapped-course first-person view](media/videos/course-baseline-fpv.jpg)](media/videos/course-baseline-fpv.mp4?raw=1) |
+| [![Mapped-course chase view](media/posters/mapped-course-chase.jpg)](media/simulator/mapped-course-chase.mp4?raw=1) | [![Mapped-course first-person view](media/posters/mapped-course-fpv.jpg)](media/simulator/mapped-course-fpv.mp4?raw=1) |
 
-[Physical prototype hover](media/videos/prototype-hover.mp4?raw=1) · [Visual engineering walkthrough](docs/visual-walkthrough.md)
+[Physical prototype hover](media/physical/prototype-hover.mp4?raw=1) · [Visual engineering walkthrough](docs/visual-walkthrough.md)
 
 ## Explore the engineering in depth
 
 | Walkthrough | What it explains |
 | --- | --- |
-| [Software internals](docs/software-engineering.md) | Typed events, timestamp ordering, capture assembly, input hashing and assessment behavior. |
-| [Computational geometry studies](docs/computational-geometry.md) | The separate PicoGK branch: field/lattice/frame representations and recorded digital checks. |
-| [Experiment artifacts](docs/experiment-artifacts.md) | How source revisions, checkpoints, exports and media retain their relationships. |
-| [Hardware development](docs/hardware-engineering.md) | Connected-web topology, parametric geometry, STEP/STL integrity and slice-level checks. |
+| [Software internals](software/engineering.md) | Typed events, timestamp ordering, capture assembly, input hashing and assessment behavior. |
+| [Computational geometry studies](hardware/computational-geometry.md) | The separate PicoGK branch: field/lattice/frame representations and recorded digital checks. |
+| [Experiment artifacts](docs/artifact-lineage.md) | How source revisions, checkpoints, exports and media retain their relationships. |
+| [Hardware development](hardware/engineering.md) | Connected-web topology, parametric geometry, STEP/STL integrity and slice-level checks. |
 | [Visual record](docs/visual-walkthrough.md) | Build photographs, outdoor hover, simulation cameras and CAD visualizations. |
 | [Reproducibility](docs/reproducibility.md) | How source, checkpoints, media and published copies retain their identities. |
-| [Verified results](docs/verified-engineering-results.md) | Real-Isaac integration, dynamics, replay, scale profiling, training execution and autonomous corridor results. |
-| [System architecture](docs/system-architecture.md) | Cloud, simulator, observation, control, reward and evidence layers. |
-| [Flight media](docs/flight-media.md) | Video provenance, exact measurements and the role of each published clip. |
+| [Verified results](results/README.md) | Real-Isaac integration, dynamics, replay, scale profiling, training execution and autonomous corridor results. |
+| [System architecture](docs/architecture.md) | Cloud, simulator, observation, control, reward and evidence layers. |
+| [Flight media](media/provenance.md) | Video provenance, exact measurements and the role of each published clip. |
 
 ## How the pieces fit together
 
@@ -99,9 +125,9 @@ Our development records distinguish these steps:
 
 The retained archive includes source-linked experiment configurations, logs, closed-source checkpoints, evaluation records and reviewed camera output.
 
-[Training and evaluation documentation](docs/training.md) · [Exact acro-racing reward policy](docs/reward-policy-overview.md) · [Source coverage](docs/vault-source-coverage.md)
+[Training and evaluation documentation](docs/training.md) · [Exact acro-racing reward policy](policies/reward-policy.md) · [Source coverage](docs/source-coverage.md)
 
-The model weights and exported policy artifacts are closed source and are not present in this repository. Commercial, education and academic requests are handled through the [model-access policy](MODEL-ACCESS.md).
+The model weights and exported policy artifacts are closed source and are not present in this repository. Commercial, education and academic requests are handled through the [model-access policy](licensing/model-access.md).
 
 ## Computer vision and the dataset
 
@@ -117,11 +143,11 @@ This was still-image classification, not demonstrated recognition during flight.
 
 | Open prototype | Folded configuration |
 | --- | --- |
-| ![Prototype with arms open](media/prototype-open.jpg) | ![Prototype with arms folded](media/prototype-folded.jpg) |
+| ![Prototype with arms open](media/physical/prototype-open.jpg) | ![Prototype with arms folded](media/physical/prototype-folded.jpg) |
 
 The photographs document frame assembly, electronics and the folding configuration. The supplied outdoor recording also shows the physical prototype hovering.
 
-<a href="media/videos/prototype-hover.mp4?raw=1"><img src="media/physical/outdoor-hover.jpg" alt="Physical prototype hovering outdoors" width="420"></a>
+<a href="media/physical/prototype-hover.mp4?raw=1"><img src="media/physical/outdoor-hover.jpg" alt="Physical prototype hovering outdoors" width="420"></a>
 
 *Recorded physical hover. The recording does not document the control mode; it is separate from the simulation-learning experiments.*
 
@@ -131,7 +157,7 @@ A separate LL-11 landing-leg design is included as parametric CadQuery source, S
 
 *LL-11 digital design, separate from the photographed frame assembly. Geometry checks and design scope are recorded with the CAD files.*
 
-[Hardware files and reproduction notes](hardware/) · [Detailed CAD engineering](docs/hardware-engineering.md) · [Assembly photographs](media/README.md)
+[Hardware files and reproduction notes](hardware/) · [Detailed CAD engineering](hardware/engineering.md) · [Assembly photographs](media/README.md)
 
 ## Try the software
 
@@ -157,23 +183,25 @@ The included example is synthetic. Assembly intentionally returns exit code **2*
 
 | Folder | Contents |
 | --- | --- |
-| [`docs/`](docs/README.md) | Project progress, simulation, training, perception, dataset records and development approach. |
+| [`policies/`](policies/README.md) | Reward mathematics, observation/action contracts and evaluation methodology. |
+| [`results/`](results/README.md) | Verified outcomes, run identities, source records and machine-readable evidence. |
+| [`docs/`](docs/README.md) | Overview, architecture, simulation, training, perception and development approach. |
 | [`software/`](software/) | Standalone observability package, examples and tests. |
 | [`hardware/`](hardware/) | LL-11 source, CAD exchange files and design limits. |
-| [`media/`](media/README.md) | Build photos, correctly labelled development videos and media hashes. |
+| [`media/`](media/README.md) | Autonomous-flight, simulator and physical-prototype media with provenance and hashes. |
+| [`licensing/`](licensing/README.md) | Licence map, commercial terms, contributor rights and model-access policy. |
 | [`third_party/`](third_party/README.md) | Upstream media credits and licence notices. |
-| [`MODEL-ACCESS.md`](MODEL-ACCESS.md) | Closed-source model policy and commercial or academic request route. |
 
 ## Licensing
 
 This repository uses a scoped noncommercial licence model:
 
-- project-owned code in `software/` and `tools/` uses the [PolyForm Noncommercial License 1.0.0](LICENSES/PolyForm-Noncommercial-1.0.0.md);
-- project-owned documentation, diagrams and specifically identified media use [CC BY-NC-SA 4.0](LICENSES/CC-BY-NC-SA-4.0.md);
-- project-owned hardware and CAD use the [Warden Core Hardware Research and Education License 1.0](LICENSES/Warden-Core-Hardware-Research-and-Education-1.0.md); and
+- project-owned code in `software/` and `tools/` uses the [PolyForm Noncommercial License 1.0.0](licensing/licenses/PolyForm-Noncommercial-1.0.0.md);
+- project-owned documentation, diagrams and specifically identified media use [CC BY-NC-SA 4.0](licensing/licenses/CC-BY-NC-SA-4.0.md);
+- project-owned hardware and CAD use the [Warden Core Hardware Research and Education License 1.0](licensing/licenses/Warden-Core-Hardware-Research-and-Education-1.0.md); and
 - third-party, teammate-owned and rights-unconfirmed material is excluded and remains subject to its own rights and notices.
 
-Noncommercial education, personal experimentation and academic research are permitted within the applicable terms. Commercial use requires a [separate written paid agreement](COMMERCIAL-LICENSING.md). Read the complete [licence map](LICENSE.md) and the folder-specific notice before reusing a file.
+Noncommercial education, personal experimentation and academic research are permitted within the applicable terms. Commercial use requires a [separate written paid agreement](licensing/commercial-licensing.md). Read the complete [licence map](LICENSE.md) and the folder-specific notice before reusing a file.
 
 
 
@@ -191,4 +219,4 @@ Kian Tajbakhsh · [GitHub](https://github.com/Kian-hdr) · [Repository scope](do
 
 ## Source basis
 
-The [source records for this chapter](docs/source-records.md#chapter-readme-md) identify the archived versions used in this public explanation.
+The [source records for this chapter](results/source-records.md#chapter-readme-md) identify the archived versions used in this public explanation.

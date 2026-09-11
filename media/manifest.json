@@ -1,6 +1,6 @@
 [
   {
-    "file": "videos/camera-calibration.mp4",
+    "file": "simulator/camera-calibration.mp4",
     "sha256": "b1b05b085366596e673de8210a09f60784c0000149f5e770f41e399b11fea2bf",
     "source_sha256": "3818a75c33a6146b26a9bbc61c2cac12f560abdc4aba14391a596ebf66dcdd9a",
     "technical_format": {
@@ -24,7 +24,7 @@
   },
   {
     "source_sha256": "0f79b6faac6c90a135bec25fddb781f77638b33882278d3b417fb9f37970680f",
-    "file": "videos/course-baseline-chase.mp4",
+    "file": "simulator/mapped-course-chase.mp4",
     "sha256": "18eb462a19ddf75f35e6386586fb3896f77e93749516658d6442e50278a9b275",
     "technical_format": {
       "programs": [],
@@ -47,7 +47,7 @@
   },
   {
     "source_sha256": "fbdffb32f0e18d9261e48642d71b7e972b5de7584d540e9ecaa583df95b67803",
-    "file": "videos/course-baseline-fpv.mp4",
+    "file": "simulator/mapped-course-fpv.mp4",
     "sha256": "dea2ed2c4eb40423363fa8ea339a2d7336bfb2ea76ae10671beddcceb9f44c44",
     "technical_format": {
       "programs": [],
@@ -69,7 +69,7 @@
     "scope": "BEHAVIORAL BASELINE | NOT A LEARNED POLICY | SIMULATION ONLY"
   },
   {
-    "file": "videos/prototype-hover.mp4",
+    "file": "physical/prototype-hover.mp4",
     "source_sha256": "abaf8dd32d1176f1d4ac6fbcbab1fc9c8d45e54a5f0f521d1890a78dbcc12c8e",
     "sha256": "ed5cc9dc41c49aa479cf50c2463c32575bd4d8440a7501bf3b156491620de293",
     "technical_format": {
@@ -92,7 +92,7 @@
     "scope": "Physical prototype hover; control mode undocumented; no learned-policy claim."
   },
   {
-    "file": "videos/model-based-autonomous-corridor.mp4",
+    "file": "autonomous/corridor-flight.mp4",
     "source_sha256": "de2629261c7be02d4c2c1ae0d5154b5c0f318e4765820539269430918fa319ee",
     "sha256": "de2629261c7be02d4c2c1ae0d5154b5c0f318e4765820539269430918fa319ee",
     "technical_format": {
@@ -113,7 +113,7 @@
     "scope": "MODEL-BASED AUTONOMOUS TRAJECTORY CONTROLLER | VERIFIED CORRIDOR SCENARIO | SIMULATION ONLY"
   },
   {
-    "file": "videos/verified-simulation-montage.mp4",
+    "file": "simulator/development-montage.mp4",
     "source_sha256": "b2c79e1a3f51c7be223c47b45a7012ec6a9eff6dce65536690aa65156baa0a83",
     "sha256": "b2c79e1a3f51c7be223c47b45a7012ec6a9eff6dce65536690aa65156baa0a83",
     "technical_format": {

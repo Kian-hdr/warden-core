@@ -13,14 +13,14 @@ The private document-by-document matrix records each original location, archived
 | Private archive | The source is accounted for and preserved, with its omission reason in the private matrix. |
 | Linked external reference | A separately maintained public resource, such as the reusable skill, is linked at its source rather than copied into this repository. |
 
-[Public source records](source-records.md) list each distinct eligible document version, its date/hash and the public chapters that draw on it. The [machine-readable catalogue](source-records.json) carries the same mapping. Source versions are kept separate from the status of an implementation or experiment.
+[Public source records](../results/source-records.md) list each distinct eligible document version, its date/hash and the public chapters that draw on it. The [machine-readable catalogue](../results/source-records.json) carries the same mapping. Source versions are kept separate from the status of an implementation or experiment.
 
 ## Following the evidence
 
 Start with an engineering chapter, follow its source record and read the stated artifact scope. The public software, CAD exchange files and labelled media can be inspected directly. The repository now reproduces the recorded acro-racing reward equation, shaping ledger, terminal proof and coefficient ranges. It does not reproduce pursuit/interception logic, course-generation implementation, aircraft-control interfaces, or vehicle-operation instructions; the reward page remains an adaptation rather than the complete private design document.
 
-The [reproducibility chapter](reproducibility.md) explains source/public hashes and remote readback. The [experiment-artifact chapter](experiment-artifacts.md) explains the relationship between source, configuration, checkpoints, exports and review records.
+The [reproducibility chapter](reproducibility.md) explains source/public hashes and remote readback. The [experiment-artifact chapter](artifact-lineage.md) explains the relationship between source, configuration, checkpoints, exports and review records.
 
 ## Source basis
 
-The [source records for this chapter](source-records.md#chapter-docs-vault-source-coverage-md) identify the archived versions used in this public explanation.
+The [source records for this chapter](../results/source-records.md#chapter-docs-source-coverage-md) identify the archived versions used in this public explanation.

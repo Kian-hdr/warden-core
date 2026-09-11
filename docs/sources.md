@@ -29,4 +29,4 @@ Simulation media attribution and the retained upstream licence notices are in [m
 
 ## Source basis
 
-The [source records for this chapter](source-records.md#chapter-docs-sources-md) identify the archived versions used in this public explanation.
+The [source records for this chapter](../results/source-records.md#chapter-docs-sources-md) identify the archived versions used in this public explanation.

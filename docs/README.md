@@ -4,27 +4,27 @@ Annihilation Industries brought together simulation, computer vision, software t
 
 | Read | Covers |
 | --- | --- |
-| [Project and engineering progress](progress.md) | The workstreams, concrete outputs and project leadership. |
-| [Verified engineering results](verified-engineering-results.md) | Completed real-Isaac integration, dynamics, replay, scale, training and media results. |
-| [System architecture](system-architecture.md) | The cloud, simulator, observation, control, reward and evidence architecture. |
-| [Flight and simulation media](flight-media.md) | Exact video roles, measurements, provenance and source identities. |
+| [Project and engineering progress](overview.md) | The workstreams, concrete outputs and project leadership. |
+| [Verified engineering results](../results/README.md) | Completed real-Isaac integration, dynamics, replay, scale, training and media results. |
+| [System architecture](architecture.md) | The cloud, simulator, observation, control, reward and evidence architecture. |
+| [Flight and simulation media](../media/provenance.md) | Exact video roles, measurements, provenance and source identities. |
 | [NVIDIA Brev and Isaac Sim](simulation.md) | The cloud development setup, simulator stack and media workflow. |
-| [Acro-racing reward policy](reward-policy-overview.md) | The complete recorded reward equation, bounded shaping ledger, terminal proof and coefficient ranges. |
-| [Vault source coverage](vault-source-coverage.md) | Which project records are summarized or distributed here. |
+| [Acro-racing reward policy](../policies/reward-policy.md) | The complete recorded reward equation, bounded shaping ledger, terminal proof and coefficient ranges. |
+| [Vault source coverage](source-coverage.md) | Which project records are summarized or distributed here. |
 | [Training and evaluation](training.md) | Checkpointed experiments, repeatability and the distinction between learning and visualization. |
 | [Computer vision](perception.md) | Vincent’s offline baseline and the dataset workflow. |
 | [Dataset record](dataset.md) | Dataset versions, recorded partitions and publication boundaries. |
-| [Software engineering](software-engineering.md) | Data contracts, timestamps, hashing, assessment logic and failure behavior. |
-| [Computational geometry studies](computational-geometry.md) | Four separately recorded PicoGK studies and their digital evidence. |
-| [Experiment artifacts](experiment-artifacts.md) | Contracts, checkpoint/export lineage, recovery packages and media review. |
-| [Public source records](source-records.md) | Document identities, dates and publication forms behind the chapters. |
-| [Hardware engineering](hardware-engineering.md) | Geometry construction, topology changes, mesh/export checks and numerical screening. |
+| [Software engineering](../software/engineering.md) | Data contracts, timestamps, hashing, assessment logic and failure behavior. |
+| [Computational geometry studies](../hardware/computational-geometry.md) | Four separately recorded PicoGK studies and their digital evidence. |
+| [Experiment artifacts](artifact-lineage.md) | Contracts, checkpoint/export lineage, recovery packages and media review. |
+| [Public source records](../results/source-records.md) | Document identities, dates and publication forms behind the chapters. |
+| [Hardware engineering](../hardware/engineering.md) | Geometry construction, topology changes, mesh/export checks and numerical screening. |
 | [Visual walkthrough](visual-walkthrough.md) | Assembly, recorded hover, course views and CAD layer images. |
 | [Reproducibility](reproducibility.md) | Artifact identity, source-to-public transformations and remote readback. |
 | [Development approach](development.md) | How source, checks, outputs and handoffs fit together. |
-| [Media gallery](../media/README.md) | Build photographs and a labelled simulation preview. |
+| [Media gallery](../media/README.md) | Autonomous-flight, simulator and physical-prototype media. |
 | [Source notes and acknowledgements](sources.md) | Evidence records and the tools used. |
 
 Runnable software is in [software](../software/). The editable landing-leg design is in [hardware](../hardware/).
 
-Model weights and exported policy artifacts remain closed source. See the [model-access policy](../MODEL-ACCESS.md) for commercial, education and academic requests.
+Model weights and exported policy artifacts remain closed source. See the [model-access policy](../licensing/model-access.md) for commercial, education and academic requests.

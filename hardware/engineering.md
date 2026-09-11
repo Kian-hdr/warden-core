@@ -2,7 +2,7 @@
 
 LL-11 is a one-piece landing-leg prototype with an integrated mounting head, a connected open web and a ground-contact skid. Its engineering interest lies in the relationship between topology, geometry and verification: a visually plausible lattice is not enough. The source defines connected members, the exported solid must preserve those connections, and a slicing check must still find material where the design expects it.
 
-![LL-11 connected leg geometry](../hardware/images/LL11_leg.png)
+![LL-11 connected leg geometry](images/LL11_leg.png)
 
 ## A connected five-panel structure
 
@@ -33,7 +33,7 @@ This structure makes the important design inputs inspectable in code. It does no
 
 | Earlier LL-07 study | LL-11 connected multibay design |
 | --- | --- |
-| ![Earlier LL-07 geometry study](../hardware/images/LL07_study.png) | ![LL-11 geometry](../hardware/images/LL11_leg.png) |
+| ![Earlier LL-07 geometry study](images/LL07_study.png) | ![LL-11 geometry](images/LL11_leg.png) |
 
 The earlier study is shown for design evolution; the public CAD package contains LL-11.
 
@@ -58,7 +58,7 @@ The original LL-11 CAD report records one valid solid, a successful STEP round t
 
 The original offline slicing record sampled 65 insert-bore locations, five central-passage locations and 44 web nodes across four legs. The recorded checks passed after the geometry correction. The selected slice used four walls and zero sparse infill; walls, skins, bridges and local filling still remain. A toolpath image shows this distinction directly. Vendor presets and executable print jobs are not needed to explain those historical checks and are excluded from the curated package.
 
-![LL-11 toolpath layer samples](../hardware/images/LL11_toolpaths.png)
+![LL-11 toolpath layer samples](images/LL11_toolpaths.png)
 
 *Recorded slice geometry at several layer heights.*
 
@@ -66,7 +66,7 @@ The original offline slicing record sampled 65 insert-bore locations, five centr
 
 A saved two-dimensional Euler–Bernoulli frame calculation predicts 562.44 N/mm vertical stiffness using a 3,860 MPa reference modulus from a dry material specimen. Its equilibrium, energy and subdivision checks support the consistency of that numerical screen. They do not turn the reference modulus into a measured property of this printed geometry. The model omits calibrated anisotropy, nonlinear deformation, knee buckling, material hysteresis, insert behavior and fatigue; it therefore establishes neither damping nor allowable landing load.
 
-![Linear frame-model screen](../hardware/images/LL11_mechanics.png)
+![Linear frame-model screen](images/LL11_mechanics.png)
 
 *Numerical deformation visualization; the magnification and no-rating labels are retained.*
 
@@ -80,4 +80,4 @@ The photographs and supplied hover recording document the physical prototype. Th
 
 ## Source basis
 
-This public explanation is grounded in the dated project records identified in the [source records for this chapter](source-records.md#chapter-docs-hardware-engineering-md). The catalogue distinguishes complete notices from adapted explanations and preserves separate document versions.
+This public explanation is grounded in the dated project records identified in the [source records for this chapter](../results/source-records.md#chapter-hardware-engineering-md). The catalogue distinguishes complete notices from adapted explanations and preserves separate document versions.

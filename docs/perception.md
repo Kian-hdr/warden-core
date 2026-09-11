@@ -49,4 +49,4 @@ An abstention or `unknown` response is also distinct from a trained visual class
 
 ## Source basis
 
-This public explanation is grounded in the dated project records identified in the [source records for this chapter](source-records.md#chapter-docs-perception-md). The catalogue distinguishes complete notices from adapted explanations and preserves separate document versions.
+This public explanation is grounded in the dated project records identified in the [source records for this chapter](../results/source-records.md#chapter-docs-perception-md). The catalogue distinguishes complete notices from adapted explanations and preserves separate document versions.

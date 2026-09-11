@@ -11,7 +11,7 @@ The simulation archive includes checkpointed reinforcement-learning experiments.
 - Frame sequences, video candidates and their labels.
 - Checksums and recovery records for exported files.
 
-These records support inspection, reproducibility and recovery. Model weights and checkpoint bytes remain closed source under the [model-access policy](../MODEL-ACCESS.md).
+These records support inspection, reproducibility and recovery. Model weights and checkpoint bytes remain closed source under the [model-access policy](../licensing/model-access.md).
 
 ## The development sequence
 
@@ -28,7 +28,7 @@ Parallel environments were part of the development workflow. The completed scale
 
 The [gallery](../media/README.md) leads with the verified model-based autonomous corridor flight and a reviewed simulation montage. Separate chase and first-person views show the mapped-course camera workflow, while the physical-prototype recording documents the assembled airframe hovering outdoors.
 
-The [acro-racing reward-policy specification](reward-policy-overview.md) reproduces the recorded reward equations, term coefficients, bounded ledger and terminal-dominance proof. [Source coverage](vault-source-coverage.md) identifies that adapted scope and the complete original documents retained privately.
+The [acro-racing reward-policy specification](../policies/reward-policy.md) reproduces the recorded reward equations, term coefficients, bounded ledger and terminal-dominance proof. [Source coverage](source-coverage.md) identifies that adapted scope and the complete original documents retained privately.
 
 ## How the historical records fit together
 
@@ -43,8 +43,8 @@ The training history connects the initial experiment specification to implemente
 | Stage 0 package | Ten accepted updates, 1,310,720 transitions and hash-bound model-state records. |
 | Published footage | Independently reviewed autonomous trajectory control and camera outputs. |
 
-[Experiment-to-artifact workflow](experiment-artifacts.md) explains how these records are connected. [Source records](source-records.md) preserve the identities of the archived documents used in this public account.
+[Experiment-to-artifact workflow](artifact-lineage.md) explains how these records are connected. [Source records](../results/source-records.md) preserve the identities of the archived documents used in this public account.
 
 ## Source basis
 
-This public explanation is grounded in the dated project records identified in the [source records for this chapter](source-records.md#chapter-docs-training-md). The catalogue distinguishes complete notices from adapted explanations and preserves separate document versions.
+This public explanation is grounded in the dated project records identified in the [source records for this chapter](../results/source-records.md#chapter-docs-training-md). The catalogue distinguishes complete notices from adapted explanations and preserves separate document versions.

@@ -21,7 +21,7 @@ flowchart LR
     J --> L[JSON assessment and reasons]
 ```
 
-`warden-record-events` accepts JSON Lines on standard input. `warden-record-resources` collects Linux resource measurements. `warden-assemble` combines their files with metadata, then evaluates the capture. `warden-assess` evaluates an existing capture without collecting anything. The [synthetic example](../software/examples/) exercises the offline path without a device.
+`warden-record-events` accepts JSON Lines on standard input. `warden-record-resources` collects Linux resource measurements. `warden-assemble` combines their files with metadata, then evaluates the capture. `warden-assess` evaluates an existing capture without collecting anything. The [synthetic example](examples/) exercises the offline path without a device.
 
 ## Small records, explicit meanings
 
@@ -34,13 +34,13 @@ The event contract has two record types:
 
 These are synthetic values. The VIO example represents a 20 ms interval between capture and output. The `command` record contains timing and validity only; it contains no actuator values or instructions.
 
-[pi_events.py](../software/src/warden_observability/pi_events.py) turns these objects into frozen dataclasses. Required timestamp fields must be integers, and validity must be a JSON boolean. This distinction matters in Python because `bool` is a subclass of `int`: the parser explicitly rejects `true` as a timestamp, rather than accidentally treating it as one nanosecond. It also rejects negative timestamps and VIO results dated before their associated capture.
+[pi_events.py](src/warden_observability/pi_events.py) turns these objects into frozen dataclasses. Required timestamp fields must be integers, and validity must be a JSON boolean. This distinction matters in Python because `bool` is a subclass of `int`: the parser explicitly rejects `true` as a timestamp, rather than accidentally treating it as one nanosecond. It also rejects negative timestamps and VIO results dated before their associated capture.
 
 Ordering is checked independently for each event kind. Two asynchronous producers can interleave their records, and different kinds can share an output timestamp. A duplicate or decreasing output timestamp within one kind is rejected. The writer serializes recognized fields with consistent key ordering and flushes each complete record. If a later input line is malformed, the valid prefix remains available for diagnosis.
 
 ## A capture needs context as well as samples
 
-[pi_capture.py](../software/src/warden_observability/pi_capture.py) reads the two UTF-8 logs, reports malformed records with line numbers, and builds a versioned `PiBenchmarkRun`. Input metadata uses schema version 1; the assembled capture uses version 2. Its three sample collections are VIO events, output events and resource measurements. A complete capture requires at least two samples in each collection; the short JSON example above illustrates record syntax, not a complete assessment input.
+[pi_capture.py](src/warden_observability/pi_capture.py) reads the two UTF-8 logs, reports malformed records with line numbers, and builds a versioned `PiBenchmarkRun`. Input metadata uses schema version 1; the assembled capture uses version 2. Its three sample collections are VIO events, output events and resource measurements. A complete capture requires at least two samples in each collection; the short JSON example above illustrates record syntax, not a complete assessment input.
 
 The assembler calculates:
 
@@ -68,7 +68,7 @@ flowchart TD
     G -- No --> I[Valid report: passed true for configured checks]
 ```
 
-[compute_gate.py](../software/src/warden_observability/compute_gate.py) derives an event rate from the number of intervals divided by elapsed time: `(sample_count - 1) / duration`. It calculates latency from each valid VIO timestamp pair, uses a nearest-rank percentile, and checks the largest gap between valid outputs. Invalid samples remain counted and cause a non-passing result even though descriptive timing metrics use the valid subset.
+[compute_gate.py](src/warden_observability/compute_gate.py) derives an event rate from the number of intervals divided by elapsed time: `(sample_count - 1) / duration`. It calculates latency from each valid VIO timestamp pair, uses a nearest-rank percentile, and checks the largest gap between valid outputs. Invalid samples remain counted and cause a non-passing result even though descriptive timing metrics use the valid subset.
 
 Each event stream must cover the required duration itself. A short VIO burst cannot borrow the length of a much longer resource log. Stream endpoints are also compared with the resource window using the implementation’s one-second alignment tolerance. Temperature stability is summarized over the final quarter of that window.
 
@@ -84,9 +84,9 @@ A valid non-passing assessment returns exit code 2 with its JSON report. Input e
 
 The tests exercise causal ordering, strict booleans, duplicate timestamps, malformed JSON, raw-log hashing, incomplete stream coverage, unavailable metrics and output preservation. CLI tests run the synthetic example through recording, assembly and reassessment, checking that the reports agree. Mock Linux inputs test the resource collector’s fixed read-only command invocation; they do not establish performance on a physical Raspberry Pi.
 
-To inspect or extend the implementation, start with the [software usage guide](../software/README.md), [shared validators](../software/src/warden_observability/validation.py), and [tests](../software/tests/). Keep a new instrumented producer small: emit the documented timing records, preserve invalid outcomes, and record the context needed to interpret the timestamps later.
+To inspect or extend the implementation, start with the [software usage guide](README.md), [shared validators](src/warden_observability/validation.py), and [tests](tests/). Keep a new instrumented producer small: emit the documented timing records, preserve invalid outcomes, and record the context needed to interpret the timestamps later.
 
-For the surrounding source/configuration/checkpoint packaging workflow, see [Experiment artifacts](experiment-artifacts.md). The archived Pi4 measurement profile is separate from the Pi Zero2W host named in later commissioning records; the latter is not a deployment result for this standalone package.
+For the surrounding source/configuration/checkpoint packaging workflow, see [Experiment artifacts](../docs/artifact-lineage.md). The archived Pi4 measurement profile is separate from the Pi Zero2W host named in later commissioning records; the latter is not a deployment result for this standalone package.
 
 ## Interface-design records
 
@@ -96,4 +96,4 @@ That is a design/interaction record, separate from the standalone command-line p
 
 ## Source basis
 
-This public explanation is grounded in the dated project records identified in the [source records for this chapter](source-records.md#chapter-docs-software-engineering-md). The catalogue distinguishes complete notices from adapted explanations and preserves separate document versions.
+This public explanation is grounded in the dated project records identified in the [source records for this chapter](../results/source-records.md#chapter-software-engineering-md). The catalogue distinguishes complete notices from adapted explanations and preserves separate document versions.

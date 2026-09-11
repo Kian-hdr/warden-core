@@ -65,7 +65,13 @@
       "status": "PASSED",
       "metrics": {
         "run_count": 15,
-        "environment_counts": [128, 256, 512, 1024, 2048],
+        "environment_counts": [
+          128,
+          256,
+          512,
+          1024,
+          2048
+        ],
         "seed_count": 3,
         "selected_environment_count": 2048,
         "selected_transitions_per_second": 64094.40803768784,
@@ -91,7 +97,7 @@
       "status": "PASSED",
       "media_sha256": "de2629261c7be02d4c2c1ae0d5154b5c0f318e4765820539269430918fa319ee",
       "metrics": {
-        "duration_seconds": 15.0,
+        "duration_seconds": 15,
         "frames": 450,
         "unique_decoded_frame_hashes": 450,
         "maximum_displacement_m": 15.484857805728769,
@@ -123,6 +129,6 @@
       }
     }
   ],
-  "model_access": "../MODEL-ACCESS.md",
-  "media_manifest": "../media/video-manifest.json"
+  "model_access": "../licensing/model-access.md",
+  "media_manifest": "../media/manifest.json"
 }

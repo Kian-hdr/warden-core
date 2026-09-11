@@ -1,5 +1,7 @@
 # LL-11 landing-leg prototype
 
+[Hardware engineering](engineering.md) · [Computational-geometry studies](computational-geometry.md) · [CAD exchange files](cad/) · [Generated previews](images/)
+
 ![LL-11 digital CAD model](images/LL11_leg.png)
 
 A one-piece landing leg with five connected web panels, bowed diagonals and an integrated insert carrier. The thin web and broad-side print orientation were developed around a PAHT-CF prototype. This is a digital design example, not qualified landing gear.
@@ -38,4 +40,4 @@ The mounting interface was developed from an estimated reference geometry. Measu
 
 ## Licence
 
-Project-owned hardware and CAD files in this directory are available under the [Warden Core Hardware Research and Education License 1.0](LICENSE.md). It permits noncommercial personal experimentation, teaching and academic research under its conditions. Commercial use requires a [separate written paid agreement](../COMMERCIAL-LICENSING.md).
+Project-owned hardware and CAD files in this directory are available under the [Warden Core Hardware Research and Education License 1.0](LICENSE.md). It permits noncommercial personal experimentation, teaching and academic research under its conditions. Commercial use requires a [separate written paid agreement](../licensing/commercial-licensing.md).
