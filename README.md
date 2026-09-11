@@ -2,7 +2,7 @@
 
 **A simulation-first robotics project combining experimental learning, computer vision, software instrumentation and hardware development.**
 
-I led Annihilation Industries at the European Defense Tech Hackathon in Hamburg, connecting the simulation and evaluation work with the team’s hardware, perception and sensing contributions. Vincent developed the separate computer-vision baseline, Konstantin (Constantin in earlier records) led physical airframe and electronics integration, and Leon developed the related Warden Corps multi-camera sensing study and presentation.
+I led Annihilation Industries at the European Defense Tech Hackathon in Hamburg, connecting the simulation and evaluation work with the team’s hardware, perception and sensing contributions. Vincent developed the separate computer-vision baseline, [Constantin](https://github.com/Takane0) led physical airframe and electronics integration, and Leon developed the related Warden Corps multi-camera sensing study and presentation.
 
 This repository explains how the project works and shares selected development footage, build photographs, a runnable observability toolkit and editable landing-leg CAD. The runnable component is the standalone pipeline observability package; the wider simulation, perception and hardware work is documented alongside it.
 
@@ -45,7 +45,7 @@ third_party/  Upstream notices only
 | **Kian Tajbakhsh** | [Isaac Sim agent](docs/subsystems/isaac-agent.md) | Brev/Isaac environment, observation and action interface, reward policy, training, evaluation, telemetry, rendering and evidence. |
 | **Vincent** | [Computer vision](docs/subsystems/computer-vision.md) | Frozen ResNet18 features, linear six-class head, offline training/evaluation and explicit unknown behavior. |
 | **Leon** | [Multi-camera sensing](docs/subsystems/multicamera-sensing.md) | Related Warden Corps five-camera geometry, radiometry, 3-of-5 coincidence, sparse voxel tracking and presentation. |
-| **Konstantin / Constantin** | [Hardware integration](docs/subsystems/hardware-integration.md) | Physical FPV prototype, folding airframe, flight-controller/electronics integration and hover record. |
+| **[Constantin](https://github.com/Takane0)** | [Hardware integration](docs/subsystems/hardware-integration.md) | Physical FPV prototype, folding airframe, flight-controller/electronics integration and hover record. |
 
 [Public presentation package](docs/presentations/README.md) · [Contributors and rights](licensing/contributors-and-rights.md)
 

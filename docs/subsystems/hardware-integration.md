@@ -29,6 +29,6 @@ Kian’s August 29 report states that the first prototype was assembled and most
 
 Later photographs document the folding structure and electronics packaging. The supplied recording shows physical hover, but does not record its control mode or demonstrate a learned policy driving the airframe.
 
-The September 4 commissioning account records successful companion-host/dashboard checks followed by loss of connectivity after the flight controller was connected. This is a separate host-integration record, not evidence of resolved controller integration. Its software authorship is not assigned to Konstantin solely from his hardware role.
+The September 4 commissioning account records successful companion-host/dashboard checks followed by loss of connectivity after the flight controller was connected. This is a separate host-integration record, not evidence of resolved controller integration. Its software authorship is not assigned to Constantin solely from his hardware role.
 
-Konstantin is spelled Constantin in the earlier project records. [Team attribution](../project/team.md) preserves both spellings. [Source records](../../results/source-records.md) include the dated physical prototype update, DOC-9a6d109e0763; its historical evidence and open issues are retained.
+[Constantin’s GitHub profile](https://github.com/Takane0) and [team attribution](../project/team.md) identify his contribution. [Source records](../../results/source-records.md) include the dated physical prototype update, DOC-9a6d109e0763; its historical evidence and open issues are retained.

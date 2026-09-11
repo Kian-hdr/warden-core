@@ -59,6 +59,6 @@ Every public result connects source revision, configuration, runtime identity, t
 | Kian | Project lead, Isaac/Brev autonomy, evaluation, evidence, media and presentation integration |
 | Vincent | Supervised computer-vision baseline |
 | Leon | Warden Corps multi-camera sensing study and presentation |
-| Constantin | Physical FPV prototype and electronics integration |
+| [Constantin](https://github.com/Takane0) | Physical FPV prototype and electronics integration |
 
 Public software and documentation are available under the repository’s [licensing map](../../licensing/README.md). Model weights remain closed source under the [model-access policy](../../licensing/model-access.md).

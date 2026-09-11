@@ -51,8 +51,7 @@
       "limits": "Separate from Warden Core; tracking prototype not coupled to camera SNR model; no deployed sensing network or verified commercial outcome."
     },
     {
-      "contributor": "Konstantin",
-      "historical_name": "Constantin",
+      "contributor": "Constantin",
       "workstream": "Physical prototype assembly and electronics integration",
       "evidence_status": "human-stated build report; separately preserved photographs and hover",
       "public_chapters": [
@@ -62,7 +61,8 @@
       "source_ids": [
         "DOC-9a6d109e0763"
       ],
-      "limits": "Hover control mode undocumented; no completed integrated flight stack; later software authorship not inferred."
+      "limits": "Hover control mode undocumented; no completed integrated flight stack; later software authorship not inferred.",
+      "github": "https://github.com/Takane0"
     }
   ]
 }
