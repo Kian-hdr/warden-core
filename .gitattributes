@@ -1,0 +1,4 @@
+# Preserve generated CAD and media bytes; do not merge them as source text.
+*.step binary
+*.stl binary
+*.png binary

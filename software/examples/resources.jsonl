@@ -1,0 +1,2 @@
+{"monotonic_ns":1000000000,"cpu_utilization_fraction":0.5,"memory_utilization_fraction":0.4,"temperature_c":50.0,"thermal_throttled":false,"undervoltage_observed":false,"frequency_capped":false}
+{"monotonic_ns":2000000000,"cpu_utilization_fraction":0.5,"memory_utilization_fraction":0.4,"temperature_c":50.0,"thermal_throttled":false,"undervoltage_observed":false,"frequency_capped":false}

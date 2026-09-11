@@ -1,0 +1,4 @@
+{"kind":"vio","camera_capture_ns":1000000000,"output_ns":1020000000,"valid":true}
+{"kind":"command","output_ns":1020000000,"valid":true}
+{"kind":"command","output_ns":1040000000,"valid":true}
+{"kind":"vio","camera_capture_ns":1033333333,"output_ns":1053333333,"valid":true}
