@@ -2,7 +2,7 @@
 
 **A simulation-first robotics project combining experimental learning, computer vision, software instrumentation and hardware development.**
 
-I led Annihilation Industries at the European Defense Tech Hackathon in Hamburg, connecting the simulation and evaluation work with hardware development, team coordination and the project presentation. Vincent developed the separate computer-vision baseline.
+I led Annihilation Industries at the European Defense Tech Hackathon in Hamburg, connecting the simulation and evaluation work with the team’s hardware, perception and sensing contributions. Vincent developed the separate computer-vision baseline, [Constantin](https://github.com/Takane0) led physical airframe and electronics integration, and Leon developed the related Warden Corps multi-camera sensing study and presentation.
 
 This repository explains how the project works and shares selected development footage, build photographs, a runnable observability toolkit and editable landing-leg CAD. The runnable component is the standalone pipeline observability package; the wider simulation, perception and hardware work is documented alongside it.
 
@@ -13,8 +13,10 @@ This repository explains how the project works and shares selected development f
 | **What did Warden Core achieve?** | [Verified results](results/README.md) and [machine-readable results](results/verified-results.json) |
 | **How does the system work?** | [System architecture](docs/architecture.md) |
 | **Where are the reward and policy specifications?** | [Policy and mathematics index](policies/README.md) |
+| **How does each subsystem work?** | [Subsystem and contributor map](subsystems/README.md) |
 | **Where are the evidence identities?** | [Run identities](results/run-identities.md) and [source records](results/source-records.md) |
 | **Where are the flight videos?** | [Media gallery](media/README.md) and [media provenance](media/provenance.md) |
+| **Where are the presentation materials?** | [Public presentation package](presentations/README.md) |
 | **How can I run the public software?** | [Warden observability](software/README.md) |
 | **What can I use for education or research?** | [Licensing guide](licensing/README.md) |
 | **How do I request model access?** | [Closed-source model access](licensing/model-access.md) |
@@ -23,14 +25,27 @@ This repository explains how the project works and shares selected development f
 
 ```text
 policies/     Reward mathematics, observation/action contracts, evaluation method
+subsystems/   Isaac agent, computer vision, multi-camera sensing, hardware integration
 results/      Verified outcomes, run identities, source records, machine-readable data
 docs/         Overview, architecture, simulation, training, perception, development
 media/        Autonomous flight, simulator footage, physical prototype, posters
+presentations/ Public engineering brief and Warden Corps camera-study presentation
 software/     Runnable observability package, examples, tests, engineering notes
 hardware/     Parametric CAD, STEP/STL, previews, engineering documentation
 licensing/    Reuse guide, licence texts, commercial terms, model-access policy
 third_party/  Upstream notices only
 ```
+
+## Subsystems and contributors
+
+| Contributor | Subsystem | What the public record explains |
+| --- | --- | --- |
+| **Kian Tajbakhsh** | [Isaac Sim agent](subsystems/isaac-agent.md) | Brev/Isaac environment, observation and action interface, reward policy, training, evaluation, telemetry, rendering and evidence. |
+| **Vincent** | [Computer vision](subsystems/computer-vision.md) | Frozen ResNet18 features, linear six-class head, offline training/evaluation and explicit unknown behavior. |
+| **Leon** | [Multi-camera sensing](subsystems/multicamera-sensing.md) | Related Warden Corps five-camera geometry, radiometry, 3-of-5 coincidence, sparse voxel tracking and presentation. |
+| **[Constantin · Takane0](https://github.com/Takane0)** | [Hardware integration](subsystems/hardware-integration.md) | Physical FPV prototype, folding airframe, flight-controller/electronics integration and hover record. |
+
+[Public presentation package](presentations/README.md) · [Contributors and rights](licensing/contributors-and-rights.md)
 
 ## Verified engineering highlights
 
@@ -77,28 +92,16 @@ third_party/  Upstream notices only
 
 ## How the pieces fit together
 
-The project had three development tracks: simulation and learning, offline perception, and physical hardware. They were explored separately before any claim of integration.
+The project developed four engineering tracks with separate owners and evidence:
 
-```mermaid
-flowchart TB
-    A[Local development and configuration] --> B[Brev GPU workspace]
-    B --> C[Isaac Sim scenes and Isaac Lab experiments]
-    C --> D[Training logs and checkpoints]
-    D --> E[Separate evaluation and behavior review]
-    C --> F[Virtual-camera images and videos]
-    G[Still-image dataset] --> H[Frozen visual features]
-    H --> I[Offline classification baseline]
-    I --> J[Partition and error analysis]
-    K[Physical frame and electronics] --> L[Assembly and integration work]
-    M[Parametric landing-leg CAD] --> N[Geometry files and checks]
-    E --> O[Documented engineering record]
-    F --> O
-    J --> O
-    L --> O
-    N --> O
-```
+| Track | Input and processing | Public output |
+| --- | --- | --- |
+| Isaac agent | Brev GPU workspace → Isaac Sim scenes → policy/control loop → deterministic evaluation | Run identities, telemetry results and reviewed flight media |
+| Computer vision | Collected stills → frozen ResNet18 features → linear six-class head | Offline evaluation and error analysis |
+| Multi-camera sensing | Five monochrome camera bearings → 3-of-5 voxel coincidence → worldline | Leon’s Warden Corps sensing study and presentation figures |
+| Physical integration | Folding airframe → motors/electronics → flight controller and companion compute | Assembly record, CAD package and outdoor hover media |
 
-The perception and simulation work were separate experiments. The public Python package focuses on measuring pipeline behavior.
+All four tracks contribute to the documented engineering record while retaining their individual experiment and ownership boundaries.
 
 ## Simulation on NVIDIA Brev and Isaac Sim
 
@@ -184,11 +187,13 @@ The included example is synthetic. Assembly intentionally returns exit code **2*
 | Folder | Contents |
 | --- | --- |
 | [`policies/`](policies/README.md) | Reward mathematics, observation/action contracts and evaluation methodology. |
+| [`subsystems/`](subsystems/README.md) | Detailed Isaac-agent, computer-vision, multi-camera and hardware-integration explanations. |
 | [`results/`](results/README.md) | Verified outcomes, run identities, source records and machine-readable evidence. |
 | [`docs/`](docs/README.md) | Overview, architecture, simulation, training, perception and development approach. |
 | [`software/`](software/) | Standalone observability package, examples and tests. |
 | [`hardware/`](hardware/) | LL-11 source, CAD exchange files and design limits. |
 | [`media/`](media/README.md) | Autonomous-flight, simulator and physical-prototype media with provenance and hashes. |
+| [`presentations/`](presentations/README.md) | Public engineering brief and Leon’s Warden Corps camera-study presentation. |
 | [`licensing/`](licensing/README.md) | Licence map, commercial terms, contributor rights and model-access policy. |
 | [`third_party/`](third_party/README.md) | Upstream media credits and licence notices. |
 

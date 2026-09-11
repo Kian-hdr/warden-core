@@ -88,6 +88,30 @@ New diagrams, explanatory prose and the media-check utility were authored for th
 
 [third_party/picogk-records/DOC-d824b4154113.md](../third_party/picogk-records/DOC-d824b4154113.md) draws on: [DOC-d824b4154113](#doc-d824b4154113).
 
+## Chapter subsystems-isaac-agent-md
+
+[subsystems/isaac-agent.md](../subsystems/isaac-agent.md) draws on: [DOC-a90493c44704](#doc-a90493c44704), [DOC-a29b58675d67](#doc-a29b58675d67), [DOC-bda58e45413d](#doc-bda58e45413d).
+
+## Chapter subsystems-computer-vision-md
+
+[subsystems/computer-vision.md](../subsystems/computer-vision.md) draws on: [DOC-33c6ebc61608](#doc-33c6ebc61608), [DOC-1e119f1f2ada](#doc-1e119f1f2ada), [DOC-98730fa5ce20](#doc-98730fa5ce20).
+
+## Chapter subsystems-multicamera-sensing-md
+
+[subsystems/multicamera-sensing.md](../subsystems/multicamera-sensing.md) draws on: [DOC-74ca4f2ab41c](#doc-74ca4f2ab41c), [DOC-c649b441d835](#doc-c649b441d835), [DOC-0a0d0de51abb](#doc-0a0d0de51abb).
+
+## Chapter subsystems-hardware-integration-md
+
+[subsystems/hardware-integration.md](../subsystems/hardware-integration.md) draws on: [DOC-9a6d109e0763](#doc-9a6d109e0763), [DOC-253808409ec6](#doc-253808409ec6).
+
+## Chapter presentations-warden-core-engineering-brief-md
+
+[presentations/warden-core-engineering-brief.md](../presentations/warden-core-engineering-brief.md) draws on: [DOC-a90493c44704](#doc-a90493c44704), [DOC-a29b58675d67](#doc-a29b58675d67), [DOC-bda58e45413d](#doc-bda58e45413d), [DOC-33c6ebc61608](#doc-33c6ebc61608), [DOC-9a6d109e0763](#doc-9a6d109e0763), [DOC-74ca4f2ab41c](#doc-74ca4f2ab41c).
+
+## Chapter presentations-warden-corps-camera-study-md
+
+[presentations/warden-corps-camera-study.md](../presentations/warden-corps-camera-study.md) draws on: [DOC-74ca4f2ab41c](#doc-74ca4f2ab41c), [DOC-c649b441d835](#doc-c649b441d835), [DOC-0a0d0de51abb](#doc-0a0d0de51abb).
+
 # Record identities
 
 ## DOC-dc931afd3e9e
@@ -106,7 +130,7 @@ Public coverage: [docs/development.md](../docs/development.md), [docs/reproducib
 
 Form: exact reward equations and coefficients reproduced within an adapted explanation; original specification not reproduced verbatim.
 
-Public coverage: [policies/reward-policy.md](../policies/reward-policy.md), [docs/training.md](../docs/training.md), [docs/source-coverage.md](../docs/source-coverage.md).
+Public coverage: [policies/reward-policy.md](../policies/reward-policy.md), [docs/training.md](../docs/training.md), [docs/source-coverage.md](../docs/source-coverage.md), [subsystems/isaac-agent.md](../subsystems/isaac-agent.md), [presentations/warden-core-engineering-brief.md](../presentations/warden-core-engineering-brief.md).
 
 `SHA-256 a90493c447044abda1c0ba0da65f52b0ee91afcc5876f37dff8560c4544e9007`
 
@@ -176,7 +200,7 @@ Public coverage: [docs/overview.md](../docs/overview.md), [docs/source-coverage.
 
 Form: adapted explanation, not original specification.
 
-Public coverage: [docs/simulation.md](../docs/simulation.md), [docs/visual-walkthrough.md](../docs/visual-walkthrough.md), [docs/reproducibility.md](../docs/reproducibility.md).
+Public coverage: [docs/simulation.md](../docs/simulation.md), [docs/visual-walkthrough.md](../docs/visual-walkthrough.md), [docs/reproducibility.md](../docs/reproducibility.md), [subsystems/isaac-agent.md](../subsystems/isaac-agent.md), [presentations/warden-core-engineering-brief.md](../presentations/warden-core-engineering-brief.md).
 
 `SHA-256 a29b58675d676f443315cedbb62b711188ad5a944ba9479c29b6d58f79e002aa`
 
@@ -186,7 +210,7 @@ Public coverage: [docs/simulation.md](../docs/simulation.md), [docs/visual-walkt
 
 Form: adapted explanation, not original specification.
 
-Public coverage: [docs/perception.md](../docs/perception.md), [docs/dataset.md](../docs/dataset.md).
+Public coverage: [docs/perception.md](../docs/perception.md), [docs/dataset.md](../docs/dataset.md), [subsystems/computer-vision.md](../subsystems/computer-vision.md), [presentations/warden-core-engineering-brief.md](../presentations/warden-core-engineering-brief.md).
 
 `SHA-256 33c6ebc616082558504d3eee0b8fff6578263f5bcfa2ece538eb82a8f8be578f`
 
@@ -196,7 +220,7 @@ Public coverage: [docs/perception.md](../docs/perception.md), [docs/dataset.md](
 
 Form: adapted explanation, not original specification.
 
-Public coverage: [docs/overview.md](../docs/overview.md), [docs/visual-walkthrough.md](../docs/visual-walkthrough.md), [hardware/engineering.md](../hardware/engineering.md).
+Public coverage: [docs/overview.md](../docs/overview.md), [docs/visual-walkthrough.md](../docs/visual-walkthrough.md), [hardware/engineering.md](../hardware/engineering.md), [subsystems/hardware-integration.md](../subsystems/hardware-integration.md), [presentations/warden-core-engineering-brief.md](../presentations/warden-core-engineering-brief.md).
 
 `SHA-256 9a6d109e0763d435218f5b625ca52f985d3e66591bec4da64df0781990359bc3`
 
@@ -206,7 +230,7 @@ Public coverage: [docs/overview.md](../docs/overview.md), [docs/visual-walkthrou
 
 Form: adapted explanation, not original specification.
 
-Public coverage: [hardware/engineering.md](../hardware/engineering.md), [docs/visual-walkthrough.md](../docs/visual-walkthrough.md).
+Public coverage: [hardware/engineering.md](../hardware/engineering.md), [docs/visual-walkthrough.md](../docs/visual-walkthrough.md), [subsystems/hardware-integration.md](../subsystems/hardware-integration.md).
 
 `SHA-256 253808409ec6027625282b56425a3fe2620c11623871feb8ad055d8bb79072cc`
 
@@ -216,7 +240,7 @@ Public coverage: [hardware/engineering.md](../hardware/engineering.md), [docs/vi
 
 Form: adapted explanation, not original specification.
 
-Public coverage: [docs/overview.md](../docs/overview.md), [docs/simulation.md](../docs/simulation.md), [software/engineering.md](../software/engineering.md).
+Public coverage: [docs/overview.md](../docs/overview.md), [docs/simulation.md](../docs/simulation.md), [software/engineering.md](../software/engineering.md), [subsystems/isaac-agent.md](../subsystems/isaac-agent.md), [presentations/warden-core-engineering-brief.md](../presentations/warden-core-engineering-brief.md).
 
 `SHA-256 bda58e45413dcd2f9556fbcc71622b5d51c094b586f12c2d382807279d20adf0`
 
@@ -246,7 +270,7 @@ Public coverage: [docs/training.md](../docs/training.md), [docs/reproducibility.
 
 Form: adapted explanation, not original specification.
 
-Public coverage: [docs/perception.md](../docs/perception.md), [docs/dataset.md](../docs/dataset.md).
+Public coverage: [docs/perception.md](../docs/perception.md), [docs/dataset.md](../docs/dataset.md), [subsystems/computer-vision.md](../subsystems/computer-vision.md).
 
 `SHA-256 1e119f1f2adaa880d81a62de3daea834dff74956729176f382f8d54eedea91c0`
 
@@ -1157,7 +1181,7 @@ Public coverage: [software/engineering.md](../software/engineering.md).
 
 Form: adapted explanation, not original specification.
 
-Public coverage: [docs/perception.md](../docs/perception.md), [docs/dataset.md](../docs/dataset.md).
+Public coverage: [docs/perception.md](../docs/perception.md), [docs/dataset.md](../docs/dataset.md), [subsystems/computer-vision.md](../subsystems/computer-vision.md).
 
 `SHA-256 98730fa5ce20ab1123e505fe63378fcf043e7cc4f2d5c98664681eeae429e947`
 
@@ -1210,3 +1234,33 @@ Form: adapted explanation, not original specification.
 Public coverage: [docs/perception.md](../docs/perception.md), [docs/dataset.md](../docs/dataset.md).
 
 `SHA-256 19b5ad514b6eba896c5ec39896bb53bdb7ec6488df9049fa856168a10904eec3`
+
+## DOC-74ca4f2ab41c
+
+**Annihilation Industries 2026-08-30 Warden Corps decks** · 2026-08-30 (frontmatter)
+
+Form: adapted public subsystem and presentation explanation.
+
+Public coverage: [subsystems/multicamera-sensing.md](../subsystems/multicamera-sensing.md), [presentations/warden-corps-camera-study.md](../presentations/warden-corps-camera-study.md), [presentations/README.md](../presentations/README.md).
+
+`SHA-256 74ca4f2ab41c39b8a12df052868c083fcaa8428b408f0f693547e2b27fc380af`
+
+## DOC-c649b441d835
+
+**Warden Corps five-camera monochrome voxel-network methods** · 2026-08-31 (filesystem_mtime)
+
+Form: adapted public sensing-method explanation.
+
+Public coverage: [subsystems/multicamera-sensing.md](../subsystems/multicamera-sensing.md), [presentations/warden-corps-camera-study.md](../presentations/warden-corps-camera-study.md).
+
+`SHA-256 c649b441d8357608c97b92125866c25d850e24185f0e18866ba350976d41fd95`
+
+## DOC-0a0d0de51abb
+
+**Warden Corps shared Drive README** · 2026-08-30 (filesystem_mtime)
+
+Form: adapted public project-boundary and presentation explanation.
+
+Public coverage: [subsystems/multicamera-sensing.md](../subsystems/multicamera-sensing.md), [presentations/warden-corps-camera-study.md](../presentations/warden-corps-camera-study.md), [licensing/contributors-and-rights.md](../licensing/contributors-and-rights.md).
+
+`SHA-256 0a0d0de51abb04a38adf3233a4ad258df057d84f2a2962176407915c98565428`

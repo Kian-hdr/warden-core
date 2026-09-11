@@ -1,0 +1,37 @@
+[
+  {
+    "file": "assets/warden-corps-cover.jpg",
+    "bytes": 59881,
+    "sha256": "e2fd28053ae1d7c6d031ae80856bd3ba48c0e1cfd0e320e0e1f06c3b1a4927f2",
+    "source": "Warden Corps technical-presentation preview",
+    "attribution": "Leon / Annihilation Industries Warden Corps study"
+  },
+  {
+    "file": "assets/five-camera-geometry.png",
+    "bytes": 222449,
+    "sha256": "cc338287db97c0ab1160503922f0266c63b7bcfb48cde3544ec58c64186a39be",
+    "source": "Warden Corps figure 01",
+    "attribution": "Leon / Annihilation Industries Warden Corps study"
+  },
+  {
+    "file": "assets/detection-probability-heatmap.png",
+    "bytes": 139823,
+    "sha256": "6889dc80c7482e1acc20db1092cfbba96cce179c388f17f3c50eef3db2a7aaad",
+    "source": "Warden Corps figure 03",
+    "attribution": "Leon / Annihilation Industries Warden Corps study"
+  },
+  {
+    "file": "assets/ground-sample-distance.png",
+    "bytes": 110795,
+    "sha256": "886071cc1b5d6b08d4e4b6a70349e562d6836265fd69eb9a4e28e49a34fad01a",
+    "source": "Warden Corps figure 05",
+    "attribution": "Leon / Annihilation Industries Warden Corps study"
+  },
+  {
+    "file": "assets/voxel-pathtrace.jpg",
+    "bytes": 269545,
+    "sha256": "0f715131e21226032306f875d85214a3f94138f937789a096b22306a3abffe16",
+    "source": "Warden Corps figure 18",
+    "attribution": "Leon / Annihilation Industries Warden Corps study"
+  }
+]

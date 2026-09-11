@@ -22,7 +22,9 @@
     "destinations": [
       "policies/reward-policy.md",
       "docs/training.md",
-      "docs/source-coverage.md"
+      "docs/source-coverage.md",
+      "subsystems/isaac-agent.md",
+      "presentations/warden-core-engineering-brief.md"
     ]
   },
   {
@@ -105,7 +107,9 @@
     "destinations": [
       "docs/simulation.md",
       "docs/visual-walkthrough.md",
-      "docs/reproducibility.md"
+      "docs/reproducibility.md",
+      "subsystems/isaac-agent.md",
+      "presentations/warden-core-engineering-brief.md"
     ]
   },
   {
@@ -117,7 +121,9 @@
     "form": "adapted explanation, not original specification",
     "destinations": [
       "docs/perception.md",
-      "docs/dataset.md"
+      "docs/dataset.md",
+      "subsystems/computer-vision.md",
+      "presentations/warden-core-engineering-brief.md"
     ]
   },
   {
@@ -130,7 +136,9 @@
     "destinations": [
       "docs/overview.md",
       "docs/visual-walkthrough.md",
-      "hardware/engineering.md"
+      "hardware/engineering.md",
+      "subsystems/hardware-integration.md",
+      "presentations/warden-core-engineering-brief.md"
     ]
   },
   {
@@ -142,7 +150,8 @@
     "form": "adapted explanation, not original specification",
     "destinations": [
       "hardware/engineering.md",
-      "docs/visual-walkthrough.md"
+      "docs/visual-walkthrough.md",
+      "subsystems/hardware-integration.md"
     ]
   },
   {
@@ -155,7 +164,9 @@
     "destinations": [
       "docs/overview.md",
       "docs/simulation.md",
-      "software/engineering.md"
+      "software/engineering.md",
+      "subsystems/isaac-agent.md",
+      "presentations/warden-core-engineering-brief.md"
     ]
   },
   {
@@ -192,7 +203,8 @@
     "form": "adapted explanation, not original specification",
     "destinations": [
       "docs/perception.md",
-      "docs/dataset.md"
+      "docs/dataset.md",
+      "subsystems/computer-vision.md"
     ]
   },
   {
@@ -1235,7 +1247,8 @@
     "form": "adapted explanation, not original specification",
     "destinations": [
       "docs/perception.md",
-      "docs/dataset.md"
+      "docs/dataset.md",
+      "subsystems/computer-vision.md"
     ]
   },
   {
@@ -1298,6 +1311,44 @@
     "destinations": [
       "docs/perception.md",
       "docs/dataset.md"
+    ]
+  },
+  {
+    "id": "DOC-74ca4f2ab41c",
+    "title": "Annihilation Industries 2026-08-30 Warden Corps decks",
+    "source_date": "2026-08-30",
+    "date_basis": "frontmatter",
+    "sha256": "74ca4f2ab41c39b8a12df052868c083fcaa8428b408f0f693547e2b27fc380af",
+    "form": "adapted public subsystem and presentation explanation",
+    "destinations": [
+      "subsystems/multicamera-sensing.md",
+      "presentations/warden-corps-camera-study.md",
+      "presentations/README.md"
+    ]
+  },
+  {
+    "id": "DOC-c649b441d835",
+    "title": "Warden Corps five-camera monochrome voxel-network methods",
+    "source_date": "2026-08-31",
+    "date_basis": "filesystem_mtime",
+    "sha256": "c649b441d8357608c97b92125866c25d850e24185f0e18866ba350976d41fd95",
+    "form": "adapted public sensing-method explanation",
+    "destinations": [
+      "subsystems/multicamera-sensing.md",
+      "presentations/warden-corps-camera-study.md"
+    ]
+  },
+  {
+    "id": "DOC-0a0d0de51abb",
+    "title": "Warden Corps shared Drive README",
+    "source_date": "2026-08-30",
+    "date_basis": "filesystem_mtime",
+    "sha256": "0a0d0de51abb04a38adf3233a4ad258df057d84f2a2962176407915c98565428",
+    "form": "adapted public project-boundary and presentation explanation",
+    "destinations": [
+      "subsystems/multicamera-sensing.md",
+      "presentations/warden-corps-camera-study.md",
+      "licensing/contributors-and-rights.md"
     ]
   }
 ]

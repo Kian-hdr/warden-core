@@ -1,5 +1,7 @@
 # Engineering progress
 
+[Subsystem and contributor map](../subsystems/README.md) · [Presentation materials](../presentations/README.md)
+
 I led Annihilation Industries’ Warden Core project at the European Defense Tech Hackathon in Hamburg. The work brought together cloud simulation, experimental machine learning, hardware assembly and the presentation of the project. My role covered the simulation and evaluation workflow, engineering coordination, retained development records, video and pitch material. Vincent developed the separate computer-vision baseline.
 
 ## From idea to working development tools
