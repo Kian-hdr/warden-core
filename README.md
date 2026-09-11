@@ -2,7 +2,7 @@
 
 **A simulation-first robotics project combining learning experiments, computer vision, sensing, physical prototyping and software instrumentation.**
 
-Kian led the project alongside Vincent, Leon and [Constantin](https://github.com/Takane0). Warden Core remains unfinished: the experiments, physical prototype and related sensing study have separate evidence and integration limits.
+Kian led the project alongside [Vincent · vwiczk](https://github.com/vwiczk), Leon and [Constantin · Takane0](https://github.com/Takane0). Warden Core remains unfinished: the experiments, physical prototype and related sensing study have separate evidence and integration limits.
 
 ## Follow the build
 
@@ -85,7 +85,7 @@ Each subsystem contains its own documentation and the public artifacts that belo
 | Subsystem | Contributor / workstream | What is inside |
 | --- | --- | --- |
 | [Simulation and learning](subsystems/simulation/README.md) | Kian | Architecture, training history, reward specifications, evaluation contracts, run identities and simulation footage. |
-| [Computer vision](subsystems/perception/README.md) | Vincent | Model explanation, two dated offline experiments, dataset records and known limitations. Private datasets and model artifacts are excluded. |
+| [Computer vision](subsystems/perception/README.md) | [Vincent · vwiczk](https://github.com/vwiczk) | Model explanation, two dated offline experiments, dataset records and known limitations. Private datasets and model artifacts are excluded. |
 | [Multi-camera sensing](subsystems/multicamera-sensing/README.md) | Leon | Related Warden Corps study, technical presentation, attributed figures and model limitations. |
 | [Airframe and integration](subsystems/airframe/README.md) | Kian and Constantin: joint airframe design; Kian: landing gear; Constantin: Pi–Pixhawk integration and flight-controller programming | Assembly history, prototype photographs and hover footage, landing-leg source, STEP/STL and design checks. |
 | [Observability](subsystems/observability/README.md) | Software instrumentation | Runnable Python package, source, tests, synthetic examples and engineering explanation. |

@@ -1,6 +1,6 @@
 # Computer-vision baseline
 
-**Contributor:** Vincent · [Complete computer-vision subsystem guide](../README.md)
+**Contributor:** [Vincent · vwiczk](https://github.com/vwiczk) · [Complete computer-vision subsystem guide](../README.md)
 
 Vincent developed the team’s separate offline computer-vision experiment. It used frozen ImageNet-pretrained ResNet18 features and a linear classification head trained on CPU. This provided a compact baseline that could be inspected through its saved inputs, training log and error analysis.
 

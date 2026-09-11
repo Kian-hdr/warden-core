@@ -35,7 +35,9 @@
         "DOC-33c6ebc61608",
         "DOC-1e119f1f2ada"
       ],
-      "limits": "Different datasets; cross-split near-duplicates and missing preserved images; temporal consistency not implemented."
+      "limits": "Different datasets; cross-split near-duplicates and missing preserved images; temporal consistency not implemented.",
+      "github": "https://github.com/vwiczk",
+      "github_mapping": "user-confirmed on 2026-09-11; public profile verified"
     },
     {
       "contributor": "Leon",

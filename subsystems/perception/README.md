@@ -2,7 +2,7 @@
 
 [Overview](docs/README.md) · [Dated experiments](docs/experiments.md) · [Dataset record](docs/dataset.md)
 
-Vincent developed the separate offline computer-vision baseline for supervised object identification. The experiment uses a frozen ImageNet-pretrained ResNet18 feature extractor and a trainable linear classification head.
+[Vincent · vwiczk](https://github.com/vwiczk) developed the separate offline computer-vision baseline for supervised object identification. The experiment uses a frozen ImageNet-pretrained ResNet18 feature extractor and a trainable linear classification head.
 
 ## Model pipeline
 

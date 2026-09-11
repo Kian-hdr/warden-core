@@ -57,7 +57,7 @@ Every public result connects source revision, configuration, runtime identity, t
 | Contributor | Recorded contribution |
 | --- | --- |
 | Kian | Project lead, joint airframe design, landing gear, Isaac/Brev autonomy, evaluation, evidence, media and presentation integration |
-| Vincent | Supervised computer-vision baseline |
+| [Vincent · vwiczk](https://github.com/vwiczk) | Supervised computer-vision baseline |
 | Leon | Warden Corps multi-camera sensing study and presentation |
 | [Constantin](https://github.com/Takane0) | Joint airframe design; Raspberry Pi–Pixhawk integration and flight-controller programming/configuration |
 
