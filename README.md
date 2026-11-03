@@ -4,6 +4,8 @@
 
 Kian led the project alongside [Vincent · vwiczk](https://github.com/vwiczk), Leon and [Constantin · Takane0](https://github.com/Takane0). Warden Core remains unfinished: the experiments, physical prototype and related sensing study have separate evidence and integration limits.
 
+[Run the public software](#run-the-public-software) · [Explore subsystems](#explore-by-subsystem) · [Follow the build](#follow-the-build)
+
 ## Follow the build
 
 **[Watch my project videos on Instagram](https://www.instagram.com/stories/highlights/17880192807625231/)** for a behind-the-scenes look at the build process and our time at the hackathon. Instagram may require sign-in.
