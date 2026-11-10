@@ -128,4 +128,4 @@ python -m pytest
 
 **Model weights, checkpoints, optimizer state, embeddings and exported policy binaries remain confidential and closed source. They are not included in this repository.** The [model-access policy](licensing/model-access.md), [commercial terms](licensing/commercial-licensing.md) and [contributor rights](licensing/contributors-and-rights.md) remain in force. Project licences do not grant rights in excluded teammate or third-party material.
 
-[Repository structure](project/repository-structure.md) · [Project scope](project/scope.md) · [Kian Tajbakhsh](https://github.com/Kian-hdr)
+[Repository structure](project/repository-structure.md) · [Project scope](project/scope.md) · [Kian Konrad](https://github.com/Kian-hdr)
