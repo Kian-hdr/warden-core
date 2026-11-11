@@ -1,4 +1,4 @@
-# Annihilation Industries · Warden Core
+<p align="center"><strong>Annihilation Industries · Warden Core</strong></p>
 
 **A simulation-first robotics project combining learning experiments, computer vision, sensing, physical prototyping and software instrumentation.**
 
